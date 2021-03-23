@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>UltraNuke.Barasingha.Todoing.Domain</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.Todoing.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="SeedWork\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\CommonMormon\src\DDD\DDD.csproj" />
+    <ProjectReference Include="..\..\..\..\..\CommonMormon\src\Utils\Utils.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,665 @@
+2021-02-24 18:47:32.070 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 18:50:35.094 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 18:52:23.906 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 18:56:06.873 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 18:59:10.568 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 19:01:45.616 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 19:03:09.081 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 19:11:26.378 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2021-02-24 19:15:14.923 +08:00 [DBG] Hosting starting
+2021-02-24 19:15:14.975 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-24 19:15:14.980 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-02-24 19:15:14.987 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-02-24 19:15:14.991 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-02-24 19:15:14.997 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-02-24 19:15:15.005 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-02-24 19:15:15.014 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:15:15.016 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-02-24 19:15:15.018 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:15:15.021 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-02-24 19:15:15.024 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-02-24 19:15:15.026 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-02-24 19:15:15.027 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-02-24 19:15:15.176 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-02-24 19:15:15.176 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-24 19:15:15.176 +08:00 [INF] Hosting environment: Development
+2021-02-24 19:15:15.176 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API
+2021-02-24 19:15:15.176 +08:00 [DBG] Hosting started
+2021-02-24 19:15:15.192 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-02-24 19:15:15.194 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:15:15.236 +08:00 [DBG] Connection ID "18086456122310394721" disconnecting.
+2021-02-24 19:15:15.238 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-02-24 19:15:15.239 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 48.5111ms
+2021-02-24 19:15:15.292 +08:00 [DBG] Connection ID "17365880173341180801" disconnecting.
+2021-02-24 19:15:15.292 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 53.2398ms
+2021-02-24 19:15:15.321 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - -
+2021-02-24 19:15:15.321 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - -
+2021-02-24 19:15:15.321 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - -
+2021-02-24 19:15:15.337 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-24 19:15:15.337 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-24 19:15:15.337 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-24 19:15:15.340 +08:00 [DBG] Connection ID "18086456118015426583" disconnecting.
+2021-02-24 19:15:15.341 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - - - 200 142933 text/css 19.7885ms
+2021-02-24 19:15:15.345 +08:00 [DBG] Connection ID "18158513712053354800" disconnecting.
+2021-02-24 19:15:15.345 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 24.4322ms
+2021-02-24 19:15:15.357 +08:00 [DBG] Connection ID "18230571306091283213" disconnecting.
+2021-02-24 19:15:15.358 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 37.1351ms
+2021-02-24 19:15:15.545 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2021-02-24 19:15:15.567 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - -
+2021-02-24 19:15:15.567 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-24 19:15:15.568 +08:00 [DBG] Connection ID "17870283344491577405" disconnecting.
+2021-02-24 19:15:15.568 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - - - 200 628 image/png 1.0504ms
+2021-02-24 19:15:15.675 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/Roles/{id}" for actions - UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Update (UltraNuke.Barasingha.Permission.API),UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.SetPermission (UltraNuke.Barasingha.Permission.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:15:15.692 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 500 - text/plain 147.3000ms
+2021-02-24 19:15:15.692 +08:00 [DBG] Connection ID "18374686507052041540" disconnecting.
+2021-02-24 19:16:15.536 +08:00 [DBG] Hosting starting
+2021-02-24 19:16:15.588 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-24 19:16:15.596 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-02-24 19:16:15.602 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-02-24 19:16:15.607 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-02-24 19:16:15.612 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-02-24 19:16:15.619 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-02-24 19:16:15.629 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:16:15.632 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-02-24 19:16:15.633 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:16:15.635 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-02-24 19:16:15.639 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-02-24 19:16:15.642 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-02-24 19:16:15.643 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-02-24 19:16:15.777 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-02-24 19:16:15.778 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-24 19:16:15.778 +08:00 [INF] Hosting environment: Development
+2021-02-24 19:16:15.778 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API
+2021-02-24 19:16:15.778 +08:00 [DBG] Hosting started
+2021-02-24 19:16:15.795 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-02-24 19:16:15.796 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:16:15.884 +08:00 [DBG] Connection ID "17870283344491577407" disconnecting.
+2021-02-24 19:16:15.886 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 93.1476ms
+2021-02-24 19:16:16.186 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2021-02-24 19:16:16.191 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - -
+2021-02-24 19:16:16.200 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-24 19:16:16.201 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - - - 200 628 image/png 9.0581ms
+2021-02-24 19:16:16.201 +08:00 [DBG] Connection ID "18086456122310394723" disconnecting.
+2021-02-24 19:16:16.311 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/Roles/{id}" for actions - UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Update (UltraNuke.Barasingha.Permission.API),UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.SetPermission (UltraNuke.Barasingha.Permission.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:16:16.327 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 500 - text/plain 140.5081ms
+2021-02-24 19:16:16.327 +08:00 [DBG] Connection ID "17870283344491577409" disconnecting.
+2021-02-24 19:17:40.021 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - -
+2021-02-24 19:17:40.024 +08:00 [DBG] Connection ID "17726168134940885019" disconnecting.
+2021-02-24 19:17:40.024 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - - - 404 - - 2.5880ms
+2021-02-24 19:17:43.241 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - -
+2021-02-24 19:17:43.242 +08:00 [DBG] Connection ID "18230571306091283217" disconnecting.
+2021-02-24 19:17:43.242 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - - - 404 - - 0.6254ms
+2021-02-24 19:21:06.644 +08:00 [DBG] Hosting starting
+2021-02-24 19:21:06.697 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-24 19:21:06.703 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-02-24 19:21:06.709 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-02-24 19:21:06.713 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-02-24 19:21:06.720 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-02-24 19:21:06.727 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-02-24 19:21:06.735 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:21:06.738 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-02-24 19:21:06.740 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:21:06.742 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-02-24 19:21:06.746 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-02-24 19:21:06.749 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-02-24 19:21:06.750 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-02-24 19:21:06.889 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-02-24 19:21:06.889 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-24 19:21:06.890 +08:00 [INF] Hosting environment: Development
+2021-02-24 19:21:06.890 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API
+2021-02-24 19:21:06.890 +08:00 [DBG] Hosting started
+2021-02-24 19:21:06.906 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - -
+2021-02-24 19:21:06.907 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:21:06.940 +08:00 [DBG] Connection ID "18086456122310394727" disconnecting.
+2021-02-24 19:21:06.943 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - - - 404 - - 38.9924ms
+2021-02-24 19:21:07.658 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2021-02-24 19:21:07.776 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/Roles/{id}" for actions - UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Update (UltraNuke.Barasingha.Permission.API),UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.SetPermission (UltraNuke.Barasingha.Permission.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:21:07.815 +08:00 [DBG] Connection ID "17726168134940885021" disconnecting.
+2021-02-24 19:21:07.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 500 - text/html;+charset=utf-8 157.3877ms
+2021-02-24 19:21:07.931 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/favicon.ico - -
+2021-02-24 19:21:07.934 +08:00 [DBG] The request path  does not match the path filter
+2021-02-24 19:21:07.956 +08:00 [DBG] No candidates found for the request path '/favicon.ico'
+2021-02-24 19:21:07.956 +08:00 [DBG] Request did not match any endpoints
+2021-02-24 19:21:08.220 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-02-24 19:21:08.227 +08:00 [INF]  "2021-02-24T19:21:08.2228792+08:00"GEThttpslocalhost:44303/favicon.iconull::10
+2021-02-24 19:21:08.228 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/favicon.ico - - - 404 - - 297.2420ms
+2021-02-24 19:21:08.228 +08:00 [DBG] Connection ID "17365880173341180813" disconnecting.
+2021-02-24 19:22:33.585 +08:00 [DBG] Hosting starting
+2021-02-24 19:22:33.641 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-24 19:22:33.646 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-02-24 19:22:33.654 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-02-24 19:22:33.660 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-02-24 19:22:33.665 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-02-24 19:22:33.672 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-02-24 19:22:33.682 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:22:33.684 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-02-24 19:22:33.686 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:22:33.689 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-02-24 19:22:33.691 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-02-24 19:22:33.694 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-02-24 19:22:33.694 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-02-24 19:22:33.829 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-02-24 19:22:33.830 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-24 19:22:33.830 +08:00 [INF] Hosting environment: Development
+2021-02-24 19:22:33.830 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API
+2021-02-24 19:22:33.830 +08:00 [DBG] Hosting started
+2021-02-24 19:22:33.847 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2021-02-24 19:22:33.848 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:22:34.050 +08:00 [DBG] Connection ID "17726168134940885023" disconnecting.
+2021-02-24 19:22:34.052 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.6083ms
+2021-02-24 19:22:36.912 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - -
+2021-02-24 19:22:36.914 +08:00 [DBG] Connection ID "18086456109425492118" disconnecting.
+2021-02-24 19:22:36.914 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/V1/swagger.json - - - 404 - - 2.6334ms
+2021-02-24 19:22:39.879 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-02-24 19:22:39.931 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 51.7775ms
+2021-02-24 19:22:39.931 +08:00 [DBG] Connection ID "17365880173341180815" disconnecting.
+2021-02-24 19:22:40.045 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - -
+2021-02-24 19:22:40.047 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - -
+2021-02-24 19:22:40.055 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-24 19:22:40.056 +08:00 [DBG] Connection ID "18374686507052041554" disconnecting.
+2021-02-24 19:22:40.057 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - - - 200 628 image/png 8.5491ms
+2021-02-24 19:22:40.070 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 24.9447ms
+2021-02-24 19:22:40.070 +08:00 [DBG] Connection ID "18086456122310394729" disconnecting.
+2021-02-24 19:22:53.836 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Roles?pageIndex=1&pageSize=100 - -
+2021-02-24 19:22:53.836 +08:00 [DBG] The request path  does not match the path filter
+2021-02-24 19:22:53.864 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Roles'
+2021-02-24 19:22:53.866 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Roles' is valid for the request path '/api/Roles'
+2021-02-24 19:22:53.867 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:22:54.054 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-02-24 19:22:54.058 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:22:54.064 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-02-24 19:22:54.081 +08:00 [INF] Route matched with {action = "Query", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Permission.API.Application.DTO.RoleDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API).
+2021-02-24 19:22:54.081 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-02-24 19:22:54.081 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-02-24 19:22:54.082 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-02-24 19:22:54.082 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-02-24 19:22:54.082 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-02-24 19:22:54.082 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:22:54.237 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-02-24 19:22:54.257 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:22:54.261 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-02-24 19:22:54.265 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-02-24 19:22:54.265 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-02-24 19:22:54.266 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:22:54.266 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:22:54.266 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-02-24 19:22:54.267 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-02-24 19:22:54.269 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:22:54.269 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-02-24 19:22:54.270 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:22:54.270 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:22:54.270 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:22:54.271 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:22:54.271 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:22:54.271 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-02-24 19:22:54.271 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:22:54.271 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:22:54.272 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:22:54.272 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:22:54.623 +08:00 [DBG] The property 'MenuDTOId.MenuDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:22:54.623 +08:00 [DBG] The property 'RoleDTOId.MenuDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:22:54.623 +08:00 [DBG] The property 'UserDTOId.RoleDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:22:54.726 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-24 19:22:54.871 +08:00 [DBG] Compiling query expression: 
+'DbSet<RoleDTO>()
+    .AsNoTracking()
+    .Count()'
+2021-02-24 19:22:54.973 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM S_Role AS s), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        UltraNuke.Barasingha.Permission.API.Infrastructure.PermissionQueriesContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-02-24 19:22:55.005 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-02-24 19:22:55.031 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (22ms).
+2021-02-24 19:22:55.035 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:22:55.483 +08:00 [ERR] An error occurred using the connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:22:55.501 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'UltraNuke.Barasingha.Permission.API.Infrastructure.PermissionQueriesContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:75e1e8c1-9cf2-4e48-99b0-1ccb16c4da54
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:75e1e8c1-9cf2-4e48-99b0-1ccb16c4da54
+Error Number:4060,State:1,Class:11
+2021-02-24 19:22:55.508 +08:00 [INF] Executed action UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API) in 1423.1498ms
+2021-02-24 19:22:55.509 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:22:55.510 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。)nullnull0
+System.AggregateException: One or more errors occurred. (无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。)
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at UltraNuke.Barasingha.Permission.API.Application.Queries.RoleQueries.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API\Application\Queries\RoleQueries.cs:line 30
+ClientConnectionId:75e1e8c1-9cf2-4e48-99b0-1ccb16c4da54
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API\Controllers\RolesController.cs:line 41
+   at lambda_method26(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-02-24 19:22:55.577 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:22:55.583 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:22:55.584 +08:00 [ERR] Connection ID "18374686507052041556", Request ID "80000555-0006-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-02-24 19:22:55.587 +08:00 [DBG] Connection ID "18374686507052041556" disconnecting.
+2021-02-24 19:22:55.588 +08:00 [DBG] 'PermissionQueriesContext' disposed.
+2021-02-24 19:22:55.591 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Roles?pageIndex=1&pageSize=100 - - - 500 - - 1755.3677ms
+2021-02-24 19:23:16.781 +08:00 [DBG] Hosting starting
+2021-02-24 19:23:16.883 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-24 19:23:16.898 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-02-24 19:23:16.921 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-02-24 19:23:16.929 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-02-24 19:23:16.938 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-02-24 19:23:16.947 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-02-24 19:23:16.964 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:23:16.968 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-02-24 19:23:16.971 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-02-24 19:23:16.976 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-02-24 19:23:16.980 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-02-24 19:23:16.986 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-02-24 19:23:16.988 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-02-24 19:23:17.185 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-02-24 19:23:17.187 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-24 19:23:17.189 +08:00 [INF] Hosting environment: Development
+2021-02-24 19:23:17.190 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API
+2021-02-24 19:23:17.196 +08:00 [DBG] Hosting started
+2021-02-24 19:23:17.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Roles?pageIndex=1&pageSize=100 - -
+2021-02-24 19:23:17.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-02-24 19:23:17.232 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:23:17.232 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-02-24 19:23:17.280 +08:00 [DBG] The request path  does not match the path filter
+2021-02-24 19:23:17.302 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-02-24 19:23:17.312 +08:00 [DBG] Connection ID "17870283344491577411" disconnecting.
+2021-02-24 19:23:17.316 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 90.8366ms
+2021-02-24 19:23:17.352 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Roles'
+2021-02-24 19:23:17.356 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Roles' is valid for the request path '/api/Roles'
+2021-02-24 19:23:17.360 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:23:17.414 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-02-24 19:23:17.419 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:23:17.436 +08:00 [DBG] Connection ID "18374686507052041558" disconnecting.
+2021-02-24 19:23:17.438 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 141.4744ms
+2021-02-24 19:23:17.440 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-02-24 19:23:17.466 +08:00 [INF] Route matched with {action = "Query", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Permission.API.Application.DTO.RoleDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API).
+2021-02-24 19:23:17.469 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-02-24 19:23:17.471 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - -
+2021-02-24 19:23:17.472 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - -
+2021-02-24 19:23:17.471 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-02-24 19:23:17.471 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - -
+2021-02-24 19:23:17.478 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-02-24 19:23:17.480 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-02-24 19:23:17.482 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-02-24 19:23:17.487 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:23:17.547 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-24 19:23:17.547 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-24 19:23:17.554 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-24 19:23:17.563 +08:00 [DBG] Connection ID "18374686507052041560" disconnecting.
+2021-02-24 19:23:17.565 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - - - 200 142933 text/css 93.9696ms
+2021-02-24 19:23:17.566 +08:00 [DBG] Connection ID "18302628913014112924" disconnecting.
+2021-02-24 19:23:17.565 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 93.9277ms
+2021-02-24 19:23:17.581 +08:00 [DBG] Connection ID "17654110549492892418" disconnecting.
+2021-02-24 19:23:17.582 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 110.8219ms
+2021-02-24 19:23:17.646 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - -
+2021-02-24 19:23:17.648 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-02-24 19:23:17.653 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - - - 200 628 image/png 6.3322ms
+2021-02-24 19:23:17.656 +08:00 [DBG] Connection ID "17798225728978813214" disconnecting.
+2021-02-24 19:23:17.671 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-02-24 19:23:17.696 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:23:17.703 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-02-24 19:23:17.708 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-02-24 19:23:17.710 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-02-24 19:23:17.712 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:23:17.714 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:23:17.716 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-02-24 19:23:17.719 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-02-24 19:23:17.723 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:23:17.725 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-02-24 19:23:17.727 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:23:17.729 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:23:17.731 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:23:17.734 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:23:17.736 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:23:17.739 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-02-24 19:23:17.741 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:23:17.742 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:23:17.744 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:23:17.748 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:23:17.800 +08:00 [INF] Executing action method UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API) - Validation state: "Valid"
+2021-02-24 19:23:18.201 +08:00 [DBG] The property 'MenuDTOId.MenuDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:23:18.203 +08:00 [DBG] The property 'RoleDTOId.MenuDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:23:18.205 +08:00 [DBG] The property 'UserDTOId.RoleDTO' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-02-24 19:23:18.332 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-24 19:23:18.430 +08:00 [DBG] Compiling query expression: 
+'DbSet<RoleDTO>()
+    .AsNoTracking()
+    .Count()'
+2021-02-24 19:23:18.543 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM S_Role AS s), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        UltraNuke.Barasingha.Permission.API.Infrastructure.PermissionQueriesContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-02-24 19:23:18.581 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-02-24 19:23:18.617 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (33ms).
+2021-02-24 19:23:18.628 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:23:18.829 +08:00 [ERR] An error occurred using the connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:23:18.871 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'UltraNuke.Barasingha.Permission.API.Infrastructure.PermissionQueriesContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - 管道的另一端上无任何进程。)
+ ---> System.ComponentModel.Win32Exception (233): 管道的另一端上无任何进程。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:db6d819f-5bcc-4643-a624-48fb40c0288b
+Error Number:233,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - 管道的另一端上无任何进程。)
+ ---> System.ComponentModel.Win32Exception (233): 管道的另一端上无任何进程。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:db6d819f-5bcc-4643-a624-48fb40c0288b
+Error Number:233,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-02-24 19:23:54.010 +08:00 [INF] Executed action UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API) in 36522.6707ms
+2021-02-24 19:23:54.014 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:23:54.046 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.)nullnull0
+System.AggregateException: One or more errors occurred. (An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.)
+ ---> System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - 管道的另一端上无任何进程。)
+ ---> System.ComponentModel.Win32Exception (233): 管道的另一端上无任何进程。
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:db6d819f-5bcc-4643-a624-48fb40c0288b
+Error Number:233,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at UltraNuke.Barasingha.Permission.API.Application.Queries.RoleQueries.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API\Application\Queries\RoleQueries.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-product\Barasingha-WebApi\src\Services\Permission\Permission.API\Controllers\RolesController.cs:line 41
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-02-24 19:23:54.228 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:23:54.241 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-24 19:23:54.244 +08:00 [ERR] Connection ID "18230571306091283219", Request ID "80000314-0003-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-02-24 19:23:54.251 +08:00 [DBG] Connection ID "18230571306091283219" disconnecting.
+2021-02-24 19:23:54.255 +08:00 [DBG] 'PermissionQueriesContext' disposed.
+2021-02-24 19:23:54.260 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Roles?pageIndex=1&pageSize=100 - - - 500 - - 37035.3085ms
+2021-02-24 19:24:01.963 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Roles?name=11&pageIndex=1&pageSize=100 - -
+2021-02-24 19:24:01.965 +08:00 [DBG] The request path  does not match the path filter
+2021-02-24 19:24:01.975 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Roles'
+2021-02-24 19:24:01.977 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Roles' is valid for the request path '/api/Roles'
+2021-02-24 19:24:01.980 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:24:01.983 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-02-24 19:24:01.985 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-02-24 19:24:01.988 +08:00 [INF] Route matched with {action = "Query", controller = "Roles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Permission.API.Application.DTO.RoleDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API).
+2021-02-24 19:24:01.991 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-02-24 19:24:01.992 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-02-24 19:24:01.994 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-02-24 19:24:01.995 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-02-24 19:24:01.997 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-02-24 19:24:01.998 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:24:02.000 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Roleing.API.Controllers.RolesController (UltraNuke.Barasingha.Permission.API)
+2021-02-24 19:24:02.002 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-02-24 19:24:02.004 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ...
+2021-02-24 19:24:02.005 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:24:02.006 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-02-24 19:24:02.008 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-02-24 19:24:02.009 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-02-24 19:24:02.010 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:24:02.012 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-02-24 19:24:02.013 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:24:02.014 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:24:02.016 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-02-24 19:24:02.017 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-02-24 19:24:02.018 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:24:02.019 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-02-24 19:24:02.020 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:24:02.022 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:24:02.024 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-02-24 19:24:02.025 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-02-24 19:24:02.041 +08:00 [INF] Executing action method UltraNuke.Barasingha.Roleing.API.Controllers.RolesController.Query (UltraNuke.Barasingha.Permission.API) - Validation state: "Valid"
+2021-02-24 19:24:08.143 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionQueriesContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-24 19:24:08.147 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-02-24 19:24:08.149 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2021-02-24 19:24:08.151 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:24:08.180 +08:00 [ERR] An error occurred using the connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-02-24 19:24:08.183 +08:00 [ERR] An exception occurred while iterating over the results of a query for context type 'UltraNuke.Barasingha.Permission.API.Infrastructure.PermissionQueriesContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:acd5e87f-8cf3-4ca3-a532-2bd4ae255d1d
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "Barasingha.Permission"。登录失败。
+用户 'sa' 登录失败。
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:acd5e87f-8cf3-4ca3-a532-2bd4ae255d1d
+Error Number:4060,State:1,Class:11

@@ -1,0 +1,198 @@
+2021-01-07 15:25:05.013 +08:00 [DBG] Hosting starting
+2021-01-07 15:25:05.253 +08:00 [DBG] Configured endpoint event-listener, Consumer: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler
+2021-01-07 15:25:05.534 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-07 15:25:05.539 +08:00 [DBG] Starting bus instances: IBus
+2021-01-07 15:25:05.546 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-07 15:25:05.589 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-07 15:25:05.646 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-07 15:25:05.685 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-07 15:25:05.702 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-07 15:25:05.713 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-07 15:25:05.724 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-07 15:25:05.729 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 51107)
+2021-01-07 15:25:05.797 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-07 15:25:05.807 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-07 15:25:05.812 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-07 15:25:05.820 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-07 15:25:05.826 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-07 15:25:05.832 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-07 15:25:05.835 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-07 15:25:05.864 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-07 15:25:05.867 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcjibbdcmfzk4fx?temporary=true"
+2021-01-07 15:25:05.874 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-01-07 15:25:05.893 +08:00 [DBG] Bind exchange: source: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, destination: event-listener
+2021-01-07 15:25:05.951 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-07 15:25:05.959 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-07 15:25:06.000 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-RXbBOIOWEhMV-sil9o5YxA
+2021-01-07 15:25:06.003 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-07 15:25:06.051 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Todoing.API
+2021-01-07 15:25:06.053 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-07 15:25:06.054 +08:00 [INF] Hosting environment: Development
+2021-01-07 15:25:06.055 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Todoing\Todoing.API
+2021-01-07 15:25:06.064 +08:00 [DBG] Hosting started
+2021-01-07 15:25:06.088 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-07 15:25:06.091 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-07 15:25:06.160 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-07 15:25:06.161 +08:00 [DBG] Connection ID "16861477015075684411" disconnecting.
+2021-01-07 15:25:06.166 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 81.0151ms
+2021-01-07 15:25:06.236 +08:00 [DBG] Connection ID "17582052972634833912" disconnecting.
+2021-01-07 15:25:06.239 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 75.9265ms
+2021-01-07 15:25:06.268 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-01-07 15:25:06.270 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-01-07 15:25:06.270 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-01-07 15:25:06.304 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-07 15:25:06.304 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-07 15:25:06.304 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-07 15:25:06.314 +08:00 [DBG] Connection ID "17582052972634833914" disconnecting.
+2021-01-07 15:25:06.316 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 47.7378ms
+2021-01-07 15:25:06.320 +08:00 [DBG] Connection ID "16861477015075684413" disconnecting.
+2021-01-07 15:25:06.325 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 54.4907ms
+2021-01-07 15:25:06.338 +08:00 [DBG] Connection ID "17870283348786545111" disconnecting.
+2021-01-07 15:25:06.343 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 67.5884ms
+2021-01-07 15:25:06.365 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-07 15:25:06.368 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-07 15:25:06.372 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 6.2933ms
+2021-01-07 15:25:06.373 +08:00 [DBG] Connection ID "17798225728978813646" disconnecting.
+2021-01-07 15:25:17.503 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-07 15:25:17.507 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 3.6272ms
+2021-01-07 15:25:17.508 +08:00 [DBG] Connection ID "16501189040591077413" disconnecting.
+2021-01-07 15:25:17.570 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-01-07 15:25:17.570 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-01-07 15:25:17.577 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-01-07 15:25:17.584 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-07 15:25:17.590 +08:00 [INF] The file /swagger-ui.css was not modified
+2021-01-07 15:25:17.592 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-07 15:25:17.599 +08:00 [DBG] Connection ID "16501189040591077415" disconnecting.
+2021-01-07 15:25:17.599 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 29.0320ms
+2021-01-07 15:25:17.603 +08:00 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2021-01-07 15:25:17.605 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 304 - text/css 28.0170ms
+2021-01-07 15:25:17.607 +08:00 [DBG] Connection ID "17870283348786545113" disconnecting.
+2021-01-07 15:25:17.618 +08:00 [DBG] Connection ID "18230571314681217383" disconnecting.
+2021-01-07 15:25:17.619 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 48.5710ms
+2021-01-07 15:25:17.787 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-01-07 15:25:17.817 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-07 15:25:17.819 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-07 15:25:17.822 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 5.2742ms
+2021-01-07 15:25:17.823 +08:00 [DBG] Connection ID "16501189040591077417" disconnecting.
+2021-01-07 15:25:17.958 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.1757ms
+2021-01-07 15:25:17.959 +08:00 [DBG] Connection ID "17870283340196610449" disconnecting.
+2021-01-07 15:25:28.602 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44302/api/todos/78761b66-1e02-4fe5-b017-ac9f01317757 application/json 25
+2021-01-07 15:25:28.604 +08:00 [DBG] PUT requests are not supported
+2021-01-07 15:25:28.632 +08:00 [DBG] 1 candidate(s) found for the request path '/api/todos/78761b66-1e02-4fe5-b017-ac9f01317757'
+2021-01-07 15:25:28.638 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/todos/78761b66-1e02-4fe5-b017-ac9f01317757'
+2021-01-07 15:25:28.642 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-01-07 15:25:28.657 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-01-07 15:25:28.665 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-07 15:25:28.704 +08:00 [INF] Route matched with {action = "Update", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO]] Update(System.Guid, UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-01-07 15:25:28.707 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-07 15:25:28.710 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-07 15:25:28.712 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-07 15:25:28.715 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-07 15:25:28.717 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-07 15:25:28.719 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-01-07 15:25:29.771 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-07 15:25:30.232 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-01-07 15:25:30.241 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-01-07 15:25:30.245 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-01-07 15:25:30.249 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-01-07 15:25:30.251 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-01-07 15:25:30.253 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-01-07 15:25:30.257 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-01-07 15:25:30.260 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO' ...
+2021-01-07 15:25:30.263 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO' using the name '' in request data ...
+2021-01-07 15:25:30.266 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-01-07 15:25:30.268 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-01-07 15:25:30.321 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO'.
+2021-01-07 15:25:30.322 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO'.
+2021-01-07 15:25:30.325 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO' ...
+2021-01-07 15:25:30.337 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO'.
+2021-01-07 15:25:30.651 +08:00 [INF] Executing action method UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API) - Validation state: "Valid"
+2021-01-07 15:25:31.418 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'TodoingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Todoing.API 
+2021-01-07 15:25:31.659 +08:00 [DBG] Compiling query expression: 
+'DbSet<Todo>()
+    .Where(w => ((IEntity)w).Id.Equals(__id_0))
+    .SingleOrDefault()'
+2021-01-07 15:25:31.856 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Todo>(
+    asyncEnumerable: new SingleQueryingEnumerable<Todo>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Todo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Todo.Name (string), 1], }
+            SELECT TOP(2) t.Id, t.Name
+            FROM T_Todo AS t
+            WHERE t.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Todo>, 
+        UltraNuke.Barasingha.Todoing.Infrastructure.TodoingContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-01-07 15:25:31.904 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-07 15:25:31.963 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (58ms).
+2021-01-07 15:25:31.981 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.636 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.651 +08:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-01-07 15:25:32.717 +08:00 [INF] Executed DbCommand (70ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-01-07 15:25:32.759 +08:00 [DBG] Context 'TodoingContext' started tracking 'Todo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-07 15:25:32.790 +08:00 [DBG] A data reader was disposed.
+2021-01-07 15:25:32.797 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.804 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.832 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-07 15:25:32.839 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-01-07 15:25:32.844 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-01-07 15:25:32.852 +08:00 [DBG] Todo with Id: "78761b66-1e02-4fe5-b017-ac9f01317757" has been successfully updated
+2021-01-07 15:25:32.858 +08:00 [DBG] SaveChanges starting for 'TodoingContext'.
+2021-01-07 15:25:32.862 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-01-07 15:25:32.865 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-01-07 15:25:32.890 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.892 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:32.896 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-01-07 15:25:32.910 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-01-07 15:25:32.951 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-07 15:25:32.953 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2021-01-07 15:25:32.957 +08:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2021-01-07 15:25:33.018 +08:00 [INF] Executed DbCommand (61ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2021-01-07 15:25:33.025 +08:00 [DBG] A data reader was disposed.
+2021-01-07 15:25:33.030 +08:00 [DBG] Committing transaction.
+2021-01-07 15:25:33.037 +08:00 [DBG] Committed transaction.
+2021-01-07 15:25:33.041 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:33.044 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-01-07 15:25:33.047 +08:00 [DBG] Disposing transaction.
+2021-01-07 15:25:33.053 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-07 15:25:33.057 +08:00 [DBG] SaveChanges completed for 'TodoingContext' with 1 entities written to the database.
+2021-01-07 15:25:33.116 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-01-07 15:25:33.299 +08:00 [DBG] SEND "rabbitmq://localhost/UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent" "dac00000-455f-8c16-ce81-08d8b2dd6b55" UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events.TodoUpdatedIntegrationEvent
+2021-01-07 15:25:33.332 +08:00 [INF] Executed action method UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 2672.3004ms.
+2021-01-07 15:25:33.338 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-07 15:25:33.343 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-07 15:25:33.344 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-07 15:25:33.346 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-07 15:25:33.348 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-07 15:25:33.350 +08:00 [INF] Executing CreatedAtActionResult, writing value of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO'.
+2021-01-07 15:25:33.376 +08:00 [DBG] Found the endpoints ["UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-01-07 15:25:33.389 +08:00 [DBG] Successfully processed template api/Todos/{id} for UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API) resulting in /api/Todos/78761b66-1e02-4fe5-b017-ac9f01317757 and 
+2021-01-07 15:25:33.391 +08:00 [DBG] Link generation succeeded for endpoints ["UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)"] with result /api/Todos/78761b66-1e02-4fe5-b017-ac9f01317757
+2021-01-07 15:25:33.411 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API) in 4687.3737ms
+2021-01-07 15:25:33.413 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-01-07 15:25:33.416 +08:00 [INF] PUT/api/todos/78761b66-1e02-4fe5-b017-ac9f01317757{
+    "Name":"逛街"
+}nullnull"2021-01-07T15:25:28.6485311+08:00"4768::1
+2021-01-07 15:25:37.215 +08:00 [DBG] 'TodoingContext' disposed.
+2021-01-07 15:25:37.246 +08:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44302/api/todos/78761b66-1e02-4fe5-b017-ac9f01317757 application/json 25 - 201 61 application/json;+charset=utf-8 8643.9657ms
+2021-01-07 15:25:37.248 +08:00 [INF] ----- Handling integration event: "78761b66-1e02-4fe5-b017-ac9f01317757" at Todoing.API - ({"TodoId":"78761b66-1e02-4fe5-b017-ac9f01317757","Name":"逛街","$type":"TodoUpdatedIntegrationEvent"})
+2021-01-07 15:25:37.257 +08:00 [DBG] RECEIVE "rabbitmq://localhost/event-listener" "dac00000-455f-8c16-ce81-08d8b2dd6b55" UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events.TodoUpdatedIntegrationEvent UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler("00:00:03.8472397")

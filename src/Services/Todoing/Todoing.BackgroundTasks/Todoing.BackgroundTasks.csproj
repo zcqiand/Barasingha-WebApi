@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>UltraNuke.Barasingha.Todoing.BackgroundTasks</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.Todoing.BackgroundTasks</RootNamespace>
+  </PropertyGroup>
+
+</Project>

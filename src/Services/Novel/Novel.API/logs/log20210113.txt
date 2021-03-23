@@ -1,0 +1,122 @@
+2021-01-13 08:47:51.977 +08:00 [DBG] Hosting starting
+2021-01-13 08:47:52.247 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-13 08:47:52.252 +08:00 [DBG] Starting bus instances: IBus
+2021-01-13 08:47:52.256 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-13 08:47:52.315 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-13 08:47:52.346 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-13 08:47:52.363 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-13 08:47:52.376 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-13 08:47:52.380 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-13 08:47:52.387 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-13 08:47:52.396 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 08:47:52.398 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-13 08:47:52.399 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 08:47:52.402 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-13 08:47:52.404 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-13 08:47:52.407 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-13 08:47:52.408 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-13 08:47:52.798 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-13 08:47:52.799 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-13 08:47:52.799 +08:00 [INF] Hosting environment: Development
+2021-01-13 08:47:52.799 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-13 08:47:52.799 +08:00 [DBG] Hosting started
+2021-01-13 08:47:52.810 +08:00 [DBG] Connection ID "18158513724938256844" disconnecting.
+2021-01-13 08:47:52.821 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-13 08:47:52.824 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-13 08:47:52.835 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 51403)
+2021-01-13 08:47:52.850 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 33.8852ms
+2021-01-13 08:47:52.877 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-13 08:47:52.883 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcnhabdcmqzg5rm?temporary=true"
+2021-01-13 08:47:52.908 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-13 08:47:52.909 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-13 08:47:52.999 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-wIAiMgk1X1PklIpmxzE38Q
+2021-01-13 08:47:53.000 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-13 08:47:53.836 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-13 08:47:53.847 +08:00 [DBG] Connection ID "18158513724938256846" disconnecting.
+2021-01-13 08:47:53.851 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-13 08:47:53.851 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 15.0492ms
+2021-01-13 08:47:53.909 +08:00 [DBG] Connection ID "18158513699168452749" disconnecting.
+2021-01-13 08:47:53.909 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 57.7474ms
+2021-01-13 08:47:54.175 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-01-13 08:47:54.380 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.0809ms
+2021-01-13 08:47:54.380 +08:00 [DBG] Connection ID "18158513699168452751" disconnecting.
+2021-01-13 08:50:33.238 +08:00 [DBG] Hosting starting
+2021-01-13 08:50:33.485 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-13 08:50:33.489 +08:00 [DBG] Starting bus instances: IBus
+2021-01-13 08:50:33.493 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-13 08:50:33.526 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-13 08:50:33.555 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-13 08:50:33.561 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-13 08:50:33.566 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-13 08:50:33.571 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-13 08:50:33.580 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-13 08:50:33.590 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 08:50:33.593 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-13 08:50:33.595 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 08:50:33.597 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-13 08:50:33.600 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-13 08:50:33.602 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-13 08:50:33.603 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-13 08:50:33.663 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 51467)
+2021-01-13 08:50:33.690 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-13 08:50:33.694 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc6njbdcmqzj5f8?temporary=true"
+2021-01-13 08:50:33.704 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-13 08:50:33.706 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-13 08:50:33.754 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-13 08:50:33.755 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-13 08:50:33.755 +08:00 [INF] Hosting environment: Development
+2021-01-13 08:50:33.755 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-13 08:50:33.755 +08:00 [DBG] Hosting started
+2021-01-13 08:50:33.768 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-MEzN-Y-8eAYQ_hVgYOYpiA
+2021-01-13 08:50:33.770 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-13 08:50:33.774 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-13 08:50:33.776 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-13 08:50:33.850 +08:00 [DBG] Connection ID "17942340934234538246" disconnecting.
+2021-01-13 08:50:33.853 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 80.9473ms
+2021-01-13 08:50:34.227 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-01-13 08:50:34.233 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-13 08:50:34.240 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-13 08:50:34.240 +08:00 [DBG] Connection ID "17942340934234538248" disconnecting.
+2021-01-13 08:50:34.241 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 7.4839ms
+2021-01-13 08:50:34.361 +08:00 [DBG] Connection ID "18086456135195295873" disconnecting.
+2021-01-13 08:50:34.361 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.2850ms
+2021-01-13 09:05:47.990 +08:00 [DBG] Hosting starting
+2021-01-13 09:05:48.218 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-13 09:05:48.223 +08:00 [DBG] Starting bus instances: IBus
+2021-01-13 09:05:48.226 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-13 09:05:48.258 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-13 09:05:48.284 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-13 09:05:48.289 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-13 09:05:48.293 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-13 09:05:48.298 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-13 09:05:48.306 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-13 09:05:48.312 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 09:05:48.315 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-13 09:05:48.316 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-13 09:05:48.319 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-13 09:05:48.321 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-13 09:05:48.325 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-13 09:05:48.326 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-13 09:05:48.394 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 52778)
+2021-01-13 09:05:48.434 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-13 09:05:48.445 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchinbdcmqz4h8n?temporary=true"
+2021-01-13 09:05:48.451 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-13 09:05:48.453 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-13 09:05:48.476 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-13 09:05:48.476 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-13 09:05:48.476 +08:00 [INF] Hosting environment: Development
+2021-01-13 09:05:48.477 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-13 09:05:48.477 +08:00 [DBG] Hosting started
+2021-01-13 09:05:48.496 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-13 09:05:48.497 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-13 09:05:48.520 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-TA4l4Zj2b8kHUGbKEI32OQ
+2021-01-13 09:05:48.521 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-13 09:05:48.634 +08:00 [DBG] Connection ID "17942340917054668801" disconnecting.
+2021-01-13 09:05:48.637 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 145.1148ms
+2021-01-13 09:05:48.797 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-01-13 09:05:48.804 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-13 09:05:48.812 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-13 09:05:48.813 +08:00 [DBG] Connection ID "18086456113720459283" disconnecting.
+2021-01-13 09:05:48.813 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 8.5918ms
+2021-01-13 09:05:48.976 +08:00 [DBG] Connection ID "17726168143530820081" disconnecting.
+2021-01-13 09:05:48.976 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.8605ms

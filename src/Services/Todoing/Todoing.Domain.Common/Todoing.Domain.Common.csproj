@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>UltraNuke.Barasingha.Todoing.Domain.Common</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.Todoing.Domain.Common</RootNamespace>
+  </PropertyGroup>
+
+</Project>

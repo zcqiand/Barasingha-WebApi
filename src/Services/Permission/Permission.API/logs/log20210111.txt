@@ -1,0 +1,59 @@
+2021-01-11 16:07:03.548 +08:00 [DBG] Hosting starting
+2021-01-11 16:07:03.646 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-11 16:07:03.653 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-11 16:07:03.696 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-11 16:07:03.714 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-11 16:07:03.725 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-11 16:07:03.734 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-11 16:07:03.741 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-11 16:07:03.743 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-11 16:07:03.744 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-11 16:07:03.747 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-11 16:07:03.750 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-11 16:07:03.752 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-11 16:07:03.753 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-11 16:07:03.959 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-11 16:07:03.959 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-11 16:07:03.960 +08:00 [INF] Hosting environment: Development
+2021-01-11 16:07:03.960 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-11 16:07:03.960 +08:00 [DBG] Hosting started
+2021-01-11 16:07:03.978 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-11 16:07:03.981 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-11 16:07:04.006 +08:00 [DBG] Connection ID "17726168143530819747" disconnecting.
+2021-01-11 16:07:04.007 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-11 16:07:04.010 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 35.0953ms
+2021-01-11 16:07:04.063 +08:00 [DBG] Connection ID "18086456122310394081" disconnecting.
+2021-01-11 16:07:04.063 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 55.7028ms
+2021-01-11 16:07:04.115 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-01-11 16:07:04.115 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-01-11 16:07:04.116 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-01-11 16:07:04.129 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-11 16:07:04.129 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-11 16:07:04.129 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-11 16:07:04.131 +08:00 [DBG] Connection ID "18014398541157367845" disconnecting.
+2021-01-11 16:07:04.131 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 16.3949ms
+2021-01-11 16:07:04.135 +08:00 [DBG] Connection ID "18374686481282236439" disconnecting.
+2021-01-11 16:07:04.135 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 18.9087ms
+2021-01-11 16:07:04.146 +08:00 [DBG] Connection ID "17726168143530819749" disconnecting.
+2021-01-11 16:07:04.146 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 30.3886ms
+2021-01-11 16:07:04.617 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-11 16:07:04.618 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-11 16:07:04.618 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 1.0982ms
+2021-01-11 16:07:11.830 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-11 16:07:11.831 +08:00 [DBG] Connection ID "17942340921349636113" disconnecting.
+2021-01-11 16:07:11.831 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 0.9235ms
+2021-01-11 16:07:11.879 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-01-11 16:07:11.880 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-11 16:07:11.882 +08:00 [DBG] Connection ID "18014398541157367847" disconnecting.
+2021-01-11 16:07:11.882 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 3.0008ms
+2021-01-11 16:07:11.892 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-01-11 16:07:11.892 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-01-11 16:07:11.895 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-11 16:07:11.896 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-11 16:07:11.900 +08:00 [DBG] Connection ID "17005592216036442146" disconnecting.
+2021-01-11 16:07:11.900 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 8.6091ms
+2021-01-11 16:07:11.910 +08:00 [DBG] Connection ID "18086456122310394083" disconnecting.
+2021-01-11 16:07:11.911 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 18.9075ms
+2021-01-11 16:07:12.096 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-01-11 16:07:12.245 +08:00 [DBG] Connection ID "18374686481282236441" disconnecting.
+2021-01-11 16:07:12.245 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.0395ms

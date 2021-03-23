@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>UltraNuke.Barasingha.Permission.BackgroundTasks</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.Permission.BackgroundTasks</RootNamespace>
+  </PropertyGroup>
+
+</Project>

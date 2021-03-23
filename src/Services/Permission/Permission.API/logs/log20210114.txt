@@ -1,0 +1,824 @@
+2021-01-14 14:11:54.074 +08:00 [DBG] Hosting starting
+2021-01-14 14:11:54.132 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:11:54.138 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:11:54.146 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:11:54.152 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:11:54.159 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:11:54.166 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:11:54.175 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:11:54.177 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:11:54.179 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:11:54.182 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:11:54.185 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:11:54.189 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:11:54.189 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:11:54.392 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:11:54.393 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:11:54.393 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:11:54.393 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:11:54.393 +08:00 [DBG] Hosting started
+2021-01-14 14:11:54.402 +08:00 [DBG] Connection ID "16717361839884730373" disconnecting.
+2021-01-14 14:11:54.411 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:11:54.413 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:11:54.450 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 41.4659ms
+2021-01-14 14:12:10.983 +08:00 [DBG] Hosting starting
+2021-01-14 14:12:11.208 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:12:11.214 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:12:11.219 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:12:11.254 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:12:11.286 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:12:11.290 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:12:11.296 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:12:11.301 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:12:11.312 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:12:11.319 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:12:11.321 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:12:11.323 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:12:11.326 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:12:11.328 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:12:11.330 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:12:11.331 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:12:11.417 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:12:11.417 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:12:11.417 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:12:11.418 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:12:11.418 +08:00 [DBG] Hosting started
+2021-01-14 14:12:11.425 +08:00 [DBG] Connection ID "18086456122310394181" disconnecting.
+2021-01-14 14:12:17.803 +08:00 [DBG] Hosting starting
+2021-01-14 14:12:17.859 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:12:17.864 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:12:17.869 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:12:17.876 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:12:17.881 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:12:17.890 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:12:17.897 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:12:17.899 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:12:17.900 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:12:17.905 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:12:17.908 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:12:17.911 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:12:17.912 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:12:17.993 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:12:17.994 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:12:17.994 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:12:17.994 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:12:17.994 +08:00 [DBG] Hosting started
+2021-01-14 14:12:18.002 +08:00 [DBG] Connection ID "18014398536862400585" disconnecting.
+2021-01-14 14:12:18.009 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:12:18.011 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:12:18.036 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 29.1630ms
+2021-01-14 14:30:34.557 +08:00 [DBG] Hosting starting
+2021-01-14 14:30:34.616 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:30:34.621 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:30:34.632 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:30:34.638 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:30:34.644 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:30:34.651 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:30:34.661 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:30:34.663 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:30:34.664 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:30:34.667 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:30:34.670 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:30:34.673 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:30:34.674 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:30:34.759 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:30:34.760 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:30:34.760 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:30:34.760 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:30:34.761 +08:00 [DBG] Hosting started
+2021-01-14 14:30:34.775 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-01-14 14:30:34.777 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:30:34.806 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-01-14 14:30:34.807 +08:00 [DBG] Connection ID "18014398536862400596" disconnecting.
+2021-01-14 14:30:34.812 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 39.4015ms
+2021-01-14 14:30:34.865 +08:00 [DBG] Connection ID "18158513707758387630" disconnecting.
+2021-01-14 14:30:34.865 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 59.6599ms
+2021-01-14 14:30:34.910 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - -
+2021-01-14 14:30:34.911 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - -
+2021-01-14 14:30:34.912 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - -
+2021-01-14 14:30:34.928 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-14 14:30:34.928 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-14 14:30:34.928 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-14 14:30:34.931 +08:00 [DBG] Connection ID "18158513716348322099" disconnecting.
+2021-01-14 14:30:34.932 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - - - 200 142933 text/css 21.5928ms
+2021-01-14 14:30:34.936 +08:00 [DBG] Connection ID "16861477027960586257" disconnecting.
+2021-01-14 14:30:34.937 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 24.9752ms
+2021-01-14 14:30:34.947 +08:00 [DBG] Connection ID "18158513707758387632" disconnecting.
+2021-01-14 14:30:34.947 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 36.9450ms
+2021-01-14 14:30:35.024 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - -
+2021-01-14 14:30:35.025 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-14 14:30:35.025 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - - - 200 628 image/png 1.2542ms
+2021-01-14 14:30:35.025 +08:00 [DBG] Connection ID "17798225733273780405" disconnecting.
+2021-01-14 14:30:40.803 +08:00 [INF] Application is shutting down...
+2021-01-14 14:30:40.804 +08:00 [DBG] Hosting stopping
+2021-01-14 14:30:40.804 +08:00 [DBG] Hosting stopped
+2021-01-14 14:36:55.602 +08:00 [DBG] Hosting starting
+2021-01-14 14:36:55.666 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:36:55.674 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:36:55.681 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:36:55.685 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:36:55.692 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:36:55.702 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:36:55.711 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:36:55.714 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:36:55.716 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:36:55.719 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:36:55.722 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:36:55.725 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:36:55.725 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:36:55.800 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:36:55.800 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:36:55.800 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:36:55.800 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:36:55.800 +08:00 [DBG] Hosting started
+2021-01-14 14:36:55.807 +08:00 [DBG] Connection ID "17942340942824472757" disconnecting.
+2021-01-14 14:36:55.814 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-01-14 14:36:55.816 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:36:55.840 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 0 - - 28.0066ms
+2021-01-14 14:36:58.500 +08:00 [INF] Application is shutting down...
+2021-01-14 14:36:58.501 +08:00 [DBG] Hosting stopping
+2021-01-14 14:36:58.502 +08:00 [DBG] Hosting stopped
+2021-01-14 14:44:47.887 +08:00 [DBG] Hosting starting
+2021-01-14 14:44:47.946 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:44:47.953 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:44:47.960 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:44:47.964 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:44:47.971 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:44:47.978 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:44:47.986 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:44:47.988 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:44:47.990 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:44:47.992 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:44:47.995 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:44:47.997 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:44:47.998 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:44:48.075 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:44:48.075 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:44:48.075 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:44:48.076 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:44:48.076 +08:00 [DBG] Hosting started
+2021-01-14 14:44:48.090 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-01-14 14:44:48.092 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:44:48.123 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-01-14 14:44:48.124 +08:00 [DBG] Connection ID "17942340947119439971" disconnecting.
+2021-01-14 14:44:48.128 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 41.1646ms
+2021-01-14 14:44:48.178 +08:00 [DBG] Connection ID "17726168134940885022" disconnecting.
+2021-01-14 14:44:48.178 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 55.3480ms
+2021-01-14 14:45:31.854 +08:00 [INF] Application is shutting down...
+2021-01-14 14:45:31.855 +08:00 [DBG] Hosting stopping
+2021-01-14 14:45:31.856 +08:00 [DBG] Hosting stopped
+2021-01-14 14:47:16.830 +08:00 [DBG] Hosting starting
+2021-01-14 14:47:16.885 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:47:16.893 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:47:16.898 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:47:16.903 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:47:16.910 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:47:16.916 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:47:16.925 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:47:16.928 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:47:16.929 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:47:16.932 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:47:16.935 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:47:16.939 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:47:16.940 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:47:17.016 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:47:17.017 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:47:17.017 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:47:17.017 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:47:17.017 +08:00 [DBG] Hosting started
+2021-01-14 14:47:17.033 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-01-14 14:47:17.034 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:47:17.062 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-01-14 14:47:17.063 +08:00 [DBG] Connection ID "18086456122310394189" disconnecting.
+2021-01-14 14:47:17.066 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 37.8235ms
+2021-01-14 14:47:17.115 +08:00 [DBG] Connection ID "18158513707758387652" disconnecting.
+2021-01-14 14:47:17.115 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 53.2321ms
+2021-01-14 14:48:40.373 +08:00 [INF] Application is shutting down...
+2021-01-14 14:48:40.374 +08:00 [DBG] Hosting stopping
+2021-01-14 14:48:40.375 +08:00 [DBG] Hosting stopped
+2021-01-14 14:49:23.216 +08:00 [DBG] Hosting starting
+2021-01-14 14:49:23.272 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:49:23.278 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:49:23.285 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:49:23.289 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:49:23.295 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:49:23.303 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:49:23.309 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:49:23.312 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:49:23.313 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:49:23.317 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:49:23.320 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:49:23.323 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:49:23.324 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:49:23.404 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:49:23.404 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:49:23.404 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:49:23.404 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:49:23.405 +08:00 [DBG] Hosting started
+2021-01-14 14:49:23.420 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - -
+2021-01-14 14:49:23.421 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:49:23.449 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - -
+2021-01-14 14:49:23.451 +08:00 [DBG] Connection ID "17726168143530820141" disconnecting.
+2021-01-14 14:49:23.455 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - - - 301 - - 38.2839ms
+2021-01-14 14:49:23.506 +08:00 [DBG] Connection ID "16789419421037756421" disconnecting.
+2021-01-14 14:49:23.506 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - - - 200 - text/html;charset=utf-8 56.8186ms
+2021-01-14 14:55:37.903 +08:00 [DBG] Hosting starting
+2021-01-14 14:55:37.957 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:55:37.962 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:55:37.970 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:55:37.975 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:55:37.980 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:55:37.988 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:55:37.995 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:55:37.997 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:55:37.998 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:55:38.002 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:55:38.005 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:55:38.007 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:55:38.008 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:55:38.195 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 14:55:38.195 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:55:38.195 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:55:38.195 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 14:55:38.196 +08:00 [DBG] Hosting started
+2021-01-14 14:55:38.210 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/login?username=1&password=10 - 0
+2021-01-14 14:55:38.212 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:55:38.240 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:55:38.262 +08:00 [DBG] No candidates found for the request path '/api/login'
+2021-01-14 14:55:38.263 +08:00 [DBG] Request did not match any endpoints
+2021-01-14 14:55:38.275 +08:00 [INF] GET/api/login?username=1&password=10nullnull"2021-01-14T14:55:38.2664185+08:00"10::1
+2021-01-14 14:55:38.278 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/login?username=1&password=10 - 0 - 404 - - 69.1449ms
+2021-01-14 15:09:30.017 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=1&password=10 - 0
+2021-01-14 15:09:30.018 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:09:30.024 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:09:30.027 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:09:30.027 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:09:30.028 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:09:30.033 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:09:30.040 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-14 15:09:30.082 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:09:30.083 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:09:30.084 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:09:30.084 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:09:30.084 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:09:30.085 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:09:30.085 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:09:30.322 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-14 15:09:30.353 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 262.9336ms
+2021-01-14 15:09:30.353 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:09:30.355 +08:00 [ERR] GET/api/users/login?username=1&password=10Value cannot be null. (Parameter 'mediator')null"2021-01-14T15:09:30.0328645+08:00"10::1
+System.ArgumentNullException: Value cannot be null. (Parameter 'mediator')
+   at UltraNuke.CommonMormon.DDD.Repository..ctor(DbContext context, IMediator mediator) in F:\self-product\CommonMormon\src\DDD\Repository.cs:line 24
+   at UltraNuke.Barasingha.Permission.API.CustomExtensionsServiceCollection.<>c.<AddCustomIntegrations>b__7_0(IServiceProvider provider) in F:\self-product\Barasingha\src\Services\Permission\Permission.API\Startup.cs:line 170
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 57
+2021-01-14 15:09:30.519 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=1&password=10 - 0 - 200 - application/json 501.6342ms
+2021-01-14 15:12:04.107 +08:00 [DBG] Hosting starting
+2021-01-14 15:12:04.162 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 15:12:04.166 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 15:12:04.172 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 15:12:04.177 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 15:12:04.181 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 15:12:04.191 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 15:12:04.198 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:12:04.201 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 15:12:04.203 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:12:04.206 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 15:12:04.208 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 15:12:04.211 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 15:12:04.212 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 15:12:04.389 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 15:12:04.390 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 15:12:04.391 +08:00 [INF] Hosting environment: Development
+2021-01-14 15:12:04.391 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 15:12:04.392 +08:00 [DBG] Hosting started
+2021-01-14 15:12:04.433 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=1&password=10 - 0
+2021-01-14 15:12:04.435 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 15:12:04.466 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:12:04.491 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:12:04.493 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:12:04.493 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:12:04.494 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:12:04.500 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:12:04.507 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-14 15:12:04.575 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:12:04.576 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:12:04.577 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:12:04.577 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:12:04.577 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:12:04.577 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:12:04.578 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:12:04.730 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-14 15:12:04.900 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:12:04.907 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' ...
+2021-01-14 15:12:04.909 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+2021-01-14 15:12:04.910 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:12:04.910 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:12:04.910 +08:00 [DBG] Attempting to validate the bound parameter 'username' of type 'System.String' ...
+2021-01-14 15:12:04.912 +08:00 [DBG] Done attempting to validate the bound parameter 'username' of type 'System.String'.
+2021-01-14 15:12:04.913 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' ...
+2021-01-14 15:12:04.914 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+2021-01-14 15:12:04.914 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:12:04.914 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:12:04.914 +08:00 [DBG] Attempting to validate the bound parameter 'password' of type 'System.String' ...
+2021-01-14 15:12:04.915 +08:00 [DBG] Done attempting to validate the bound parameter 'password' of type 'System.String'.
+2021-01-14 15:12:05.492 +08:00 [DBG] The index {'MenusId'} was not created on entity type 'MenuRole (Dictionary<string, object>)' as the properties are already covered by the index {'MenusId', 'RolesId'}.
+2021-01-14 15:12:05.492 +08:00 [DBG] The index {'RolesId'} was not created on entity type 'RoleUser (Dictionary<string, object>)' as the properties are already covered by the index {'RolesId', 'UsersId'}.
+2021-01-14 15:12:05.567 +08:00 [DBG] The property 'MenusId.MenuRole (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:12:05.567 +08:00 [DBG] The property 'RolesId.MenuRole (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:12:05.567 +08:00 [DBG] The property 'RolesId.RoleUser (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:12:05.567 +08:00 [DBG] The property 'UsersId.RoleUser (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:12:05.700 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:12:05.855 +08:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .AsNoTracking()
+    .Where(w => w.UserName == __username_0 && w.Password == __password_1 && !(w.Disabled))
+    .FirstOrDefault()'
+2021-01-14 15:12:06.005 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.AvatarUrl (string), 1], [Property: User.Disabled (bool) Required, 2], [Property: User.Gender (Gender) Required, 3], [Property: User.NickName (string), 4], [Property: User.No (int) Required, 5], [Property: User.Password (string), 6], [Property: User.PasswordAnswer (string), 7], [Property: User.PasswordQuestion (string), 8], [Property: User.UserName (string), 9], }
+            SELECT TOP(1) s.Id, s.AvatarUrl, s.Disabled, s.Gender, s.NickName, s.No, s.Password, s.PasswordAnswer, s.PasswordQuestion, s.UserName
+            FROM S_User AS s
+            WHERE ((s.UserName == @__username_0) && (s.Password == @__password_1)) && Not(s.Disabled)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        UltraNuke.Barasingha.Permission.Infrastructure.PermissionContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-01-14 15:12:06.045 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:12:06.071 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (23ms).
+2021-01-14 15:12:06.080 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:12:06.323 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:12:06.335 +08:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:12:06.453 +08:00 [INF] Executed DbCommand (123ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:12:06.467 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:12:06.470 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:12:06.475 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:12:06.482 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 1901.9259ms
+2021-01-14 15:12:06.484 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:12:06.485 +08:00 [WRN] GET/api/users/login?username=1&password=10用户名或密码输入错误！null"2021-01-14T15:12:04.4993877+08:00"0::1
+2021-01-14 15:12:06.577 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:12:06.580 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=1&password=10 - 0 - 200 - application/json 2149.3811ms
+2021-01-14 15:13:35.740 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0
+2021-01-14 15:13:35.741 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:13:35.742 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:13:35.743 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:13:35.743 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:13:35.743 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:13:35.744 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:13:35.744 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:13:35.745 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:13:35.745 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:13:35.745 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:13:35.746 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:13:35.746 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:13:35.746 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:13:35.748 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:13:35.749 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' ...
+2021-01-14 15:13:35.750 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+2021-01-14 15:13:35.750 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:13:35.750 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:13:35.750 +08:00 [DBG] Attempting to validate the bound parameter 'username' of type 'System.String' ...
+2021-01-14 15:13:35.750 +08:00 [DBG] Done attempting to validate the bound parameter 'username' of type 'System.String'.
+2021-01-14 15:13:35.750 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' ...
+2021-01-14 15:13:35.750 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+2021-01-14 15:13:35.751 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:13:35.751 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:13:35.751 +08:00 [DBG] Attempting to validate the bound parameter 'password' of type 'System.String' ...
+2021-01-14 15:13:35.751 +08:00 [DBG] Done attempting to validate the bound parameter 'password' of type 'System.String'.
+2021-01-14 15:13:35.784 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:13:35.786 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:13:35.787 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:13:35.787 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:13:35.787 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:13:35.788 +08:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:13:35.845 +08:00 [INF] Executed DbCommand (57ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:13:35.863 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:13:35.864 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:13:35.864 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:13:36.083 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:13:36.085 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:13:36.085 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:13:36.085 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:13:36.086 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:13:36.086 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO'.
+2021-01-14 15:13:36.103 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 356.9257ms
+2021-01-14 15:13:36.103 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:13:36.105 +08:00 [INF] GET/api/users/login?username=admin&password=admin888nullnull"2021-01-14T15:13:35.7439746+08:00"360::1
+2021-01-14 15:13:36.105 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:13:36.105 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0 - 200 349 application/json;+charset=utf-8 365.2930ms
+2021-01-14 15:14:53.686 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0
+2021-01-14 15:14:53.688 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:14:53.688 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:14:53.688 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:14:53.688 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:14:53.688 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:14:53.692 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:14:53.692 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:14:53.693 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:14:53.693 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:14:53.693 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:14:53.693 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:14:53.693 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:14:53.693 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:14:53.697 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:14:53.698 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' ...
+2021-01-14 15:14:53.698 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+2021-01-14 15:14:53.698 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:14:53.698 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:14:53.698 +08:00 [DBG] Attempting to validate the bound parameter 'username' of type 'System.String' ...
+2021-01-14 15:14:53.699 +08:00 [DBG] Done attempting to validate the bound parameter 'username' of type 'System.String'.
+2021-01-14 15:14:53.699 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' ...
+2021-01-14 15:14:53.699 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+2021-01-14 15:14:53.699 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:14:53.700 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:14:53.700 +08:00 [DBG] Attempting to validate the bound parameter 'password' of type 'System.String' ...
+2021-01-14 15:14:53.700 +08:00 [DBG] Done attempting to validate the bound parameter 'password' of type 'System.String'.
+2021-01-14 15:14:53.711 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:14:53.713 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:14:53.713 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:14:53.713 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:14:53.713 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:14:53.713 +08:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:14:53.717 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:14:53.717 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:14:53.717 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:14:53.718 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:14:53.718 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:14:53.719 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:14:53.719 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:14:53.719 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:14:53.719 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:14:53.720 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO'.
+2021-01-14 15:14:53.720 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 26.7766ms
+2021-01-14 15:14:53.720 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:14:53.721 +08:00 [INF] GET/api/users/login?username=admin&password=admin888nullnull"2021-01-14T15:14:53.6923790+08:00"28::1
+2021-01-14 15:14:53.721 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:14:53.721 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0 - 200 349 application/json;+charset=utf-8 34.5240ms
+2021-01-14 15:15:39.938 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0
+2021-01-14 15:15:39.939 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:15:39.939 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:15:39.939 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:15:39.939 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:15:39.939 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:15:39.940 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:15:39.940 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:15:39.940 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:15:39.941 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:15:39.941 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:15:39.941 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:15:39.941 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:15:39.941 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:15:39.942 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:15:39.942 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' ...
+2021-01-14 15:15:39.943 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+2021-01-14 15:15:39.943 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:15:39.943 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:15:39.943 +08:00 [DBG] Attempting to validate the bound parameter 'username' of type 'System.String' ...
+2021-01-14 15:15:39.943 +08:00 [DBG] Done attempting to validate the bound parameter 'username' of type 'System.String'.
+2021-01-14 15:15:39.943 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' ...
+2021-01-14 15:15:39.944 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+2021-01-14 15:15:39.944 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:15:39.944 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:15:39.944 +08:00 [DBG] Attempting to validate the bound parameter 'password' of type 'System.String' ...
+2021-01-14 15:15:39.944 +08:00 [DBG] Done attempting to validate the bound parameter 'password' of type 'System.String'.
+2021-01-14 15:15:39.945 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:15:39.945 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:15:39.946 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:15:39.946 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:15:39.946 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:15:39.946 +08:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:15:39.953 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:15:39.953 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:15:39.953 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:15:39.953 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:15:39.954 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:15:39.954 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:15:39.954 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:15:39.954 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:15:39.955 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:15:39.955 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO'.
+2021-01-14 15:15:39.955 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 14.2681ms
+2021-01-14 15:15:39.955 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:15:39.956 +08:00 [INF] GET/api/users/login?username=admin&password=admin888nullnull"2021-01-14T15:15:39.9402405+08:00"15::1
+2021-01-14 15:15:39.956 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:15:39.956 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0 - 200 349 application/json;+charset=utf-8 17.9606ms
+2021-01-14 15:25:04.707 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:25:04.707 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:25:04.707 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:25:04.708 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:25:04.708 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:25:04.711 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-01-14 15:25:04.852 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-01-14 15:25:04.853 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 401 - - 145.9803ms
+2021-01-14 15:25:23.636 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:25:23.636 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:25:23.636 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:25:23.636 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:25:23.636 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:25:23.637 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-01-14 15:25:23.724 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:25:23.724 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-01-14 15:25:23.725 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 401 - - 89.2257ms
+2021-01-14 15:25:26.463 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:25:26.464 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:25:26.464 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:25:26.465 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:25:26.466 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:25:26.466 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-01-14 15:25:26.469 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:25:26.469 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-01-14 15:25:26.470 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 401 - - 6.7409ms
+2021-01-14 15:25:49.794 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:25:49.795 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:25:49.795 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:25:49.795 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:25:49.795 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:25:49.796 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-01-14 15:25:49.796 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:25:49.796 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-01-14 15:25:49.797 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 401 - - 2.5370ms
+2021-01-14 15:27:03.029 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:27:03.030 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:27:03.030 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:27:03.030 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:27:03.030 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:27:03.030 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-01-14 15:27:03.031 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:27:03.031 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-01-14 15:27:03.032 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 401 - - 2.9283ms
+2021-01-14 15:31:12.935 +08:00 [DBG] Hosting starting
+2021-01-14 15:31:12.991 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 15:31:12.997 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 15:31:13.003 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 15:31:13.007 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 15:31:13.014 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 15:31:13.021 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 15:31:13.029 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:31:13.032 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 15:31:13.033 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:31:13.037 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 15:31:13.040 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 15:31:13.044 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 15:31:13.045 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 15:31:13.180 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2021-01-14 15:31:13.180 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 15:31:13.180 +08:00 [INF] Hosting environment: Development
+2021-01-14 15:31:13.180 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2021-01-14 15:31:13.180 +08:00 [DBG] Hosting started
+2021-01-14 15:31:13.196 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0
+2021-01-14 15:31:13.197 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 15:31:13.230 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:31:13.262 +08:00 [DBG] 1 candidate(s) found for the request path '/api/users'
+2021-01-14 15:31:13.265 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users' is valid for the request path '/api/users'
+2021-01-14 15:31:13.266 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:13.602 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:31:13.603 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:31:13.606 +08:00 [INF] Authorization was successful.
+2021-01-14 15:31:13.610 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:13.618 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-14 15:31:13.642 +08:00 [INF] Route matched with {action = "Query", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Permission.API.Application.DTO.UserDTO]]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:31:13.644 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:31:13.644 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:31:13.644 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:31:13.644 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:31:13.644 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:31:13.645 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:31:13.774 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-14 15:31:13.943 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:31:13.948 +08:00 [DBG] Attempting to bind parameter 'nickName' of type 'System.String' ...
+2021-01-14 15:31:13.951 +08:00 [DBG] Attempting to bind parameter 'nickName' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:31:13.951 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'nickName' of type 'System.String'.
+2021-01-14 15:31:13.952 +08:00 [DBG] Done attempting to bind parameter 'nickName' of type 'System.String'.
+2021-01-14 15:31:13.952 +08:00 [DBG] Done attempting to bind parameter 'nickName' of type 'System.String'.
+2021-01-14 15:31:13.952 +08:00 [DBG] Attempting to validate the bound parameter 'nickName' of type 'System.String' ...
+2021-01-14 15:31:13.953 +08:00 [DBG] Done attempting to validate the bound parameter 'nickName' of type 'System.String'.
+2021-01-14 15:31:13.955 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:31:13.955 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:31:13.956 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:31:13.956 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:31:13.956 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:31:13.957 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:31:13.957 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:31:13.957 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:31:13.957 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:31:13.957 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:31:13.957 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:31:13.957 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:31:14.358 +08:00 [DBG] The index {'MenusId'} was not created on entity type 'MenuRole (Dictionary<string, object>)' as the properties are already covered by the index {'MenusId', 'RolesId'}.
+2021-01-14 15:31:14.358 +08:00 [DBG] The index {'RolesId'} was not created on entity type 'RoleUser (Dictionary<string, object>)' as the properties are already covered by the index {'RolesId', 'UsersId'}.
+2021-01-14 15:31:14.432 +08:00 [DBG] The property 'MenusId.MenuRole (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:31:14.432 +08:00 [DBG] The property 'RolesId.MenuRole (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:31:14.432 +08:00 [DBG] The property 'RolesId.RoleUser (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:31:14.432 +08:00 [DBG] The property 'UsersId.RoleUser (Dictionary<string, object>)' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:31:14.546 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:31:14.666 +08:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Where(w => True)
+    .AsNoTracking()
+    .Count()'
+2021-01-14 15:31:14.765 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM S_User AS s), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        UltraNuke.Barasingha.Permission.Infrastructure.PermissionContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-01-14 15:31:14.800 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:31:14.825 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (22ms).
+2021-01-14 15:31:14.831 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.045 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.053 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [S_User] AS [s]
+2021-01-14 15:31:15.098 +08:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [S_User] AS [s]
+2021-01-14 15:31:15.114 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:31:15.116 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.121 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.126 +08:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Where(w => True)
+    .AsNoTracking()
+    .OrderBy(o => o.No)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2021-01-14 15:31:15.159 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.AvatarUrl (string), 1], [Property: User.Disabled (bool) Required, 2], [Property: User.Gender (Gender) Required, 3], [Property: User.NickName (string), 4], [Property: User.No (int) Required, 5], [Property: User.Password (string), 6], [Property: User.PasswordAnswer (string), 7], [Property: User.PasswordQuestion (string), 8], [Property: User.UserName (string), 9], }
+        SELECT s.Id, s.AvatarUrl, s.Disabled, s.Gender, s.NickName, s.No, s.Password, s.PasswordAnswer, s.PasswordQuestion, s.UserName
+        FROM S_User AS s
+        ORDER BY s.No ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    UltraNuke.Barasingha.Permission.Infrastructure.PermissionContext, 
+    False, 
+    False
+)'
+2021-01-14 15:31:15.166 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:31:15.166 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:31:15.169 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.169 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.172 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+ORDER BY [s].[No]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2021-01-14 15:31:15.215 +08:00 [INF] Executed DbCommand (46ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+ORDER BY [s].[No]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2021-01-14 15:31:15.222 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:31:15.223 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.223 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:15.242 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:31:15.244 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:31:15.244 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:31:15.244 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:31:15.245 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:31:15.246 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Permission.API.Application.DTO.UserDTO, UltraNuke.Barasingha.Permission.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:31:15.354 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API) in 1706.0264ms
+2021-01-14 15:31:15.355 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Query (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:15.362 +08:00 [INF] GET/api/users?pageindex=1&pagesize=10nullnull"2021-01-14T15:31:13.6082302+08:00"1754::1
+2021-01-14 15:31:15.365 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:31:15.366 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users?pageindex=1&pagesize=10 - 0 - 200 1245 application/json;+charset=utf-8 2172.9774ms
+2021-01-14 15:31:34.922 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0
+2021-01-14 15:31:34.923 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:31:34.924 +08:00 [DBG] 2 candidate(s) found for the request path '/api/users/login'
+2021-01-14 15:31:34.924 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/login' is valid for the request path '/api/users/login'
+2021-01-14 15:31:34.924 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Get (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Users/{id}' is valid for the request path '/api/users/login'
+2021-01-14 15:31:34.925 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:34.925 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-01-14 15:31:34.926 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:34.930 +08:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO]] Login(System.String, System.String) on controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API).
+2021-01-14 15:31:34.931 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:31:34.931 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:31:34.931 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:31:34.931 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:31:34.932 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:31:34.932 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:31:34.934 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.UsersController (UltraNuke.Barasingha.Permission.API)
+2021-01-14 15:31:34.934 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' ...
+2021-01-14 15:31:34.935 +08:00 [DBG] Attempting to bind parameter 'username' of type 'System.String' using the name 'username' in request data ...
+2021-01-14 15:31:34.935 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:31:34.935 +08:00 [DBG] Done attempting to bind parameter 'username' of type 'System.String'.
+2021-01-14 15:31:34.935 +08:00 [DBG] Attempting to validate the bound parameter 'username' of type 'System.String' ...
+2021-01-14 15:31:34.935 +08:00 [DBG] Done attempting to validate the bound parameter 'username' of type 'System.String'.
+2021-01-14 15:31:34.936 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' ...
+2021-01-14 15:31:34.936 +08:00 [DBG] Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ...
+2021-01-14 15:31:34.936 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:31:34.936 +08:00 [DBG] Done attempting to bind parameter 'password' of type 'System.String'.
+2021-01-14 15:31:34.936 +08:00 [DBG] Attempting to validate the bound parameter 'password' of type 'System.String' ...
+2021-01-14 15:31:34.936 +08:00 [DBG] Done attempting to validate the bound parameter 'password' of type 'System.String'.
+2021-01-14 15:31:34.966 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2021-01-14 15:31:34.970 +08:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .AsNoTracking()
+    .Where(w => w.UserName == __username_0 && w.Password == __password_1 && !(w.Disabled))
+    .FirstOrDefault()'
+2021-01-14 15:31:34.990 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.AvatarUrl (string), 1], [Property: User.Disabled (bool) Required, 2], [Property: User.Gender (Gender) Required, 3], [Property: User.NickName (string), 4], [Property: User.No (int) Required, 5], [Property: User.Password (string), 6], [Property: User.PasswordAnswer (string), 7], [Property: User.PasswordQuestion (string), 8], [Property: User.UserName (string), 9], }
+            SELECT TOP(1) s.Id, s.AvatarUrl, s.Disabled, s.Gender, s.NickName, s.No, s.Password, s.PasswordAnswer, s.PasswordQuestion, s.UserName
+            FROM S_User AS s
+            WHERE ((s.UserName == @__username_0) && (s.Password == @__password_1)) && Not(s.Disabled)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        UltraNuke.Barasingha.Permission.Infrastructure.PermissionContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-01-14 15:31:35.037 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:31:35.037 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:31:35.037 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:35.038 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:35.038 +08:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:31:35.040 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AvatarUrl], [s].[Disabled], [s].[Gender], [s].[NickName], [s].[No], [s].[Password], [s].[PasswordAnswer], [s].[PasswordQuestion], [s].[UserName]
+FROM [S_User] AS [s]
+WHERE (([s].[UserName] = @__username_0) AND ([s].[Password] = @__password_1)) AND ([s].[Disabled] <> CAST(1 AS bit))
+2021-01-14 15:31:35.041 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:31:35.042 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:35.042 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2021-01-14 15:31:35.055 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:31:35.055 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:31:35.055 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:31:35.055 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:31:35.056 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:31:35.056 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TokenDTO'.
+2021-01-14 15:31:35.064 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API) in 132.1361ms
+2021-01-14 15:31:35.065 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.UsersController.Login (UltraNuke.Barasingha.Permission.API)'
+2021-01-14 15:31:35.066 +08:00 [INF] GET/api/users/login?username=admin&password=admin888nullnull"2021-01-14T15:31:34.9262498+08:00"140::1
+2021-01-14 15:31:35.067 +08:00 [DBG] 'PermissionContext' disposed.
+2021-01-14 15:31:35.067 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44303/api/users/login?username=admin&password=admin888 - 0 - 200 349 application/json;+charset=utf-8 144.9270ms

@@ -1,0 +1,113 @@
+2021-03-05 10:55:14.026 +08:00 [DBG] Hosting starting
+2021-03-05 10:55:14.402 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-05 10:55:14.409 +08:00 [DBG] Starting bus instances: IBus
+2021-03-05 10:55:14.414 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-03-05 10:55:14.461 +08:00 [INF] Connect: guest@localhost:5672/
+2021-03-05 10:55:14.519 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-03-05 10:55:14.529 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-03-05 10:55:14.535 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-03-05 10:55:14.543 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-03-05 10:55:14.552 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-03-05 10:55:14.562 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-05 10:55:14.565 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-03-05 10:55:14.568 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-05 10:55:14.573 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-03-05 10:55:14.577 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-03-05 10:55:14.582 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-03-05 10:55:14.585 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-03-05 10:55:14.813 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-03-05 10:55:14.815 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-05 10:55:14.817 +08:00 [INF] Hosting environment: Development
+2021-03-05 10:55:14.819 +08:00 [INF] Content root path: F:\self-product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-03-05 10:55:14.826 +08:00 [DBG] Hosting started
+2021-03-05 10:55:14.856 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-03-05 10:55:14.861 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-03-05 10:55:14.939 +08:00 [DBG] Connection ID "18158513716348322376" disconnecting.
+2021-03-05 10:55:14.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-03-05 10:55:14.961 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 105.9644ms
+2021-03-05 10:55:15.039 +08:00 [DBG] Connection ID "18374686494167138552" disconnecting.
+2021-03-05 10:55:15.040 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 100.2098ms
+2021-03-05 10:55:15.072 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-03-05 10:55:15.074 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-03-05 10:55:15.077 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-03-05 10:55:15.119 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-03-05 10:55:15.119 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-03-05 10:55:15.119 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-05 10:55:15.127 +08:00 [DBG] Connection ID "18014398515387564295" disconnecting.
+2021-03-05 10:55:15.129 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 54.6460ms
+2021-03-05 10:55:15.133 +08:00 [DBG] Connection ID "17509995374301937859" disconnecting.
+2021-03-05 10:55:15.134 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 56.0030ms
+2021-03-05 10:55:15.146 +08:00 [DBG] Connection ID "17365880186226081892" disconnecting.
+2021-03-05 10:55:15.148 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 74.0414ms
+2021-03-05 10:55:15.321 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-03-05 10:55:15.353 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-03-05 10:55:15.356 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-05 10:55:15.360 +08:00 [DBG] Connection ID "17870283323016740865" disconnecting.
+2021-03-05 10:55:15.360 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 6.9063ms
+2021-03-05 10:55:15.562 +08:00 [DBG] Connection ID "17942340917054668801" disconnecting.
+2021-03-05 10:55:15.562 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.2917ms
+2021-03-05 10:55:18.522 +08:00 [WRN] Retrying "00:00:06.5490000": Broker unreachable: guest@localhost:5672/
+MassTransit.RabbitMqTransport.RabbitMqConnectionException: Broker unreachable: guest@localhost:5672/
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.Integration.ConnectionContextFactory.<>c__DisplayClass6_0.<<CreateConnection>b__0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at MassTransit.RabbitMqTransport.Integration.ConnectionContextFactory.<>c__DisplayClass6_0.<<CreateConnection>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Policies.PipeRetryExtensions.Retry[T](IRetryPolicy retryPolicy, Func`1 retryMethod, CancellationToken cancellationToken)
+2021-03-05 10:55:25.153 +08:00 [INF] Connect: guest@localhost:5672/
+2021-03-05 10:55:29.166 +08:00 [WRN] Retrying "00:00:09.9720000": Broker unreachable: guest@localhost:5672/
+MassTransit.RabbitMqTransport.RabbitMqConnectionException: Broker unreachable: guest@localhost:5672/
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.Integration.ConnectionContextFactory.<>c__DisplayClass6_0.<<CreateConnection>b__0>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at MassTransit.RabbitMqTransport.Integration.ConnectionContextFactory.<>c__DisplayClass6_0.<<CreateConnection>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Policies.PipeRetryExtensions.Retry[T](IRetryPolicy retryPolicy, Func`1 retryMethod, CancellationToken cancellationToken)

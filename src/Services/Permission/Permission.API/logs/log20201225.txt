@@ -1,0 +1,230 @@
+2020-12-25 09:30:50.634 +08:00 [DBG] Hosting starting
+2020-12-25 09:30:51.058 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-25 09:30:51.072 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2020-12-25 09:30:51.167 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2020-12-25 09:30:51.190 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2020-12-25 09:30:51.207 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2020-12-25 09:30:51.224 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2020-12-25 09:30:51.241 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 09:30:51.249 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-25 09:30:51.253 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 09:30:51.258 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-25 09:30:51.263 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-25 09:30:51.271 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2020-12-25 09:30:51.274 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2020-12-25 09:30:53.842 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2020-12-25 09:30:53.845 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-25 09:30:53.850 +08:00 [INF] Hosting environment: Development
+2020-12-25 09:30:53.852 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2020-12-25 09:30:53.860 +08:00 [DBG] Hosting started
+2020-12-25 09:30:53.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2020-12-25 09:30:53.906 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-25 09:30:54.373 +08:00 [DBG] Connection ID "17798225750453649530" disconnecting.
+2020-12-25 09:30:54.381 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 483.6314ms
+2020-12-25 09:30:54.683 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2020-12-25 09:30:55.114 +08:00 [DBG] Connection ID "17798225750453649532" disconnecting.
+2020-12-25 09:30:55.115 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 431.6049ms
+2020-12-25 09:31:38.614 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44302/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB application/json 25
+2020-12-25 09:31:38.618 +08:00 [DBG] PUT requests are not supported
+2020-12-25 09:31:38.662 +08:00 [DBG] 1 candidate(s) found for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 09:31:38.668 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 09:31:38.672 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 09:31:38.688 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 09:31:38.699 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2020-12-25 09:31:38.742 +08:00 [INF] Route matched with {action = "Update", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO]] Update(System.Guid, UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO) on controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API).
+2020-12-25 09:31:38.744 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-25 09:31:38.746 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-25 09:31:38.748 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-25 09:31:38.749 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-25 09:31:38.751 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-25 09:31:38.753 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API)
+2020-12-25 09:31:40.442 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-25 09:34:05.880 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 09:36:45.306 +08:00 [DBG] Hosting starting
+2020-12-25 09:36:45.482 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-25 09:36:45.490 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2020-12-25 09:36:45.509 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2020-12-25 09:36:45.516 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2020-12-25 09:36:45.524 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2020-12-25 09:36:45.535 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2020-12-25 09:36:45.544 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 09:36:45.548 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-25 09:36:45.552 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 09:36:45.557 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-25 09:36:45.563 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-25 09:36:45.568 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2020-12-25 09:36:45.575 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2020-12-25 09:36:45.900 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2020-12-25 09:36:45.902 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-25 09:36:45.904 +08:00 [INF] Hosting environment: Development
+2020-12-25 09:36:45.906 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2020-12-25 09:36:45.909 +08:00 [DBG] Hosting started
+2020-12-25 09:36:45.941 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2020-12-25 09:36:45.944 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-25 09:36:46.068 +08:00 [DBG] Connection ID "18230571310386250098" disconnecting.
+2020-12-25 09:36:46.074 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 134.7313ms
+2020-12-25 09:36:46.187 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2020-12-25 09:36:46.383 +08:00 [DBG] Connection ID "17726168147825787757" disconnecting.
+2020-12-25 09:36:46.386 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.9313ms
+2020-12-25 09:36:49.288 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44302/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB application/json 25
+2020-12-25 09:36:49.292 +08:00 [DBG] PUT requests are not supported
+2020-12-25 09:36:49.345 +08:00 [DBG] 1 candidate(s) found for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 09:36:49.364 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 09:36:49.367 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 09:36:49.388 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 09:36:49.411 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2020-12-25 09:36:49.458 +08:00 [INF] Route matched with {action = "Update", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO]] Update(System.Guid, UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO) on controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API).
+2020-12-25 09:36:49.460 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-25 09:36:49.462 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-25 09:36:49.464 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-25 09:36:49.466 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-25 09:36:49.469 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-25 09:36:49.472 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API)
+2020-12-25 09:36:49.808 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-25 09:37:09.230 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2020-12-25 09:37:57.349 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 09:48:25.865 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 10:03:46.677 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 10:04:43.020 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 10:21:26.947 +08:00 [FTL] Failed to start UltraNuke.Barasingha.Permission.API
+2020-12-25 10:50:43.904 +08:00 [DBG] Hosting starting
+2020-12-25 10:50:44.079 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-25 10:50:44.089 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2020-12-25 10:50:44.144 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2020-12-25 10:50:44.154 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2020-12-25 10:50:44.166 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2020-12-25 10:50:44.176 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2020-12-25 10:50:44.186 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 10:50:44.190 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-25 10:50:44.194 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-25 10:50:44.200 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-25 10:50:44.205 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-25 10:50:44.210 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2020-12-25 10:50:44.219 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2020-12-25 10:50:44.568 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Permission.API
+2020-12-25 10:50:44.570 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-25 10:50:44.571 +08:00 [INF] Hosting environment: Development
+2020-12-25 10:50:44.572 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Permission\Permission.API
+2020-12-25 10:50:44.580 +08:00 [DBG] Hosting started
+2020-12-25 10:50:44.617 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2020-12-25 10:50:44.622 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-25 10:50:44.752 +08:00 [DBG] Connection ID "15780613095916830967" disconnecting.
+2020-12-25 10:50:44.758 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 143.1309ms
+2020-12-25 10:50:44.891 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2020-12-25 10:50:45.296 +08:00 [DBG] Connection ID "16861477010780717285" disconnecting.
+2020-12-25 10:50:45.297 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 406.2893ms
+2020-12-25 10:50:53.711 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44302/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB application/json 25
+2020-12-25 10:50:53.715 +08:00 [DBG] PUT requests are not supported
+2020-12-25 10:50:53.746 +08:00 [DBG] 1 candidate(s) found for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 10:50:53.751 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB'
+2020-12-25 10:50:53.756 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 10:50:53.770 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 10:50:53.780 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2020-12-25 10:50:53.823 +08:00 [INF] Route matched with {action = "Update", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO]] Update(System.Guid, UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO) on controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API).
+2020-12-25 10:50:53.826 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-25 10:50:53.828 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-25 10:50:53.832 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-25 10:50:53.835 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-25 10:50:53.836 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-25 10:50:53.840 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API)
+2020-12-25 10:50:55.225 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-25 10:51:02.732 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Permission.API.Controllers.TodosController (UltraNuke.Barasingha.Permission.API)
+2020-12-25 10:51:02.744 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2020-12-25 10:51:02.747 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2020-12-25 10:51:02.750 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2020-12-25 10:51:02.752 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2020-12-25 10:51:02.753 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2020-12-25 10:51:02.756 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2020-12-25 10:51:02.759 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO' ...
+2020-12-25 10:51:02.762 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO' using the name '' in request data ...
+2020-12-25 10:51:02.765 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2020-12-25 10:51:02.767 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2020-12-25 10:51:02.819 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO'.
+2020-12-25 10:51:02.821 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO'.
+2020-12-25 10:51:02.824 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO' ...
+2020-12-25 10:51:02.835 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO'.
+2020-12-25 10:51:02.875 +08:00 [INF] Executing action method UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API) - Validation state: "Valid"
+2020-12-25 10:51:03.430 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'PermissionContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Permission.API 
+2020-12-25 10:51:03.873 +08:00 [DBG] Compiling query expression: 
+'DbSet<Todo>()
+    .Where(w => ((IEntity)w).Id.Equals(__id_0))
+    .SingleOrDefault()'
+2020-12-25 10:51:04.047 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Todo>(
+    asyncEnumerable: new SingleQueryingEnumerable<Todo>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Todo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Todo.Name (string), 1], }
+            SELECT TOP(2) t.Id, t.Name
+            FROM T_Todo AS t
+            WHERE t.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Todo>, 
+        UltraNuke.Barasingha.Permission.Infrastructure.PermissionContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2020-12-25 10:51:04.099 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-25 10:51:04.143 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (42ms).
+2020-12-25 10:51:04.159 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:05.905 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:05.918 +08:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2020-12-25 10:51:06.257 +08:00 [INF] Executed DbCommand (335ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2020-12-25 10:51:06.292 +08:00 [DBG] Context 'PermissionContext' started tracking 'Todo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-25 10:51:06.317 +08:00 [DBG] A data reader was disposed.
+2020-12-25 10:51:06.322 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:06.331 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:09.752 +08:00 [DBG] An entity of type 'Todo' tracked by 'PermissionContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-25 10:51:09.758 +08:00 [DBG] DetectChanges starting for 'PermissionContext'.
+2020-12-25 10:51:09.762 +08:00 [DBG] DetectChanges completed for 'PermissionContext'.
+2020-12-25 10:51:18.829 +08:00 [DBG] SaveChanges starting for 'PermissionContext'.
+2020-12-25 10:51:18.833 +08:00 [DBG] DetectChanges starting for 'PermissionContext'.
+2020-12-25 10:51:18.835 +08:00 [DBG] DetectChanges completed for 'PermissionContext'.
+2020-12-25 10:51:18.856 +08:00 [DBG] Opening connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:18.859 +08:00 [DBG] Opened connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:18.863 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-12-25 10:51:18.873 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-12-25 10:51:18.933 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-25 10:51:18.935 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2020-12-25 10:51:18.940 +08:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2020-12-25 10:51:19.023 +08:00 [INF] Executed DbCommand (84ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2020-12-25 10:51:19.030 +08:00 [DBG] A data reader was disposed.
+2020-12-25 10:51:19.037 +08:00 [DBG] Committing transaction.
+2020-12-25 10:51:19.042 +08:00 [DBG] Committed transaction.
+2020-12-25 10:51:19.047 +08:00 [DBG] Closing connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:19.049 +08:00 [DBG] Closed connection to database 'Barasingha.Permission' on server '.\SQLEXPRESS'.
+2020-12-25 10:51:19.054 +08:00 [DBG] Disposing transaction.
+2020-12-25 10:51:19.061 +08:00 [DBG] An entity of type 'Todo' tracked by 'PermissionContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-25 10:51:19.065 +08:00 [DBG] SaveChanges completed for 'PermissionContext' with 1 entities written to the database.
+2020-12-25 10:51:19.083 +08:00 [INF] Executed action method UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 16203.2832ms.
+2020-12-25 10:51:19.091 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2020-12-25 10:51:19.095 +08:00 [DBG] No information found on request to perform content negotiation.
+2020-12-25 10:51:19.097 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-25 10:51:19.099 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-25 10:51:19.101 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-25 10:51:19.102 +08:00 [INF] Executing CreatedAtActionResult, writing value of type 'UltraNuke.Barasingha.Permission.API.Application.DTO.TodoDTO'.
+2020-12-25 10:51:19.126 +08:00 [DBG] Found the endpoints ["UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Permission.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2020-12-25 10:51:19.137 +08:00 [DBG] Successfully processed template api/Todos/{id} for UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Permission.API) resulting in /api/Todos/daf990bd-9be0-478d-b07c-ac9500dc22ab and 
+2020-12-25 10:51:19.149 +08:00 [DBG] Link generation succeeded for endpoints ["UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Permission.API)"] with result /api/Todos/daf990bd-9be0-478d-b07c-ac9500dc22ab
+2020-12-25 10:51:19.196 +08:00 [INF] Executed action UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API) in 25353.9917ms
+2020-12-25 10:51:19.198 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Permission.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Permission.API)'
+2020-12-25 10:51:19.203 +08:00 [INF] PUT/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB{
+    "Name":"跑步"
+}nullnull"2020-12-25T10:50:53.7626902+08:00"25442::1
+2020-12-25 10:51:19.207 +08:00 [DBG] 'PermissionContext' disposed.
+2020-12-25 10:51:19.210 +08:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44302/api/todos/DAF990BD-9BE0-478D-B07C-AC9500DC22AB application/json 25 - 201 61 application/json;+charset=utf-8 25498.8884ms

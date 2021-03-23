@@ -1,0 +1,1249 @@
+2021-01-14 14:10:42.583 +08:00 [DBG] Hosting stopping
+2021-01-14 14:10:42.583 +08:00 [INF] Application is shutting down...
+2021-01-14 14:10:43.071 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:10:43.146 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:10:43.232 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:10:43.241 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:10:43.286 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-TA4l4Zj2b8kHUGbKEI32OQ
+2021-01-14 14:10:43.471 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-TA4l4Zj2b8kHUGbKEI32OQ
+2021-01-14 14:10:43.476 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:10:43.480 +08:00 [DBG] Consumer completed amq.ctag-TA4l4Zj2b8kHUGbKEI32OQ: 0 received, 0 concurrent
+2021-01-14 14:10:43.484 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchinbdcmqz4h8n?temporary=true"
+2021-01-14 14:10:43.489 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchinbdcmqz4h8n?temporary=true"
+2021-01-14 14:10:43.615 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:10:43.640 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:10:43.667 +08:00 [DBG] Hosting stopped
+2021-01-14 14:11:23.007 +08:00 [DBG] Hosting starting
+2021-01-14 14:11:23.312 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:11:23.317 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:11:23.320 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:11:23.354 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:11:23.382 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:11:23.399 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:11:23.414 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:11:23.419 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:11:23.427 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:11:23.434 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:11:23.436 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:11:23.437 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:11:23.440 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:11:23.442 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:11:23.444 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:11:23.445 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:11:23.995 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:11:23.996 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:11:23.996 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:11:23.996 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:11:23.997 +08:00 [DBG] Hosting started
+2021-01-14 14:11:24.005 +08:00 [DBG] Connection ID "17798225733273780401" disconnecting.
+2021-01-14 14:11:24.012 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:11:24.014 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:11:24.050 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 40.8798ms
+2021-01-14 14:11:24.093 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55000)
+2021-01-14 14:11:24.146 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:11:24.156 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc8q3bdcmow3zgz?temporary=true"
+2021-01-14 14:11:24.175 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:11:24.177 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:11:24.296 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-HygB9OzLAZFRu4ZcNxPDIA
+2021-01-14 14:11:24.301 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:11:41.919 +08:00 [INF] Application is shutting down...
+2021-01-14 14:11:41.920 +08:00 [DBG] Hosting stopping
+2021-01-14 14:11:41.922 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:11:41.924 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:11:41.934 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:11:41.936 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:11:41.944 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-HygB9OzLAZFRu4ZcNxPDIA
+2021-01-14 14:11:41.950 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-HygB9OzLAZFRu4ZcNxPDIA
+2021-01-14 14:11:41.953 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc8q3bdcmow3zgz?temporary=true"
+2021-01-14 14:11:41.954 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc8q3bdcmow3zgz?temporary=true"
+2021-01-14 14:11:41.954 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:11:41.955 +08:00 [DBG] Consumer completed amq.ctag-HygB9OzLAZFRu4ZcNxPDIA: 0 received, 0 concurrent
+2021-01-14 14:11:41.988 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:11:41.993 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:11:41.995 +08:00 [DBG] Hosting stopped
+2021-01-14 14:32:21.933 +08:00 [DBG] Hosting starting
+2021-01-14 14:32:22.153 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:32:22.158 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:32:22.162 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:32:22.195 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:32:22.227 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:32:22.233 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:32:22.238 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:32:22.242 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:32:22.250 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:32:22.256 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:32:22.258 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:32:22.258 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:32:22.261 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:32:22.264 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:32:22.267 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:32:22.267 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:32:22.327 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:32:22.328 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:32:22.328 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:32:22.328 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:32:22.328 +08:00 [DBG] Hosting started
+2021-01-14 14:32:22.343 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 57199)
+2021-01-14 14:32:22.343 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:32:22.345 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:32:22.374 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:32:22.379 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-14 14:32:22.380 +08:00 [DBG] Connection ID "17293822583598219375" disconnecting.
+2021-01-14 14:32:22.383 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 43.6548ms
+2021-01-14 14:32:22.400 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:32:22.401 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpztobdcmoitgbo?temporary=true"
+2021-01-14 14:32:22.403 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:32:22.440 +08:00 [DBG] Connection ID "18158513699168452766" disconnecting.
+2021-01-14 14:32:22.441 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 61.6443ms
+2021-01-14 14:32:22.462 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-jryrzQfCP2OKodMjeOlitA
+2021-01-14 14:32:22.464 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:32:22.495 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-01-14 14:32:22.496 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-01-14 14:32:22.496 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-01-14 14:32:22.539 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-01-14 14:32:22.543 +08:00 [DBG] Connection ID "18158513716348322102" disconnecting.
+2021-01-14 14:32:22.543 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 47.5602ms
+2021-01-14 14:32:22.564 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-01-14 14:32:22.569 +08:00 [DBG] Connection ID "18158513707758387638" disconnecting.
+2021-01-14 14:32:22.570 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 73.0874ms
+2021-01-14 14:32:22.588 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-01-14 14:32:22.605 +08:00 [DBG] Connection ID "17798225733273780413" disconnecting.
+2021-01-14 14:32:22.605 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 109.0975ms
+2021-01-14 14:32:22.632 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-01-14 14:32:22.633 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-01-14 14:32:22.633 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 0.9731ms
+2021-01-14 14:34:45.443 +08:00 [DBG] Hosting starting
+2021-01-14 14:34:45.583 +08:00 [DBG] Configured endpoint event-listener, Consumer: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler
+2021-01-14 14:34:45.763 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:34:45.768 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:34:45.771 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:34:45.807 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:34:45.838 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:34:45.844 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:34:45.849 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:34:45.853 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:34:45.862 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:34:45.869 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:34:45.872 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:34:45.873 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:34:45.877 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:34:45.879 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:34:45.882 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:34:45.883 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:34:45.959 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Todoing.API
+2021-01-14 14:34:45.960 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:34:45.960 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:34:45.960 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:34:45.960 +08:00 [DBG] Hosting started
+2021-01-14 14:34:45.976 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64140/ - -
+2021-01-14 14:34:45.977 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:34:46.003 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:34:46.003 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 57279)
+2021-01-14 14:34:46.007 +08:00 [DBG] Https port '44304' loaded from configuration.
+2021-01-14 14:34:46.010 +08:00 [DBG] Redirecting to 'https://localhost:44304/'.
+2021-01-14 14:34:46.024 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:64140/ - - - 307 - - 50.7996ms
+2021-01-14 14:34:46.040 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:34:46.040 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcg5abdcmoiu5f3?temporary=true"
+2021-01-14 14:34:46.045 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-01-14 14:34:46.048 +08:00 [DBG] Bind exchange: source: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, destination: event-listener
+2021-01-14 14:34:46.058 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:34:46.060 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:34:46.081 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-4RmBbo5VsZ-TrjH1pZz8Kw
+2021-01-14 14:34:46.081 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:36:47.423 +08:00 [DBG] Hosting starting
+2021-01-14 14:36:47.657 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:36:47.663 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:36:47.668 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:36:47.719 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:36:47.750 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:36:47.756 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:36:47.762 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:36:47.768 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:36:47.782 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:36:47.791 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:36:47.795 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:36:47.797 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:36:47.800 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:36:47.802 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:36:47.805 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:36:47.805 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:36:47.889 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:36:47.890 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:36:47.890 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:36:47.890 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:36:47.890 +08:00 [DBG] Hosting started
+2021-01-14 14:36:47.898 +08:00 [DBG] Connection ID "18158513699168452770" disconnecting.
+2021-01-14 14:36:47.906 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:36:47.907 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:36:47.913 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 57422)
+2021-01-14 14:36:47.934 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 32.0060ms
+2021-01-14 14:36:47.940 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:36:47.942 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcwjebdcmoisrdq?temporary=true"
+2021-01-14 14:36:47.951 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:36:47.952 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:36:48.003 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-bYjxtbUCBJu25Za-2fKiPQ
+2021-01-14 14:36:48.004 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:36:49.416 +08:00 [INF] Application is shutting down...
+2021-01-14 14:36:49.417 +08:00 [DBG] Hosting stopping
+2021-01-14 14:36:49.418 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:36:49.422 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:36:49.430 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:36:49.432 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:36:49.438 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-bYjxtbUCBJu25Za-2fKiPQ
+2021-01-14 14:36:49.443 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-bYjxtbUCBJu25Za-2fKiPQ
+2021-01-14 14:36:49.446 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcwjebdcmoisrdq?temporary=true"
+2021-01-14 14:36:49.447 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcwjebdcmoisrdq?temporary=true"
+2021-01-14 14:36:49.448 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:36:49.449 +08:00 [DBG] Consumer completed amq.ctag-bYjxtbUCBJu25Za-2fKiPQ: 0 received, 0 concurrent
+2021-01-14 14:36:49.475 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:36:49.480 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:36:49.483 +08:00 [DBG] Hosting stopped
+2021-01-14 14:39:27.738 +08:00 [DBG] Hosting starting
+2021-01-14 14:39:27.948 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:39:27.954 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:39:27.957 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:39:27.991 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:39:28.023 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:39:28.028 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:39:28.032 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:39:28.036 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:39:28.042 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:39:28.051 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:39:28.053 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:39:28.053 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:39:28.056 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:39:28.058 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:39:28.061 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:39:28.062 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:39:28.125 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:39:28.125 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:39:28.126 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:39:28.126 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:39:28.126 +08:00 [DBG] Hosting started
+2021-01-14 14:39:28.141 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:39:28.143 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:39:28.143 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 57537)
+2021-01-14 14:39:28.171 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:39:28.175 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-14 14:39:28.176 +08:00 [DBG] Connection ID "16861477027960586262" disconnecting.
+2021-01-14 14:39:28.180 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 41.9617ms
+2021-01-14 14:39:28.190 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 1 message-count: 0
+2021-01-14 14:39:28.191 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcrimbdcmoi3d8h?temporary=true"
+2021-01-14 14:39:28.191 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:39:28.239 +08:00 [DBG] Connection ID "18086456122310394185" disconnecting.
+2021-01-14 14:39:28.239 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 64.0727ms
+2021-01-14 14:39:28.252 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-PTSFDEGIWp3JPbQK2XzhHw
+2021-01-14 14:39:28.253 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:39:55.503 +08:00 [DBG] Hosting starting
+2021-01-14 14:39:55.722 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:39:55.727 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:39:55.731 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:39:55.769 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:39:55.805 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:39:55.809 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:39:55.815 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:39:55.819 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:39:55.830 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:39:55.840 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:39:55.843 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:39:55.845 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:39:55.849 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:39:55.852 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:39:55.855 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:39:55.856 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:39:55.913 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 57565)
+2021-01-14 14:39:55.928 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:39:55.928 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:39:55.929 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:39:55.929 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:39:55.929 +08:00 [DBG] Hosting started
+2021-01-14 14:39:55.937 +08:00 [DBG] Connection ID "18158513716348322107" disconnecting.
+2021-01-14 14:39:55.945 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:39:55.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:39:55.950 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:39:55.959 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchs3bdcmoi3wre?temporary=true"
+2021-01-14 14:39:55.960 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 1 message-count: 0
+2021-01-14 14:39:55.961 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:39:55.978 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 35.2274ms
+2021-01-14 14:39:56.013 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-92MIIXcOPSHo-kleAli33A
+2021-01-14 14:39:56.014 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:42:26.147 +08:00 [INF] Application is shutting down...
+2021-01-14 14:42:26.147 +08:00 [DBG] Hosting stopping
+2021-01-14 14:42:26.149 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:42:26.152 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:42:26.168 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:42:26.170 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:42:26.177 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-92MIIXcOPSHo-kleAli33A
+2021-01-14 14:42:26.183 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-92MIIXcOPSHo-kleAli33A
+2021-01-14 14:42:26.188 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:42:26.188 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchs3bdcmoi3wre?temporary=true"
+2021-01-14 14:42:26.189 +08:00 [DBG] Consumer completed amq.ctag-92MIIXcOPSHo-kleAli33A: 0 received, 0 concurrent
+2021-01-14 14:42:26.189 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchs3bdcmoi3wre?temporary=true"
+2021-01-14 14:42:26.221 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:42:26.225 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:42:26.228 +08:00 [DBG] Hosting stopped
+2021-01-14 14:42:47.940 +08:00 [DBG] Hosting starting
+2021-01-14 14:42:48.155 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:42:48.159 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:42:48.162 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:42:48.197 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:42:48.228 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:42:48.234 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:42:48.238 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:42:48.242 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:42:48.250 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:42:48.257 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:42:48.259 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:42:48.260 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:42:48.265 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:42:48.268 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:42:48.270 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:42:48.271 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:42:48.333 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 51752)
+2021-01-14 14:42:48.345 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:42:48.345 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:42:48.345 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:42:48.346 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:42:48.346 +08:00 [DBG] Hosting started
+2021-01-14 14:42:48.352 +08:00 [DBG] Connection ID "16861477027960586264" disconnecting.
+2021-01-14 14:42:48.363 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:42:48.365 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:42:48.365 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:42:48.367 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcpahbdcmoih5no?temporary=true"
+2021-01-14 14:42:48.379 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:42:48.381 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:42:48.393 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 32.9696ms
+2021-01-14 14:42:48.433 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-fGpU2ogTYHuOa3hbqKjxuA
+2021-01-14 14:42:48.435 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:44:33.513 +08:00 [DBG] Hosting starting
+2021-01-14 14:44:33.735 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:44:33.741 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:44:33.744 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:44:33.781 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:44:33.812 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:44:33.818 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:44:33.822 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:44:33.827 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:44:33.834 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:44:33.841 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:44:33.844 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:44:33.845 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:44:33.847 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:44:33.849 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:44:33.851 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:44:33.851 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:44:33.915 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:44:33.916 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:44:33.916 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:44:33.916 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:44:33.916 +08:00 [DBG] Hosting started
+2021-01-14 14:44:33.930 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:44:33.931 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:44:33.943 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 51795)
+2021-01-14 14:44:33.968 +08:00 [DBG] Connection ID "17942340942824472760" disconnecting.
+2021-01-14 14:44:33.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-14 14:44:33.971 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 43.7223ms
+2021-01-14 14:44:33.976 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:44:33.977 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc3fybdcmoi64b6?temporary=true"
+2021-01-14 14:44:33.991 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:44:33.993 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:44:34.031 +08:00 [DBG] Connection ID "17942340942824472762" disconnecting.
+2021-01-14 14:44:34.031 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 63.0293ms
+2021-01-14 14:44:34.050 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-eRDQjQW6MMnjW06aHw11pQ
+2021-01-14 14:44:34.052 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:44:42.223 +08:00 [INF] Application is shutting down...
+2021-01-14 14:44:42.224 +08:00 [DBG] Hosting stopping
+2021-01-14 14:44:42.225 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:44:42.229 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:44:42.237 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:44:42.239 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:44:42.244 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-eRDQjQW6MMnjW06aHw11pQ
+2021-01-14 14:44:42.249 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-eRDQjQW6MMnjW06aHw11pQ
+2021-01-14 14:44:42.252 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc3fybdcmoi64b6?temporary=true"
+2021-01-14 14:44:42.253 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbc3fybdcmoi64b6?temporary=true"
+2021-01-14 14:44:42.254 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:44:42.255 +08:00 [DBG] Consumer completed amq.ctag-eRDQjQW6MMnjW06aHw11pQ: 0 received, 0 concurrent
+2021-01-14 14:44:42.277 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:44:42.282 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:44:42.284 +08:00 [DBG] Hosting stopped
+2021-01-14 14:47:00.005 +08:00 [DBG] Hosting starting
+2021-01-14 14:47:00.235 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:47:00.240 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:47:00.243 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:47:00.275 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:47:00.307 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:47:00.314 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:47:00.318 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:47:00.322 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:47:00.330 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:47:00.336 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:47:00.339 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:47:00.341 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:47:00.344 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:47:00.346 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:47:00.349 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:47:00.350 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:47:00.412 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:47:00.412 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:47:00.412 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:47:00.413 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:47:00.413 +08:00 [DBG] Hosting started
+2021-01-14 14:47:00.413 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 50493)
+2021-01-14 14:47:00.429 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:47:00.431 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:47:00.445 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:47:00.446 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpcihbdcmosbtrx?temporary=true"
+2021-01-14 14:47:00.460 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:47:00.461 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:47:00.469 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-01-14 14:47:00.471 +08:00 [DBG] Connection ID "17942340942824472764" disconnecting.
+2021-01-14 14:47:00.474 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 48.0884ms
+2021-01-14 14:47:00.528 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-9ein65uzdaS8rWX8IQYnRQ
+2021-01-14 14:47:00.529 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:47:00.530 +08:00 [DBG] Connection ID "18014398536862400605" disconnecting.
+2021-01-14 14:47:00.530 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 60.5449ms
+2021-01-14 14:48:40.373 +08:00 [INF] Application is shutting down...
+2021-01-14 14:48:40.374 +08:00 [DBG] Hosting stopping
+2021-01-14 14:48:40.376 +08:00 [DBG] Stopping bus instances: IBus
+2021-01-14 14:48:40.381 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-01-14 14:48:40.391 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-01-14 14:48:40.394 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-01-14 14:48:40.401 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-9ein65uzdaS8rWX8IQYnRQ
+2021-01-14 14:48:40.409 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-9ein65uzdaS8rWX8IQYnRQ
+2021-01-14 14:48:40.412 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpcihbdcmosbtrx?temporary=true"
+2021-01-14 14:48:40.412 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpcihbdcmosbtrx?temporary=true"
+2021-01-14 14:48:40.413 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-01-14 14:48:40.413 +08:00 [DBG] Consumer completed amq.ctag-9ein65uzdaS8rWX8IQYnRQ: 0 received, 0 concurrent
+2021-01-14 14:48:40.441 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-01-14 14:48:40.446 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-01-14 14:48:40.450 +08:00 [DBG] Hosting stopped
+2021-01-14 14:49:16.717 +08:00 [DBG] Hosting starting
+2021-01-14 14:49:16.957 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 14:49:16.961 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 14:49:16.966 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 14:49:17.007 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 14:49:17.038 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 14:49:17.043 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 14:49:17.049 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 14:49:17.055 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 14:49:17.064 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 14:49:17.072 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:49:17.074 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 14:49:17.076 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 14:49:17.079 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 14:49:17.082 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 14:49:17.084 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 14:49:17.085 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 14:49:17.124 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 50579)
+2021-01-14 14:49:17.157 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 14:49:17.159 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 14:49:17.159 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 14:49:17.159 +08:00 [INF] Hosting environment: Development
+2021-01-14 14:49:17.160 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 14:49:17.160 +08:00 [DBG] Hosting started
+2021-01-14 14:49:17.164 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcfibbdcmosrdyc?temporary=true"
+2021-01-14 14:49:17.169 +08:00 [DBG] Connection ID "17942340947119439975" disconnecting.
+2021-01-14 14:49:17.173 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 14:49:17.175 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 14:49:17.179 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-01-14 14:49:17.181 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 14:49:17.215 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 0 - - 39.2451ms
+2021-01-14 14:49:17.239 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-3DgIa8ZUNW0jpe06MnLFmQ
+2021-01-14 14:49:17.240 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 14:49:48.695 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0
+2021-01-14 14:49:48.696 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:49:48.722 +08:00 [DBG] No candidates found for the request path '/api/todos'
+2021-01-14 14:49:48.722 +08:00 [DBG] Request did not match any endpoints
+2021-01-14 14:49:48.735 +08:00 [INF] GET/api/todos?pageindex=1&pagesize=10nullnull"2021-01-14T14:49:48.7262680+08:00"9::1
+2021-01-14 14:49:48.736 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0 - 404 - - 41.1156ms
+2021-01-14 14:50:19.632 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0
+2021-01-14 14:50:19.633 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:50:19.634 +08:00 [DBG] No candidates found for the request path '/api/todos'
+2021-01-14 14:50:19.634 +08:00 [DBG] Request did not match any endpoints
+2021-01-14 14:50:19.635 +08:00 [INF] GET/api/todos?pageindex=1&pagesize=10nullnull"2021-01-14T14:50:19.6351018+08:00"0::1
+2021-01-14 14:50:19.636 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0 - 404 - - 3.5889ms
+2021-01-14 14:52:52.493 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0
+2021-01-14 14:52:52.493 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:52:52.493 +08:00 [DBG] No candidates found for the request path '/api/todos'
+2021-01-14 14:52:52.494 +08:00 [DBG] Request did not match any endpoints
+2021-01-14 14:52:52.495 +08:00 [INF] GET/api/todos?pageindex=1&pagesize=10nullnull"2021-01-14T14:52:52.4945999+08:00"0::1
+2021-01-14 14:52:52.495 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/todos?pageindex=1&pagesize=10 - 0 - 404 - - 2.1376ms
+2021-01-14 14:52:57.504 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 14:52:57.504 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:52:57.511 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 14:52:57.512 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:57.513 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:57.514 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:57.515 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T14:52:57.5130253+08:00"2::1
+2021-01-14 14:52:57.515 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 11.6717ms
+2021-01-14 14:52:59.432 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 14:52:59.433 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:52:59.433 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 14:52:59.433 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:59.434 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:59.434 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:52:59.434 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T14:52:59.4340883+08:00"0::1
+2021-01-14 14:52:59.435 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 2.1538ms
+2021-01-14 14:53:00.229 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 14:53:00.230 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 14:53:00.230 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 14:53:00.230 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:53:00.230 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:53:00.230 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 14:53:00.231 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T14:53:00.2305689+08:00"0::1
+2021-01-14 14:53:00.231 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 1.6958ms
+2021-01-14 15:14:46.055 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:14:46.055 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:14:46.055 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:14:46.055 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:14:46.056 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:14:46.056 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:14:46.056 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:14:46.0560961+08:00"0::1
+2021-01-14 15:14:46.056 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 1.7843ms
+2021-01-14 15:15:06.186 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:15:06.186 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:15:06.186 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:15:06.186 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:06.186 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:06.186 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:06.187 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:15:06.1867287+08:00"1::1
+2021-01-14 15:15:06.188 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 2.0978ms
+2021-01-14 15:15:10.650 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:15:10.650 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:15:10.655 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:15:10.655 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:10.656 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:10.656 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:15:10.656 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:15:10.6559805+08:00"0::1
+2021-01-14 15:15:10.656 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 6.6078ms
+2021-01-14 15:31:44.494 +08:00 [DBG] Hosting starting
+2021-01-14 15:31:44.738 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 15:31:44.743 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 15:31:44.747 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 15:31:44.786 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 15:31:44.815 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 15:31:44.820 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 15:31:44.825 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 15:31:44.830 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 15:31:44.838 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 15:31:44.847 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:31:44.849 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 15:31:44.850 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:31:44.853 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 15:31:44.856 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 15:31:44.859 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 15:31:44.860 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 15:31:44.924 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 54251)
+2021-01-14 15:31:44.957 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 15:31:44.959 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcp8sbdcmozutf8?temporary=true"
+2021-01-14 15:31:44.972 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 15:31:44.974 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 15:31:45.018 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 15:31:45.018 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 15:31:45.019 +08:00 [INF] Hosting environment: Development
+2021-01-14 15:31:45.019 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 15:31:45.019 +08:00 [DBG] Hosting started
+2021-01-14 15:31:45.037 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-ABLK2yv9____6TGB4BulDw
+2021-01-14 15:31:45.038 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 15:31:45.037 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:31:45.039 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 15:31:45.067 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:31:45.093 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:31:45.094 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:31:45.429 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:31:45.429 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:31:45.434 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:31:45.434 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:31:45.445 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:31:45.4328239+08:00"12::1
+2021-01-14 15:31:45.448 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 411.4964ms
+2021-01-14 15:32:00.878 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:32:00.879 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:32:00.880 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:32:00.880 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:00.881 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:32:00.881 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:32:00.882 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:00.882 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:00.883 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:32:00.8820586+08:00"1::1
+2021-01-14 15:32:00.883 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 5.1081ms
+2021-01-14 15:32:05.982 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:32:05.983 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:32:05.984 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:32:05.984 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:05.986 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:32:05.986 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:32:05.986 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:05.986 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:05.987 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:32:05.9868168+08:00"0::1
+2021-01-14 15:32:05.987 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 4.8360ms
+2021-01-14 15:32:06.883 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0
+2021-01-14 15:32:06.883 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:32:06.883 +08:00 [DBG] 1 candidate(s) found for the request path '/api/books'
+2021-01-14 15:32:06.883 +08:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:06.884 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:32:06.884 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:32:06.884 +08:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:06.884 +08:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-14 15:32:06.885 +08:00 [INF] GET/api/books?pageindex=1&pagesize=10nullnull"2021-01-14T15:32:06.8845010+08:00"0::1
+2021-01-14 15:32:06.885 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/books?pageindex=1&pagesize=10 - 0 - 405 - - 2.3280ms
+2021-01-14 15:33:11.699 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:33:11.699 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:33:11.700 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:33:11.704 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:33:11.704 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:33:11.704 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:33:11.705 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:33:11.708 +08:00 [INF] Authorization was successful.
+2021-01-14 15:33:11.708 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:33:11.714 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-14 15:33:11.747 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:33:11.747 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:33:11.748 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:33:11.748 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:33:11.748 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:33:11.748 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:33:11.749 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:33:11.885 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-14 15:33:11.912 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 160.7068ms
+2021-01-14 15:33:11.913 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:33:11.914 +08:00 [ERR] GET/api/Chapters?pageindex=1&pagesize=10Value cannot be null. (Parameter 'mediator')null"2021-01-14T15:33:11.7087087+08:00"0::1
+System.ArgumentNullException: Value cannot be null. (Parameter 'mediator')
+   at UltraNuke.CommonMormon.DDD.Repository..ctor(DbContext context, IMediator mediator) in F:\self-product\CommonMormon\src\DDD\Repository.cs:line 24
+   at UltraNuke.Barasingha.Novel.API.CustomExtensionsServiceCollection.<>c.<AddCustomIntegrations>b__8_0(IServiceProvider provider) in F:\self-product\Barasingha\src\Services\Novel\Novel.API\Startup.cs:line 190
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method16(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 57
+2021-01-14 15:33:12.030 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 - application/json 331.0290ms
+2021-01-14 15:35:07.992 +08:00 [DBG] Hosting starting
+2021-01-14 15:35:08.239 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-14 15:35:08.244 +08:00 [DBG] Starting bus instances: IBus
+2021-01-14 15:35:08.248 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-01-14 15:35:08.290 +08:00 [INF] Connect: guest@localhost:5672/
+2021-01-14 15:35:08.323 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-01-14 15:35:08.328 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-01-14 15:35:08.333 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-01-14 15:35:08.337 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-01-14 15:35:08.346 +08:00 [DBG] Considering key {a84a35c2-4303-4247-bb3a-791cc2be753a} with expiration date 2021-03-07 08:08:18Z as default key.
+2021-01-14 15:35:08.355 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:35:08.358 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-14 15:35:08.359 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-14 15:35:08.362 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-14 15:35:08.363 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-14 15:35:08.366 +08:00 [DBG] Using key {a84a35c2-4303-4247-bb3a-791cc2be753a} as the default key.
+2021-01-14 15:35:08.367 +08:00 [DBG] Key ring with default key {a84a35c2-4303-4247-bb3a-791cc2be753a} was loaded during application startup.
+2021-01-14 15:35:08.413 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 54331)
+2021-01-14 15:35:08.441 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-01-14 15:35:08.444 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbphdzbdcmozzk8t?temporary=true"
+2021-01-14 15:35:08.454 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-01-14 15:35:08.456 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-01-14 15:35:08.514 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-quIZN3ysrQ9ec8fWJ4xeLw
+2021-01-14 15:35:08.516 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-01-14 15:35:08.521 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-01-14 15:35:08.521 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-14 15:35:08.521 +08:00 [INF] Hosting environment: Development
+2021-01-14 15:35:08.521 +08:00 [INF] Content root path: F:\self-product\Barasingha\src\Services\Novel\Novel.API
+2021-01-14 15:35:08.521 +08:00 [DBG] Hosting started
+2021-01-14 15:35:08.538 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:35:08.540 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-14 15:35:08.569 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:35:08.601 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:35:08.604 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:35:08.605 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:35:08.941 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:35:08.942 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:35:08.946 +08:00 [INF] Authorization was successful.
+2021-01-14 15:35:08.951 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:35:08.958 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-14 15:35:08.980 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:35:08.981 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:35:08.981 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:35:08.982 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:35:08.982 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:35:08.982 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:35:08.983 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:35:09.113 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-14 15:35:09.283 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:35:09.287 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:35:09.289 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:35:09.290 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.290 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.290 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.291 +08:00 [DBG] Attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:35:09.292 +08:00 [DBG] Done attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.293 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:35:09.294 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:35:09.294 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.294 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.294 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.294 +08:00 [DBG] Attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:35:09.295 +08:00 [DBG] Done attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:35:09.295 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-01-14 15:35:09.295 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:35:09.296 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-01-14 15:35:09.296 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:35:09.296 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:35:09.296 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-01-14 15:35:09.297 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-01-14 15:35:09.297 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:35:09.297 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:35:09.297 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:35:09.298 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:35:09.298 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:35:09.298 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:35:09.299 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:35:09.299 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:35:09.299 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:35:09.299 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:35:09.299 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:35:09.300 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:35:09.725 +08:00 [DBG] The property 'SubCategoryId.Book' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:35:09.725 +08:00 [DBG] The property 'SegmentId.Chapter' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:35:09.725 +08:00 [DBG] The property 'BookId.Segment' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:35:09.725 +08:00 [DBG] The property 'MainCategoryId.SubCategory' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-01-14 15:35:09.856 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-01-14 15:35:09.979 +08:00 [DBG] Compiling query expression: 
+'DbSet<Chapter>()
+    .Where(w => w.UpdateTime >= __startUpdateTime_0 && w.UpdateTime < __endUpdateTime_1)
+    .AsNoTracking()
+    .Count()'
+2021-01-14 15:35:10.088 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM N_Chapter AS n
+            WHERE (n.UpdateTime >= @__startUpdateTime_0) && (n.UpdateTime < @__endUpdateTime_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        UltraNuke.Barasingha.Novel.Infrastructure.NovelContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-01-14 15:35:10.125 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:35:10.150 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (22ms).
+2021-01-14 15:35:10.162 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.369 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.380 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:35:10.590 +08:00 [INF] Executed DbCommand (210ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:35:10.610 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:35:10.613 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.617 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.626 +08:00 [DBG] Compiling query expression: 
+'DbSet<Chapter>()
+    .Where(w => w.UpdateTime >= __startUpdateTime_0 && w.UpdateTime < __endUpdateTime_1)
+    .Include(b => b.Segment)
+    .AsNoTracking()
+    .OrderBy(o => o.No)
+    .Skip(__p_2)
+    .Take(__p_3)'
+2021-01-14 15:35:10.648 +08:00 [DBG] Including navigation: 'Chapter.Segment'.
+2021-01-14 15:35:10.703 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Chapter>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT t.Id, t.Content, t.Name, t.No, t.ReleaseTime, t.SegmentId, t.UpdateTime, n0.Id, n0.BookId, n0.Name, n0.No
+        FROM Projection Mapping:
+        (
+            SELECT n.Id, n.Content, n.Name, n.No, n.ReleaseTime, n.SegmentId, n.UpdateTime
+            FROM N_Chapter AS n
+            WHERE (n.UpdateTime >= @__startUpdateTime_0) && (n.UpdateTime < @__endUpdateTime_1)
+            ORDER BY n.No ASC
+            OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+        ) AS t
+        LEFT JOIN N_Segment AS n0 ON t.SegmentId == n0.Id
+        ORDER BY t.No ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Chapter>, 
+    UltraNuke.Barasingha.Novel.Infrastructure.NovelContext, 
+    False, 
+    False
+)'
+2021-01-14 15:35:10.709 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:35:10.710 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:35:10.710 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.710 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.711 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:35:10.719 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:35:10.721 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:35:10.721 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.721 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:35:10.740 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:35:10.741 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:35:10.741 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:35:10.741 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:35:10.742 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:35:10.742 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:35:10.827 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 1839.6242ms
+2021-01-14 15:35:10.829 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:35:10.835 +08:00 [INF] GET/api/Chapters?pageindex=1&pagesize=10nullnull"2021-01-14T15:35:08.9496664+08:00"1887::1
+2021-01-14 15:35:10.839 +08:00 [DBG] 'NovelContext' disposed.
+2021-01-14 15:35:10.841 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 22 application/json;+charset=utf-8 2304.3393ms
+2021-01-14 15:39:09.732 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:39:09.732 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:39:09.734 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:39:09.735 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:39:09.735 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:39:09.736 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:39:09.736 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:39:09.737 +08:00 [INF] Authorization was successful.
+2021-01-14 15:39:09.737 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:39:09.738 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:39:09.738 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:39:09.738 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:39:09.738 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:39:09.738 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:39:09.739 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:39:09.739 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:39:09.740 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:39:09.740 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:39:09.741 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:39:09.741 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.741 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.741 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.741 +08:00 [DBG] Attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:39:09.741 +08:00 [DBG] Done attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.741 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:39:09.742 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:39:09.742 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.742 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.742 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.742 +08:00 [DBG] Attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:39:09.742 +08:00 [DBG] Done attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:39:09.742 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-01-14 15:39:09.743 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:39:09.743 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-01-14 15:39:09.743 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:39:09.743 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:39:09.743 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-01-14 15:39:09.743 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-01-14 15:39:09.743 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:39:09.744 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:39:09.744 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:39:09.744 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:39:09.744 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:39:09.744 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:39:09.744 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:39:09.744 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:39:09.745 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:39:09.745 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:39:09.745 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:39:09.745 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:39:09.772 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-01-14 15:39:09.776 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:39:09.777 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:39:09.777 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.778 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.778 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:39:09.781 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:39:09.781 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:39:09.781 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.782 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.782 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:39:09.782 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:39:09.783 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.783 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.783 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:39:09.786 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:39:09.787 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:39:09.787 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.787 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:39:09.788 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:39:09.788 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:39:09.788 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:39:09.788 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:39:09.789 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:39:09.789 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:39:09.790 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 50.8263ms
+2021-01-14 15:39:09.790 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:39:09.790 +08:00 [INF] GET/api/Chapters?pageindex=1&pagesize=10nullnull"2021-01-14T15:39:09.7375866+08:00"53::1
+2021-01-14 15:39:09.792 +08:00 [DBG] 'NovelContext' disposed.
+2021-01-14 15:39:09.793 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 22 application/json;+charset=utf-8 61.1036ms
+2021-01-14 15:40:38.276 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:40:38.277 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:40:38.277 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:40:38.277 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:40:38.277 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:40:38.280 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:40:38.280 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:40:38.281 +08:00 [INF] Authorization was successful.
+2021-01-14 15:40:38.281 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:40:38.282 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:40:38.282 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:40:38.282 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:40:38.282 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:40:38.283 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:40:38.283 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:40:38.283 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:40:38.285 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:40:38.285 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:40:38.286 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:40:38.286 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.286 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.286 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.286 +08:00 [DBG] Attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:40:38.286 +08:00 [DBG] Done attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.286 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:40:38.286 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:40:38.287 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.287 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.287 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.287 +08:00 [DBG] Attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:40:38.287 +08:00 [DBG] Done attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:40:38.287 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-01-14 15:40:38.287 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:40:38.288 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-01-14 15:40:38.288 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:40:38.288 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:40:38.288 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-01-14 15:40:38.288 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-01-14 15:40:38.288 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:40:38.288 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:40:38.288 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:40:38.289 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:40:38.289 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:40:38.289 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:40:38.289 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:40:38.289 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:40:38.289 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:40:38.290 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:40:38.290 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:40:38.290 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:40:38.298 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-01-14 15:40:38.299 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:40:38.300 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:40:38.300 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.300 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.300 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:40:38.303 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:40:38.303 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:40:38.303 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.304 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.304 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:40:38.304 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:40:38.304 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.305 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.305 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:40:38.309 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:40:38.309 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:40:38.310 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.310 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:40:38.311 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:40:38.312 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:40:38.312 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:40:38.312 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:40:38.312 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:40:38.312 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:40:38.313 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 29.5073ms
+2021-01-14 15:40:38.313 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:40:38.313 +08:00 [INF] GET/api/Chapters?pageindex=1&pagesize=10nullnull"2021-01-14T15:40:38.2817656+08:00"31::1
+2021-01-14 15:40:38.313 +08:00 [DBG] 'NovelContext' disposed.
+2021-01-14 15:40:38.313 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 22 application/json;+charset=utf-8 37.6167ms
+2021-01-14 15:41:17.040 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:41:17.041 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:41:17.041 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:41:17.041 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:41:17.041 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:41:17.042 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:41:17.042 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:41:17.042 +08:00 [INF] Authorization was successful.
+2021-01-14 15:41:17.043 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:41:17.043 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:41:17.043 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:41:17.044 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:41:17.044 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:41:17.044 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:41:17.044 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:41:17.044 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:41:17.045 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:41:17.045 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:41:17.045 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:41:17.045 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.046 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.046 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.046 +08:00 [DBG] Attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:41:17.046 +08:00 [DBG] Done attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.046 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:41:17.046 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:41:17.047 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.047 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.047 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.047 +08:00 [DBG] Attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:41:17.047 +08:00 [DBG] Done attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:41:17.047 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-01-14 15:41:17.047 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:41:17.047 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-01-14 15:41:17.048 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:41:17.048 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:41:17.048 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-01-14 15:41:17.048 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-01-14 15:41:17.048 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:41:17.048 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:41:17.048 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:41:17.049 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:41:17.049 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:41:17.049 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:41:17.049 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:41:17.049 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:41:17.049 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:41:17.049 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:41:17.049 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:41:17.049 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:41:17.050 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-01-14 15:41:17.051 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:41:17.052 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:41:17.052 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.052 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.052 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:41:17.054 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:41:17.055 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:41:17.055 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.055 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.055 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:41:17.056 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:41:17.056 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.056 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.056 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:41:17.064 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:41:17.064 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:41:17.065 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.065 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:41:17.065 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:41:17.065 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:41:17.065 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:41:17.065 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:41:17.065 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:41:17.065 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:41:17.067 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 22.4325ms
+2021-01-14 15:41:17.067 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:41:17.067 +08:00 [INF] GET/api/Chapters?pageindex=1&pagesize=10nullnull"2021-01-14T15:41:17.0429550+08:00"24::1
+2021-01-14 15:41:17.067 +08:00 [DBG] 'NovelContext' disposed.
+2021-01-14 15:41:17.067 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 22 application/json;+charset=utf-8 27.4068ms
+2021-01-14 15:45:20.593 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0
+2021-01-14 15:45:20.593 +08:00 [DBG] The request path  does not match the path filter
+2021-01-14 15:45:20.594 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Chapters'
+2021-01-14 15:45:20.594 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Chapters' is valid for the request path '/api/Chapters'
+2021-01-14 15:45:20.594 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:45:20.594 +08:00 [INF] Successfully validated the token.
+2021-01-14 15:45:20.594 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-01-14 15:45:20.595 +08:00 [INF] Authorization was successful.
+2021-01-14 15:45:20.595 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:45:20.595 +08:00 [INF] Route matched with {action = "Query", controller = "Chapters"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO]]] Query(System.DateTime, System.DateTime, System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API).
+2021-01-14 15:45:20.595 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-14 15:45:20.595 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-01-14 15:45:20.596 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-01-14 15:45:20.596 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-14 15:45:20.596 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-14 15:45:20.596 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:45:20.596 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController (UltraNuke.Barasingha.Novel.API)
+2021-01-14 15:45:20.596 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:45:20.597 +08:00 [DBG] Attempting to bind parameter 'startUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:45:20.597 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.597 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.597 +08:00 [DBG] Done attempting to bind parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.597 +08:00 [DBG] Attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:45:20.597 +08:00 [DBG] Done attempting to validate the bound parameter 'startUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.597 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:45:20.598 +08:00 [DBG] Attempting to bind parameter 'endUpdateTime' of type 'System.DateTime' using the name '' in request data ...
+2021-01-14 15:45:20.598 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.598 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.598 +08:00 [DBG] Done attempting to bind parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.598 +08:00 [DBG] Attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime' ...
+2021-01-14 15:45:20.598 +08:00 [DBG] Done attempting to validate the bound parameter 'endUpdateTime' of type 'System.DateTime'.
+2021-01-14 15:45:20.598 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-01-14 15:45:20.598 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-01-14 15:45:20.599 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-01-14 15:45:20.599 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:45:20.599 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-01-14 15:45:20.599 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-01-14 15:45:20.599 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-01-14 15:45:20.599 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:45:20.599 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-01-14 15:45:20.599 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:45:20.600 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:45:20.600 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-01-14 15:45:20.600 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-01-14 15:45:20.600 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:45:20.600 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-01-14 15:45:20.600 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:45:20.600 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:45:20.600 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-01-14 15:45:20.601 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-01-14 15:45:20.601 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-01-14 15:45:20.602 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:45:20.602 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:45:20.602 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.602 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.602 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:45:20.605 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [N_Chapter] AS [n]
+WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+2021-01-14 15:45:20.606 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:45:20.606 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.606 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.608 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-14 15:45:20.608 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-14 15:45:20.609 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.609 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.609 +08:00 [DBG] Executing DbCommand [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:45:20.612 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__startUpdateTime_0='?' (DbType = DateTime2), @__endUpdateTime_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Content], [t].[Name], [t].[No], [t].[ReleaseTime], [t].[SegmentId], [t].[UpdateTime], [n0].[Id], [n0].[BookId], [n0].[Name], [n0].[No]
+FROM (
+    SELECT [n].[Id], [n].[Content], [n].[Name], [n].[No], [n].[ReleaseTime], [n].[SegmentId], [n].[UpdateTime]
+    FROM [N_Chapter] AS [n]
+    WHERE ([n].[UpdateTime] >= @__startUpdateTime_0) AND ([n].[UpdateTime] < @__endUpdateTime_1)
+    ORDER BY [n].[No]
+    OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+) AS [t]
+LEFT JOIN [N_Segment] AS [n0] ON [t].[SegmentId] = [n0].[Id]
+ORDER BY [t].[No]
+2021-01-14 15:45:20.613 +08:00 [DBG] A data reader was disposed.
+2021-01-14 15:45:20.613 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.613 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-01-14 15:45:20.613 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-01-14 15:45:20.613 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-01-14 15:45:20.614 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-14 15:45:20.614 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-14 15:45:20.614 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-14 15:45:20.614 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.ChapterDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-14 15:45:20.617 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API) in 20.6341ms
+2021-01-14 15:45:20.617 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.ChaptersController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-01-14 15:45:20.617 +08:00 [INF] GET/api/Chapters?pageindex=1&pagesize=10nullnull"2021-01-14T15:45:20.5952697+08:00"22::1
+2021-01-14 15:45:20.617 +08:00 [DBG] 'NovelContext' disposed.
+2021-01-14 15:45:20.617 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Chapters?pageindex=1&pagesize=10 - 0 - 200 22 application/json;+charset=utf-8 24.3224ms
