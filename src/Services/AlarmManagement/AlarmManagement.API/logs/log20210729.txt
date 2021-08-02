@@ -1,0 +1,1085 @@
+2021-07-29 10:20:25.425 +08:00 [FTL] Failed to start UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:28:36.346 +08:00 [DBG] Hosting starting
+2021-07-29 10:28:36.591 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:28:36.592 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:28:36.593 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:28:36.593 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:28:36.593 +08:00 [DBG] Hosting started
+2021-07-29 10:28:36.611 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:28:36.615 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:28:36.764 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 153.9518ms
+2021-07-29 10:28:36.765 +08:00 [DBG] Connection ID "18230571310386250258" disconnecting.
+2021-07-29 10:28:36.961 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:28:36.970 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/favicon-32x32.png - -
+2021-07-29 10:28:36.982 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-07-29 10:28:36.983 +08:00 [DBG] Connection ID "18230571310386250260" disconnecting.
+2021-07-29 10:28:36.984 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/favicon-32x32.png - - - 200 628 image/png 12.7826ms
+2021-07-29 10:28:37.127 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.0426ms
+2021-07-29 10:28:37.128 +08:00 [DBG] Connection ID "17654110540902957179" disconnecting.
+2021-07-29 10:29:06.703 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:29:06.703 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:29:06.730 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:29:06.733 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:29:06.734 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:06.737 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:06.744 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:29:06.761 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:29:06.762 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:29:06.762 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:29:06.762 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:29:06.763 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:29:06.763 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:29:06.763 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:29:06.764 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:29:06.768 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:06.771 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:29:06.771 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.771 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.771 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.771 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:06.773 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.775 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:06.775 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:29:06.775 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.776 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.776 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.776 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:06.776 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:06.776 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:29:06.776 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:29:06.777 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:29:06.777 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:29:06.777 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:29:06.777 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:29:06.778 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:29:06.778 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:29:06.778 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:29:06.778 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:06.779 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:06.779 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:29:06.779 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:06.780 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:29:06.780 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:29:06.780 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:06.780 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:06.780 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:29:06.780 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:07.392 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 625.5188ms
+2021-07-29 10:29:07.393 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:07.395 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))nullnull0
+System.AggregateException: One or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))
+ ---> System.ApplicationException: Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple)
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 319
+   at UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmQueries.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Application\Queries\AlarmQueries.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Controllers\AlarmsController.cs:line 38
+   at lambda_method14(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-07-29 10:29:07.498 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:29:07.512 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:29:07.513 +08:00 [ERR] Connection ID "18230571310386250262", Request ID "80000217-0004-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-29 10:29:07.519 +08:00 [DBG] Connection ID "18230571310386250262" disconnecting.
+2021-07-29 10:29:07.519 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 500 - - 815.9515ms
+2021-07-29 10:29:28.376 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:29:28.377 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:29:28.377 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:29:28.377 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:29:28.377 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:28.378 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:28.378 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:29:28.378 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:29:28.378 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:29:28.379 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:29:28.379 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:29:28.379 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:29:28.379 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:29:28.379 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:29:28.379 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:28.380 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:29:28.380 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.380 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.380 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.380 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:28.380 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.380 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:28.381 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:29:28.381 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.381 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.381 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.381 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:29:28.381 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:29:28.382 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:29:28.382 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:29:28.382 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:29:28.382 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:29:28.382 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:29:28.382 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:29:28.382 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:29:28.382 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:29:28.382 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:28.383 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:29:28.383 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:29:28.383 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:28.383 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:29:28.383 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:29:28.387 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 8.4426ms
+2021-07-29 10:29:28.388 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:29:28.388 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))nullnull0
+System.AggregateException: One or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))
+ ---> System.ApplicationException: Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple)
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 319
+   at UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmQueries.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Application\Queries\AlarmQueries.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Controllers\AlarmsController.cs:line 38
+   at lambda_method14(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-07-29 10:29:28.390 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:29:28.400 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:29:28.401 +08:00 [ERR] Connection ID "16933534630588448933", Request ID "800000a6-0007-eb00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-29 10:29:28.405 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 500 - - 28.8658ms
+2021-07-29 10:30:08.318 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:30:08.318 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:30:08.318 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:30:08.318 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:30:08.318 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:30:08.319 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:30:08.320 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:30:08.320 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:30:08.320 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:30:08.320 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:30:08.320 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:30:08.320 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:30:08.321 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:30:08.321 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:30:08.321 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:08.322 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:30:08.322 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.322 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.322 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.322 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:08.322 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.322 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:08.322 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:30:08.322 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:30:08.323 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:30:08.323 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:30:08.323 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:08.324 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:08.324 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:30:08.324 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:08.324 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:30:08.324 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:08.332 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 10.9858ms
+2021-07-29 10:30:08.332 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:30:08.332 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))nullnull0
+System.AggregateException: One or more errors occurred. (Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple))
+ ---> System.ApplicationException: Attempting to cast a DBNull to a non nullable type! Note that out/return parameters will not have updated values until the data stream completes (after the 'foreach' for Query(..., buffered: false), or after the GridReader has been disposed for QueryMultiple)
+   at Dapper.DynamicParameters.Get[T](String name) in /_/Dapper/DynamicParameters.cs:line 319
+   at UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmQueries.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Application\Queries\AlarmQueries.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query(Nullable`1 levelId, Nullable`1 categoryId, String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Controllers\AlarmsController.cs:line 38
+   at lambda_method14(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-07-29 10:30:08.334 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:30:08.341 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:30:08.342 +08:00 [ERR] Connection ID "18230571314681217994", Request ID "800003cb-0005-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-29 10:30:08.347 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 500 - - 29.4074ms
+2021-07-29 10:30:24.701 +08:00 [DBG] Hosting starting
+2021-07-29 10:30:25.035 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:30:25.045 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:30:25.046 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:30:25.065 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:30:25.108 +08:00 [DBG] Hosting started
+2021-07-29 10:30:25.135 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:30:25.135 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:30:25.142 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:30:25.142 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:30:25.255 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:30:25.284 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:30:25.291 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:30:25.294 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:30:25.301 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:30:25.312 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:30:25.360 +08:00 [DBG] Connection ID "18086456109425492079" disconnecting.
+2021-07-29 10:30:25.365 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 238.3822ms
+2021-07-29 10:30:25.368 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:30:25.396 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:30:25.398 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:30:25.401 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:30:25.405 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:30:25.408 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:30:25.411 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:30:25.414 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:30:25.423 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:25.428 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:30:25.431 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.433 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.436 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.438 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:25.441 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.445 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:25.447 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:30:25.449 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.451 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.453 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.455 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:30:25.457 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:30:25.459 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:30:25.461 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:30:25.463 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:30:25.465 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:30:25.467 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:30:25.469 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:30:25.472 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:30:25.474 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:30:25.476 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:30:25.478 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:25.480 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:25.482 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:30:25.485 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:30:25.487 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:30:25.490 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:30:25.492 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:25.494 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:25.496 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:30:25.498 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:30:25.569 +08:00 [INF] Executing action method UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) - Validation state: "Valid"
+2021-07-29 10:30:27.725 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:30:31.553 +08:00 [DBG] Connection ID "18158513716348322557" disconnecting.
+2021-07-29 10:30:31.553 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3827.7886ms
+2021-07-29 10:32:51.843 +08:00 [DBG] Hosting starting
+2021-07-29 10:32:52.095 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:32:52.105 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:32:52.106 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:32:52.138 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:32:52.139 +08:00 [DBG] Hosting started
+2021-07-29 10:32:52.170 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:32:52.177 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:32:52.420 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 260.1475ms
+2021-07-29 10:32:52.422 +08:00 [DBG] Connection ID "17654110540902957181" disconnecting.
+2021-07-29 10:32:52.574 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:32:52.756 +08:00 [DBG] Connection ID "17654110540902957183" disconnecting.
+2021-07-29 10:32:52.759 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.8973ms
+2021-07-29 10:32:53.177 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:32:53.181 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:32:53.216 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:32:53.222 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:32:53.225 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:32:53.234 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:32:53.246 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:32:53.278 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:32:53.284 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:32:53.287 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:32:53.289 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:32:53.292 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:32:53.294 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:32:53.298 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:32:53.301 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:32:53.309 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:32:53.315 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:32:53.318 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.320 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.322 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.324 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:32:53.327 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.331 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:32:53.333 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:32:53.335 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.337 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.338 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.340 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:32:53.343 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:32:53.346 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:32:53.348 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:32:53.350 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:32:53.352 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:32:53.354 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:32:53.355 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:32:53.358 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:32:53.360 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:32:53.363 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:32:53.365 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:32:53.367 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:32:53.369 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:32:53.372 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:32:53.375 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:32:53.377 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:32:53.379 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:32:53.381 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:32:53.383 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:32:53.385 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:32:53.464 +08:00 [INF] Executing action method UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) - Validation state: "Valid"
+2021-07-29 10:32:55.803 +08:00 [INF] Executed action method UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2332.4674ms.
+2021-07-29 10:32:55.807 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:32:55.810 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:32:55.812 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:32:55.815 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:32:55.818 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:32:55.821 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:32:55.872 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 2571.3964ms
+2021-07-29 10:32:55.874 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:32:55.885 +08:00 [INF]  "2021-07-29T10:32:55.8766719+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=10{"Total":9,"Items":[{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"60977d99-bf14-4f3a-891a-ad73011fc043","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"8a5b4798-258d-4a45-896b-ad73011fc1e9","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"c6436016-4683-402d-9982-ad73011fc303","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"8af10ca4-abf6-40a2-b9c7-ad73011fc3c4","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"98255b81-6b24-43b1-9ff7-ad73011fc467","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"1a51dc90-be90-451f-b07a-ad73011fc4f3","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"45d8fe0c-52c0-4762-87fe-ad73011fc64b","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0},{"Id":"416ef898-ac8f-4863-a4e3-ad73011fc6da","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0}]}null::12642
+2021-07-29 10:32:55.889 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 200 2370 application/json;+charset=utf-8 2711.9580ms
+2021-07-29 10:35:20.235 +08:00 [DBG] Hosting starting
+2021-07-29 10:35:20.440 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:35:20.441 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:35:20.441 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:35:20.442 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:35:20.442 +08:00 [DBG] Hosting started
+2021-07-29 10:35:20.457 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:35:20.459 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:35:20.544 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 88.8131ms
+2021-07-29 10:35:20.545 +08:00 [DBG] Connection ID "17942340917054669368" disconnecting.
+2021-07-29 10:35:20.703 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:35:20.843 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.6649ms
+2021-07-29 10:35:20.843 +08:00 [DBG] Connection ID "18158513716348322559" disconnecting.
+2021-07-29 10:36:01.996 +08:00 [DBG] Hosting starting
+2021-07-29 10:36:02.207 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:36:02.208 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:36:02.208 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:36:02.209 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:36:02.209 +08:00 [DBG] Hosting started
+2021-07-29 10:36:02.226 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:36:02.228 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:36:02.257 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:36:02.278 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:36:02.282 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:36:02.283 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:02.286 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:02.292 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:36:02.308 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:36:02.311 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:36:02.312 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:36:02.312 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:36:02.312 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:36:02.312 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:36:02.313 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:02.314 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:02.320 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:02.323 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:02.323 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.324 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.324 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.324 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:02.325 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.326 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:02.327 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:02.327 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.327 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.327 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.327 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:02.327 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:02.327 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:02.328 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:36:02.328 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:36:02.328 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:02.328 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:02.328 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:02.329 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:36:02.329 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:02.329 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:36:02.329 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:02.329 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:02.329 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:02.330 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:02.330 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:02.330 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:36:02.331 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:02.331 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:02.331 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:02.331 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:02.821 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:36:02.823 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:36:02.823 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:36:02.823 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:36:02.824 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:36:02.824 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:36:02.910 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 594.6481ms
+2021-07-29 10:36:02.911 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:02.916 +08:00 [INF]  "2021-07-29T10:36:02.9116221+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=10{"Total":9,"Items":[{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"60977d99-bf14-4f3a-891a-ad73011fc043","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8a5b4798-258d-4a45-896b-ad73011fc1e9","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"c6436016-4683-402d-9982-ad73011fc303","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8af10ca4-abf6-40a2-b9c7-ad73011fc3c4","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"98255b81-6b24-43b1-9ff7-ad73011fc467","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"1a51dc90-be90-451f-b07a-ad73011fc4f3","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"45d8fe0c-52c0-4762-87fe-ad73011fc64b","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"416ef898-ac8f-4863-a4e3-ad73011fc6da","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"}]}null::1625
+2021-07-29 10:36:02.926 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 200 2586 application/json;+charset=utf-8 702.1883ms
+2021-07-29 10:36:37.994 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=%E6%9C%BA%E5%8F%91%E7%94%9F%E8%B6%85 - -
+2021-07-29 10:36:37.994 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:36:37.995 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:36:37.995 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:36:37.996 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:37.996 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:37.998 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:36:37.998 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:36:37.998 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:36:37.998 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:36:37.998 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:36:37.999 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:36:37.999 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:37.999 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:38.000 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:38.000 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:38.000 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.000 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.000 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.001 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:38.001 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.001 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:38.001 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:38.001 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.002 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.002 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.002 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:38.002 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:38.002 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:38.002 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ...
+2021-07-29 10:36:38.002 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:38.002 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:38.003 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:38.003 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:36:38.003 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:38.003 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:36:38.003 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:38.003 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:38.004 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:38.004 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:38.004 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:38.004 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:36:38.004 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:38.004 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:38.004 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:38.005 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:38.022 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:36:38.022 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:36:38.022 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:36:38.022 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:36:38.022 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:36:38.022 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:36:38.023 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 24.3265ms
+2021-07-29 10:36:38.023 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:38.023 +08:00 [INF]  "2021-07-29T10:36:38.0236629+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=%E6%9C%BA%E5%8F%91%E7%94%9F%E8%B6%85{"Total":9,"Items":[{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"60977d99-bf14-4f3a-891a-ad73011fc043","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8a5b4798-258d-4a45-896b-ad73011fc1e9","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"c6436016-4683-402d-9982-ad73011fc303","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8af10ca4-abf6-40a2-b9c7-ad73011fc3c4","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"98255b81-6b24-43b1-9ff7-ad73011fc467","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"1a51dc90-be90-451f-b07a-ad73011fc4f3","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"45d8fe0c-52c0-4762-87fe-ad73011fc64b","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"416ef898-ac8f-4863-a4e3-ad73011fc6da","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"}]}null::126
+2021-07-29 10:36:38.024 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=%E6%9C%BA%E5%8F%91%E7%94%9F%E8%B6%85 - - - 200 2586 application/json;+charset=utf-8 30.4872ms
+2021-07-29 10:36:44.798 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=1 - -
+2021-07-29 10:36:44.799 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:36:44.799 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:36:44.799 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:36:44.799 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:44.800 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:44.801 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:36:44.801 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:36:44.801 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:36:44.801 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:36:44.801 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:36:44.801 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:36:44.801 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:44.802 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:44.802 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:44.802 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:44.802 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.802 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.803 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.803 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:44.803 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.803 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:44.803 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:44.803 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.803 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.804 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.804 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:44.804 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:44.804 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:44.804 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ...
+2021-07-29 10:36:44.804 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:44.804 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:44.804 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:44.804 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:36:44.805 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:44.805 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:36:44.805 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:44.805 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:44.805 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:44.805 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:44.805 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:44.805 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:36:44.805 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:44.806 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:44.806 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:44.806 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:44.807 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:36:44.808 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:36:44.808 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:36:44.808 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:36:44.808 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:36:44.808 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:36:44.808 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 7.0495ms
+2021-07-29 10:36:44.808 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:44.808 +08:00 [INF]  "2021-07-29T10:36:44.8088677+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=1{"Total":0,"Items":[]}null::18
+2021-07-29 10:36:44.809 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10&name=1 - - - 200 22 application/json;+charset=utf-8 10.4059ms
+2021-07-29 10:36:48.840 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - -
+2021-07-29 10:36:48.840 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:36:48.840 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:36:48.840 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:36:48.841 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:48.841 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:48.841 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:36:48.842 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:36:48.844 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:36:48.844 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:36:48.844 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:36:48.844 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:36:48.845 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:48.845 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:48.845 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:48.845 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:48.845 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.845 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.845 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.845 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:48.845 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.845 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:48.846 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:48.846 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.846 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.846 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.846 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:48.846 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:48.846 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:48.846 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:36:48.846 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:36:48.846 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:48.847 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:48.847 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:36:48.847 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:48.847 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:48.847 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:48.848 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:36:48.848 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:48.848 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:48.848 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:48.848 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:48.849 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:36:48.849 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:36:48.849 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:36:48.849 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:36:48.849 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:36:48.849 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:36:48.850 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 5.2253ms
+2021-07-29 10:36:48.850 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:48.850 +08:00 [INF]  "2021-07-29T10:36:48.8504438+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=10{"Total":9,"Items":[{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"60977d99-bf14-4f3a-891a-ad73011fc043","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8a5b4798-258d-4a45-896b-ad73011fc1e9","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"c6436016-4683-402d-9982-ad73011fc303","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"8af10ca4-abf6-40a2-b9c7-ad73011fc3c4","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"98255b81-6b24-43b1-9ff7-ad73011fc467","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"1a51dc90-be90-451f-b07a-ad73011fc4f3","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"45d8fe0c-52c0-4762-87fe-ad73011fc64b","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"416ef898-ac8f-4863-a4e3-ad73011fc6da","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"}]}null::18
+2021-07-29 10:36:48.853 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=10 - - - 200 2586 application/json;+charset=utf-8 12.9783ms
+2021-07-29 10:36:53.839 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=2 - -
+2021-07-29 10:36:53.839 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:36:53.839 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms'
+2021-07-29 10:36:53.839 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms' is valid for the request path '/api/Alarms'
+2021-07-29 10:36:53.840 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:53.840 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:53.840 +08:00 [INF] Route matched with {action = "Query", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm]] Query(System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, Int32, Int32) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:36:53.840 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:36:53.840 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:36:53.840 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:36:53.840 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:36:53.840 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:36:53.840 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:53.841 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to bind parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to validate the bound parameter 'levelId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' using the name '' in request data ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to bind parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]' ...
+2021-07-29 10:36:53.841 +08:00 [DBG] Done attempting to validate the bound parameter 'categoryId' of type 'System.Nullable`1[System.Guid]'.
+2021-07-29 10:36:53.841 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-07-29 10:36:53.842 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-07-29 10:36:53.842 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:53.843 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-07-29 10:36:53.843 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:53.843 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:53.843 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-07-29 10:36:53.843 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-07-29 10:36:53.844 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:36:53.844 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:36:53.844 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:36:53.844 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:36:53.844 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:36:53.844 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.Alarm, UltraNuke.Barasingha.AlarmManagement.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-07-29 10:36:53.845 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API) in 4.2898ms
+2021-07-29 10:36:53.845 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Query (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:36:53.845 +08:00 [INF]  "2021-07-29T10:36:53.8453515+08:00"GEThttpslocalhost:44390/api/Alarms?pageIndex=1&pageSize=2{"Total":9,"Items":[{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"},{"Id":"60977d99-bf14-4f3a-891a-ad73011fc043","OccurrenceTime":"2021-07-28T08:09:00","LevelName":"Ⅲ级","CategoryName":"超载告警","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","Count":"1","State":0,"StateName":"待认领"}]}null::15
+2021-07-29 10:36:53.845 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms?pageIndex=1&pageSize=2 - - - 200 591 application/json;+charset=utf-8 6.3772ms
+2021-07-29 10:52:23.970 +08:00 [DBG] Hosting starting
+2021-07-29 10:52:24.216 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:52:24.217 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:52:24.217 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:52:24.217 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:52:24.218 +08:00 [DBG] Hosting started
+2021-07-29 10:52:24.234 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:52:24.237 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:52:24.334 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 101.4611ms
+2021-07-29 10:52:24.334 +08:00 [DBG] Connection ID "17437937767379108387" disconnecting.
+2021-07-29 10:52:24.844 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:52:25.020 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.0272ms
+2021-07-29 10:52:25.020 +08:00 [DBG] Connection ID "18302628913014112573" disconnecting.
+2021-07-29 10:52:36.148 +08:00 [DBG] Hosting starting
+2021-07-29 10:52:36.364 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:52:36.365 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:52:36.365 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:52:36.365 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:52:36.365 +08:00 [DBG] Hosting started
+2021-07-29 10:52:36.382 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - -
+2021-07-29 10:52:36.385 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:52:36.419 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:52:36.441 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:52:36.444 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms/{id}' is valid for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:52:36.445 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:52:36.448 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:52:36.454 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:52:36.472 +08:00 [INF] Route matched with {action = "Get", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmForGet] Get(System.Guid) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:52:36.474 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:52:36.475 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:52:36.475 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:52:36.475 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:52:36.475 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:52:36.476 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:52:36.477 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:52:36.483 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:52:36.484 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-07-29 10:52:36.485 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:36.485 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:36.485 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:52:36.487 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:36.946 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API) in 466.9056ms
+2021-07-29 10:52:36.947 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:52:36.948 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (对象名 'Alarm' 无效。)nullnull0
+System.AggregateException: One or more errors occurred. (对象名 'Alarm' 无效。)
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 对象名 'Alarm' 无效。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1055
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1083
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 725
+   at UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmQueries.Get(Guid id) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Application\Queries\AlarmQueries.cs:line 51
+ClientConnectionId:3e4f9799-dde0-4b15-9d20-019cdc6674fc
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get(Guid id) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Controllers\AlarmsController.cs:line 49
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-07-29 10:52:37.058 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:52:37.068 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:52:37.069 +08:00 [ERR] Connection ID "18230571314681218000", Request ID "800003d1-0005-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-29 10:52:37.080 +08:00 [DBG] Connection ID "18230571314681218000" disconnecting.
+2021-07-29 10:52:37.080 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - - - 500 - - 699.5316ms
+2021-07-29 10:52:58.090 +08:00 [DBG] Hosting starting
+2021-07-29 10:52:58.350 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:52:58.359 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:52:58.361 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:52:58.362 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:52:58.373 +08:00 [DBG] Hosting started
+2021-07-29 10:52:58.398 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:52:58.403 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:52:58.582 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - -
+2021-07-29 10:52:58.594 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:52:58.625 +08:00 [DBG] Connection ID "17726168147825787210" disconnecting.
+2021-07-29 10:52:58.630 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 239.2023ms
+2021-07-29 10:52:58.703 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:52:58.710 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms/{id}' is valid for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:52:58.714 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:52:58.723 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:52:58.735 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:52:58.764 +08:00 [INF] Route matched with {action = "Get", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmForGet] Get(System.Guid) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:52:58.770 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:52:58.774 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:52:58.778 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:52:58.781 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:52:58.784 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:52:58.787 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:52:58.791 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:52:58.801 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:52:58.805 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-07-29 10:52:58.809 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:58.811 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:58.813 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:52:58.818 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-07-29 10:52:58.897 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:52:58.901 +08:00 [INF] Executing action method UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API) - Validation state: "Valid"
+2021-07-29 10:52:59.231 +08:00 [DBG] Connection ID "17726168147825787212" disconnecting.
+2021-07-29 10:52:59.234 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 337.4585ms
+2021-07-29 10:53:07.181 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API) in 8391.9269ms
+2021-07-29 10:53:07.184 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:53:07.221 +08:00 [ERR]  "0001-01-01T00:00:00.0000000"nullnullnullnullnullnullOne or more errors occurred. (对象名 'Alarm' 无效。)nullnull0
+System.AggregateException: One or more errors occurred. (对象名 'Alarm' 无效。)
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 对象名 'Alarm' 无效。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1055
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1083
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 725
+   at UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmQueries.Get(Guid id) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Application\Queries\AlarmQueries.cs:line 51
+ClientConnectionId:d73df428-ebc0-4c8b-8295-02a3bdd31e8a
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get(Guid id) in F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API\Controllers\AlarmsController.cs:line 49
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 43
+2021-07-29 10:53:07.401 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:53:07.421 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-29 10:53:07.424 +08:00 [ERR] Connection ID "17870283335901643301", Request ID "80000226-0003-f800-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 111
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 64
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-07-29 10:53:07.430 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - - - 500 - - 8848.3928ms
+2021-07-29 10:53:09.692 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - -
+2021-07-29 10:53:09.694 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:53:09.696 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:53:09.698 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms/{id}' is valid for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:53:09.700 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:53:09.702 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:53:09.704 +08:00 [INF] Route matched with {action = "Get", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmForGet] Get(System.Guid) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:53:09.707 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:53:09.709 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:53:09.711 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:53:09.714 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:53:09.716 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:53:09.718 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:53:09.721 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:53:09.731 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:53:09.734 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-07-29 10:53:09.736 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:53:09.738 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:53:09.740 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:53:09.743 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-07-29 10:53:09.761 +08:00 [INF] Executing action method UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API) - Validation state: "Valid"
+2021-07-29 10:54:54.577 +08:00 [DBG] Hosting starting
+2021-07-29 10:54:54.785 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.AlarmManagement.API
+2021-07-29 10:54:54.786 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-29 10:54:54.786 +08:00 [INF] Hosting environment: Development
+2021-07-29 10:54:54.786 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\AlarmManagement\AlarmManagement.API
+2021-07-29 10:54:54.786 +08:00 [DBG] Hosting started
+2021-07-29 10:54:54.802 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/index.html - -
+2021-07-29 10:54:54.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - -
+2021-07-29 10:54:54.805 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:54:54.805 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-07-29 10:54:54.841 +08:00 [DBG] The request path  does not match the path filter
+2021-07-29 10:54:54.866 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:54:54.870 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)' with route pattern 'api/Alarms/{id}' is valid for the request path '/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180'
+2021-07-29 10:54:54.871 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:54:54.875 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:54:54.884 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-07-29 10:54:54.902 +08:00 [INF] Route matched with {action = "Get", controller = "Alarms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmForGet] Get(System.Guid) on controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API).
+2021-07-29 10:54:54.902 +08:00 [DBG] Connection ID "17726168139235852709" disconnecting.
+2021-07-29 10:54:54.904 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/index.html - - - 200 - text/html;charset=utf-8 103.6977ms
+2021-07-29 10:54:54.906 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-07-29 10:54:54.906 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-07-29 10:54:54.906 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-07-29 10:54:54.906 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-07-29 10:54:54.907 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-07-29 10:54:54.908 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:54:54.909 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController (UltraNuke.Barasingha.AlarmManagement.API)
+2021-07-29 10:54:54.915 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:54:54.917 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-07-29 10:54:54.918 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:54:54.918 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-07-29 10:54:54.918 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-07-29 10:54:54.920 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-07-29 10:54:55.091 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - -
+2021-07-29 10:54:55.308 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44390/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.2718ms
+2021-07-29 10:54:55.308 +08:00 [DBG] Connection ID "17654110540902957189" disconnecting.
+2021-07-29 10:54:55.456 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-07-29 10:54:55.457 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-07-29 10:54:55.457 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-07-29 10:54:55.458 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-07-29 10:54:55.458 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-07-29 10:54:55.458 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.AlarmManagement.API.Application.Queries.AlarmForGet'.
+2021-07-29 10:54:55.496 +08:00 [INF] Executed action UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API) in 584.8831ms
+2021-07-29 10:54:55.496 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.AlarmManagement.API.Controllers.AlarmsController.Get (UltraNuke.Barasingha.AlarmManagement.API)'
+2021-07-29 10:54:55.501 +08:00 [INF]  "2021-07-29T10:54:55.4966507+08:00"GEThttpslocalhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180{"Id":"2d4d60ff-6272-4ab0-85b5-ad73011fb180","OccurrenceTime":"2021-07-28T08:09:00","CategoryId":"4cd21f1f-82c1-490a-b7a8-86a2d7c1b8e9","LevelId":"cc55fd13-d12d-4c1c-8362-677ffee6af6e","Name":"北仑新碶凤凰山西ZB04-05-02f地块2#塔机发生超载告警","Content":"","Details":"","EventId":"0035370C-F847-418D-939B-3972BDC36589","Count":1,"ClaimMethod":0,"ClaimTime":null,"ClaimUserId":null,"ClaimUserName":null,"CloseMethod":0,"CloseTime":null,"CloseUserId":null,"CloseUserName":null,"Reason":null,"Handling":null,"State":0}null::1621
+2021-07-29 10:54:55.502 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44390/api/Alarms/2d4d60ff-6272-4ab0-85b5-ad73011fb180 - - - 200 533 application/json;+charset=utf-8 701.6831ms

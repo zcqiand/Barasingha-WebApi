@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>UltraNuke.Barasingha.PermissionManagement.Domain</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.PermissionManagement.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\CommonMormon\src\DDD\DDD.csproj" />
+    <ProjectReference Include="..\..\..\..\..\CommonMormon\src\Utils\Utils.csproj" />
+    <ProjectReference Include="..\PermissionManagement.Domain.Common\PermissionManagement.Domain.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>UltraNuke.Barasingha.Novel.Infrastructure</AssemblyName>
-    <RootNamespace>UltraNuke.Barasingha.Novel.Infrastructure</RootNamespace>
+    <AssemblyName>UltraNuke.Barasingha.AlarmManagement.Infrastructure</AssemblyName>
+    <RootNamespace>UltraNuke.Barasingha.AlarmManagement.Infrastructure</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +17,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AlarmManagement.Domain\AlarmManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

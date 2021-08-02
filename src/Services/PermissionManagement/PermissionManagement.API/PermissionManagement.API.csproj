@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<AssemblyName>UltraNuke.Barasingha.Novel.API</AssemblyName>
-		<RootNamespace>UltraNuke.Barasingha.Novel.API</RootNamespace>
+		<AssemblyName>UltraNuke.Barasingha.PermissionManagement.API</AssemblyName>
+		<RootNamespace>UltraNuke.Barasingha.PermissionManagement.API</RootNamespace>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
@@ -15,19 +15,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Controllers\bakBooksController.cs" />
-	  <Compile Remove="Controllers\bakChaptersController.cs" />
-	  <Compile Remove="Controllers\bakMainCategoriesController.cs" />
-	  <Compile Remove="Controllers\bakSegmentsController.cs" />
-	  <Compile Remove="Controllers\bakSubCategoriesController.cs" />
+	  <Compile Remove="Controllers\bakMenusController.cs" />
+	  <Compile Remove="Controllers\bakRolesController.cs" />
+	  <Compile Remove="Controllers\bakUsersController.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="10.1.1" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
 		<PackageReference Include="MassTransit" Version="7.1.2" />
-		<PackageReference Include="MassTransit.AspNetCore" Version="7.1.2" />
-		<PackageReference Include="MassTransit.RabbitMQ" Version="7.1.2" />
 		<PackageReference Include="MediatR" Version="9.0.0" />
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" NoWarn="NU1605" />
@@ -48,9 +44,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\..\CommonMormon\src\DDD\DDD.csproj" />
+		<ProjectReference Include="..\..\..\..\..\CommonMormon\src\Utils\Utils.csproj" />
+		<ProjectReference Include="..\PermissionManagement.Domain.Common\PermissionManagement.Domain.Common.csproj" />
+		<ProjectReference Include="..\PermissionManagement.Domain\PermissionManagement.Domain.csproj" />
+		<ProjectReference Include="..\PermissionManagement.Infrastructure\PermissionManagement.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="Application\DomainEventHandlers\" />
 		<Folder Include="Application\IntegrationEvents\EventHandling\" />
 		<Folder Include="Application\IntegrationEvents\Events\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
 
 </Project>

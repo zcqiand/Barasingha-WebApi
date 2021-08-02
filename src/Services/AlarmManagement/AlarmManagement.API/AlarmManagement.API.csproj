@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<AssemblyName>UltraNuke.Barasingha.Novel.API</AssemblyName>
-		<RootNamespace>UltraNuke.Barasingha.Novel.API</RootNamespace>
+		<AssemblyName>UltraNuke.Barasingha.AlarmManagement.API</AssemblyName>
+		<RootNamespace>UltraNuke.Barasingha.AlarmManagement.API</RootNamespace>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
@@ -15,16 +15,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Controllers\bakBooksController.cs" />
-	  <Compile Remove="Controllers\bakChaptersController.cs" />
-	  <Compile Remove="Controllers\bakMainCategoriesController.cs" />
-	  <Compile Remove="Controllers\bakSegmentsController.cs" />
-	  <Compile Remove="Controllers\bakSubCategoriesController.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="10.1.1" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+		<PackageReference Include="Dapper" Version="2.0.90" />
+		<PackageReference Include="FluentValidation" Version="9.4.0" />
 		<PackageReference Include="MassTransit" Version="7.1.2" />
 		<PackageReference Include="MassTransit.AspNetCore" Version="7.1.2" />
 		<PackageReference Include="MassTransit.RabbitMQ" Version="7.1.2" />
@@ -48,9 +42,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Application\DomainEventHandlers\" />
-		<Folder Include="Application\IntegrationEvents\EventHandling\" />
-		<Folder Include="Application\IntegrationEvents\Events\" />
+		<ProjectReference Include="..\AlarmManagement.Domain\AlarmManagement.Domain.csproj" />
+		<ProjectReference Include="..\AlarmManagement.Infrastructure\AlarmManagement.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Application\Behaviors\" />
+	  <Folder Include="Application\DomainEventHandlers\" />
+	  <Folder Include="Application\IntegrationEvents\EventHandling\" />
+	  <Folder Include="Application\IntegrationEvents\Events\" />
+	  <Folder Include="Application\Validations\" />
+	  <Folder Include="Properties\" />
 	</ItemGroup>
 
 </Project>
