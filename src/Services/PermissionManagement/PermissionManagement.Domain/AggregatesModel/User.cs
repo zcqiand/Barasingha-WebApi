@@ -25,9 +25,13 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// </summary>
         public int No { get; protected set; }
         /// <summary>
-        /// 头像
+        /// 用户名称
         /// </summary>
-        public string AvatarUrl { get; protected set; }
+        public string UserName { get; protected set; }
+        /// <summary>
+        /// 用户密码
+        /// </summary>
+        public string Password { get; protected set; }
         /// <summary>
         /// 昵称
         /// </summary>
@@ -37,25 +41,21 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// </summary>
         public Gender Gender { get; protected set; }
         /// <summary>
-        /// 用户名称
+        /// 头像
         /// </summary>
-        public string UserName { get; protected set; }
-        /// <summary>
-        /// 用户密码
-        /// </summary>
-        public string Password { get; protected set; }
-        /// <summary>
-        /// 密码提示问题
-        /// </summary>
-        public string PasswordQuestion { get; protected set; }
-        /// <summary>
-        /// 密码提示回答
-        /// </summary>
-        public string PasswordAnswer { get; protected set; }
+        public string AvatarUrl { get; protected set; }
         /// <summary>
         /// 已停用
         /// </summary>
         public bool Disabled { get; protected set; }
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
+        /// <summary>
+        /// 创建用户
+        /// </summary>
+        public string CreateUser { get; protected set; }
         /// <summary>
         /// 角色集合
         /// </summary>
@@ -67,36 +67,30 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// 新建用户
         /// </summary>
         /// <param name="no">序号</param>
-        /// <param name="avatarUrl">头像</param>
-        /// <param name="nickName">昵称</param>
-        /// <param name="gender">性别</param>
         /// <param name="userName">用户名称</param>
         /// <param name="password">用户密码</param>
-        /// <param name="passwordQuestion">密码提示问题</param>
-        /// <param name="passwordAnswer">密码提示回答</param>
+        /// <param name="nickName">昵称</param>
+        /// <param name="gender">性别</param>
+        /// <param name="avatarUrl">头像</param>
         /// <returns>用户对象</returns>
         public static User Create(
             int no,
-            string avatarUrl,
-            string nickName,
-            Gender gender,
             string userName,
             string password,
-            string passwordQuestion,
-            string passwordAnswer,
+            string nickName,
+            Gender gender,
+            string avatarUrl,
             IList<Role> roles)
         {
             var o = new User();
 
             o.Id = SequentialGuid.NewId();
             o.No = no;
-            o.AvatarUrl = avatarUrl;
-            o.NickName = nickName;
-            o.Gender = gender;
             o.UserName = userName;
             o.Password = password;
-            o.PasswordQuestion = passwordQuestion;
-            o.PasswordAnswer = passwordAnswer;
+            o.NickName = nickName;
+            o.Gender = gender;
+            o.AvatarUrl = avatarUrl;
             o.Roles = roles;
 
             o.AggregateState = AggregateState.Added;
@@ -107,21 +101,17 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// 更新用户信息
         /// </summary>
         /// <param name="no">序号</param>
-        /// <param name="avatarUrl">头像</param>
+        /// <param name="userName">用户名称</param>
         /// <param name="nickName">昵称</param>
         /// <param name="gender">性别</param>
-        /// <param name="userName">用户名称</param>
-        /// <param name="passwordQuestion">密码提示问题</param>
-        /// <param name="passwordAnswer">密码提示回答</param>
+        /// <param name="avatarUrl">头像</param>
         /// <param name="disabled">已停用</param>
         public void Update(
             int no,
-            string avatarUrl,
+            string userName,
             string nickName,
             Gender gender,
-            string userName,
-            string passwordQuestion,
-            string passwordAnswer,
+            string avatarUrl,
             bool disabled,
             IList<Role> roles)
         {
@@ -130,8 +120,6 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
             NickName = nickName;
             Gender = gender;
             UserName = userName;
-            PasswordQuestion = passwordQuestion;
-            PasswordAnswer = passwordAnswer;
             Disabled = disabled;
             Roles = roles;
         }

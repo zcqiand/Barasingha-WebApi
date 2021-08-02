@@ -28,6 +28,14 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// </summary>
         public string Name { get; protected set; }
         /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
+        /// <summary>
+        /// 创建用户
+        /// </summary>
+        public string CreateUser { get; protected set; }
+        /// <summary>
         /// 用户集合
         /// </summary>
         public List<User> Users { get; set; } = new List<User>();
