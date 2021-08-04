@@ -12,18 +12,16 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateUserCommandHandler
-        : IRequestHandler<UpdateUserCommand, UserDTO>
+        : IRequestHandler<UpdateUserCommand, bool>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public UpdateUserCommandHandler(IRepository repository, IMapper mapper)
+        public UpdateUserCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<UserDTO> Handle(UpdateUserCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateUserCommand param, CancellationToken cancellationToken)
         {
             var roles = await repository.Query<Role>(w => param.RoleIds.Contains(w.Id))
                 .ToListAsync();
@@ -34,12 +32,11 @@
             });
             var user = await repository.GetAsync(param.Id, includes);
 
-            user.Update(param.No, param.AvatarUrl, param.NickName, param.Gender, param.UserName, param.PasswordQuestion, param.PasswordAnswer, param.Disabled, roles);
+            user.Update(param.No,param.NickName, param.Gender, param.AvatarUrl, param.Disabled, roles);
             repository.Entry(user);
             await repository.SaveAsync();
 
-            var userForDTO = mapper.Map<UserDTO>(user);
-            return userForDTO;
+            return true;
         }
     }
 }

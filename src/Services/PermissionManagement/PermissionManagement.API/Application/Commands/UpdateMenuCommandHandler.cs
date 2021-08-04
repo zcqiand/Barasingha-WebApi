@@ -13,18 +13,16 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateMenuCommandHandler
-        : IRequestHandler<UpdateMenuCommand, MenuDTO>
+        : IRequestHandler<UpdateMenuCommand, bool>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public UpdateMenuCommandHandler(IRepository repository, IMapper mapper)
+        public UpdateMenuCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<MenuDTO> Handle(UpdateMenuCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateMenuCommand param, CancellationToken cancellationToken)
         {
             IList<Menu> menus = await repository.Query<Menu>().ToListAsync();
             menus = TreeUtil.Traverse<Menu>(menus, menus);
@@ -35,9 +33,7 @@
             repository.Entry(menu);
             await repository.SaveAsync();
 
-            var menuForDTO = mapper.Map<MenuDTO>(menu);
-
-            return menuForDTO;
+            return true;
         }
     }
 }

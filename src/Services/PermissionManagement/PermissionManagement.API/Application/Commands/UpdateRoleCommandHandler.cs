@@ -5,12 +5,11 @@
     using System;
     using System.Threading;
     using System.Threading.Tasks;
-    using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
     using UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel;
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateRoleCommandHandler
-        : IRequestHandler<UpdateRoleCommand, RoleDTO>
+        : IRequestHandler<UpdateRoleCommand, bool>
     {
         private readonly IRepository repository;
         private readonly IMapper mapper;
@@ -21,16 +20,14 @@
             this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<RoleDTO> Handle(UpdateRoleCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateRoleCommand param, CancellationToken cancellationToken)
         {
             var role = await repository.GetAsync<Role>(param.Id);
             role.Update(param.No, param.Name);
             repository.Entry(role);
             await repository.SaveAsync();
 
-            var roleForDTO = mapper.Map<RoleDTO>(role);
-
-            return roleForDTO;
+            return true;
         }
     }
 }

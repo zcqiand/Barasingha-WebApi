@@ -58,6 +58,9 @@ namespace UltraNuke.Barasingha.PermissionManagement.API.Migrations
                     b.Property<string>("ComponentPath")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -107,6 +110,9 @@ namespace UltraNuke.Barasingha.PermissionManagement.API.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -127,6 +133,9 @@ namespace UltraNuke.Barasingha.PermissionManagement.API.Migrations
                     b.Property<string>("AvatarUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("Disabled")
                         .HasColumnType("bit");
 
@@ -140,12 +149,6 @@ namespace UltraNuke.Barasingha.PermissionManagement.API.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordAnswer")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordQuestion")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserName")

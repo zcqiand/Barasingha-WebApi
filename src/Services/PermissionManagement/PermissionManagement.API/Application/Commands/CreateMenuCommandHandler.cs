@@ -1,6 +1,5 @@
 ﻿namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Commands
 {
-    using AutoMapper;
     using MediatR;
     using Microsoft.EntityFrameworkCore;
     using System;
@@ -8,24 +7,20 @@
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
-    using UltraNuke.Barasingha.PermissionManagement.API.Application.Commands;
     using UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel;
     using UltraNuke.CommonMormon.DDD;
 
     public class CreateMenuCommandHandler
-        : IRequestHandler<CreateMenuCommand, MenuDTO>
+        : IRequestHandler<CreateMenuCommand, Guid>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public CreateMenuCommandHandler(IRepository repository, IMapper mapper)
+        public CreateMenuCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<MenuDTO> Handle(CreateMenuCommand param, CancellationToken cancellationToken)
+        public async Task<Guid> Handle(CreateMenuCommand param, CancellationToken cancellationToken)
         {
             IList<Menu> menus = await repository.Query<Menu>().ToListAsync();
             menus = TreeUtil.Traverse<Menu>(menus, menus);
@@ -35,8 +30,7 @@
             repository.Entry(menu);
             await repository.SaveAsync();
 
-            var menuForDTO = mapper.Map<MenuDTO>(menu);
-            return menuForDTO;
+            return menu.Id;
         }
     }
 }

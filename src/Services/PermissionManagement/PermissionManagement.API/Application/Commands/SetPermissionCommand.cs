@@ -4,7 +4,7 @@ using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
 
 namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Commands
 {
-    public class SetPermissionCommand : IRequest<RoleDTO>
+    public class SetPermissionCommand : IRequest<RoleForGetDTO>
     {
         #region Public Properties
         /// <summary>

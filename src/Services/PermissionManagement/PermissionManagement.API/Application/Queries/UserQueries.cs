@@ -1,64 +1,53 @@
 ﻿namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
     using System;
     using System.Collections.Generic;
+    using System.Data;
     using System.Linq;
-    using System.Linq.Expressions;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
-    using UltraNuke.CommonMormon.Utils.Extensions;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class UserQueries
+    public class UserQueries : QueriesBase
     {
-        //private readonly PermissionQueriesContext context;
-        //public UserQueries(PermissionQueriesContext context)
-        //{
-        //    this.context = context;
-        //}
+        public UserQueries(string constr) : base(constr)
+        {
+        }
 
-        //public async Task<PaginatedItems<UserDTO>> Query(string nickName, int pageIndex, int pageSize)
-        //{
-        //    Expression<Func<UserDTO, bool>> filter = w => true;
-        //    if (!string.IsNullOrWhiteSpace(nickName))
-        //    {
-        //        filter = filter.And(w => w.NickName.Contains(nickName));
-        //    }
+        public async Task<PaginatedItems<UserForQueryDTO>> Query(string nickName, int pageIndex, int pageSize)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@NickName", nickName);
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-        //    var total = await context.Users
-        //        .AsNoTracking()
-        //        .CountAsync();
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("User_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<UserForQueryDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<UserForQueryDTO>(total, list);
+            }
+        }
 
-        //    var users = await context.Users
-        //        .AsNoTracking()
-        //        .OrderBy(o => o.Id)
-        //        .Skip(pageSize * (pageIndex - 1))
-        //        .Take(pageSize)
-        //        .ToListAsync();
+        public async Task<List<UserForQueryDTO>> QueryAll()
+        {
+            using (var connection = OpenConnection())
+            {
+                var list = connection.Query<UserForQueryDTO>("User_QueryAll", commandType: CommandType.StoredProcedure).ToList();
+                return list;
+            }
+        }
 
-        //    return new PaginatedItems<UserDTO>(total, users);
-        //}
-
-        //public async Task<List<UserDTO>> QueryAll()
-        //{
-        //    var users = await context.Users
-        //        .AsNoTracking()
-        //        .OrderBy(o => o.Id)
-        //        .ToListAsync();
-
-        //    return users;
-        //}
-
-        //public async Task<UserDTO> Get(Guid id)
-        //{
-        //    var user = await context.Users
-        //        .AsNoTracking()
-        //        .Include(b => b.Roles)
-        //        .Where(w => w.Id == id)
-        //        .SingleOrDefaultAsync();
-
-        //    return user;
-        //}
+        public async Task<UserForGetDTO> Get(Guid id)
+        {
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.PM_User WHERE Id = @Id";
+                return connection.Query<UserForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
+        }
     }
 }

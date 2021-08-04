@@ -6,6 +6,7 @@
     public enum Gender
     {
         男,
-        女
+        女,
+        未知
     }
 }

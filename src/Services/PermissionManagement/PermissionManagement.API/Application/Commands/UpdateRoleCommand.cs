@@ -1,10 +1,26 @@
 ﻿using MediatR;
-using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Commands
 {
-    public class UpdateRoleCommand : RoleCommandBase, IRequest<RoleDTO>
+    public class UpdateRoleCommand : IRequest<bool>
     {
+        #region Public Properties
+        /// <summary>
+        /// 主键
+        /// </summary>
+        public Guid Id { get; set; }
+        /// <summary>
+        /// 序号
+        /// </summary>
+        public int No { get; set; }
+        /// <summary>
+        /// 角色名称
+        /// </summary>
+        [Required(ErrorMessage = "名称不能为空")]
+        public string Name { get; set; }
+        #endregion        
     }
 
 }

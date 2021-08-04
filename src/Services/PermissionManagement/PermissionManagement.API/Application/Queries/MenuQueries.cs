@@ -1,83 +1,70 @@
 ﻿namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Queries
 {
     using AutoMapper;
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Linq.Expressions;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
-    using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class MenuQueries
+    public class MenuQueries : QueriesBase
     {
-        //private readonly PermissionQueriesContext context;
-        //private readonly IMapper mapper;
-        //public MenuQueries(PermissionQueriesContext context, IMapper mapper)
-        //{
-        //    this.context = context ?? throw new ArgumentNullException(nameof(context));
-        //    this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
-        //}
+        private readonly IMapper mapper;
+        public MenuQueries(string constr, IMapper mapper) : base(constr)
+        {
+            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+        }
 
-        //public async Task<PaginatedItems<MenuDTO>> Query(int pageIndex, int pageSize)
-        //{
-        //    Expression<Func<MenuDTO, bool>> filter = w => w.IsLeafNode == false && w.IsRootNode == false;
+        public async Task<MenuForGetDTO> Get(Guid id)
+        {
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.PM_Menu WHERE Id = @Id";
+                return connection.Query<MenuForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
+        }
 
-        //    var total = await context.Menus
-        //        .AsNoTracking()
-        //        .Where(filter)
-        //        .CountAsync();
+        public async Task<List<MenuForGetTreeTableDTO>> GetTreeTable()
+        {
+            var menus = GetTree();
+            menus = menus.Where(w => w.Level == 1).OrderBy(o => o.FullSortNo).ToList();
 
-        //    var menus = await context.Menus
-        //        .Include(b=>b.ChildNodes)
-        //        .AsNoTracking()
-        //        .Where(filter)
-        //        .OrderBy(o => o.Id)
-        //        .Skip(pageSize * (pageIndex - 1))
-        //        .Take(pageSize)
-        //        .ToListAsync();
+            var menusForDTO = mapper.Map<List<MenuForGetTreeTableDTO>>(menus);
+            return menusForDTO;
+        }
 
-        //    return new PaginatedItems<MenuDTO>(total, menus);
-        //}
+        public async Task<List<MenuForGetTreeSelectDTO>> GetTreeSelect()
+        {
+            var menus = GetTree();
+            menus = menus.Where(w => w.IsRootNode).OrderBy(o => o.FullSortNo).ToList();
 
-        //public async Task<List<MenuForGetTreeDTO>> GetTree()
-        //{
-        //    IList<MenuDTO> menus = await context.Menus.ToListAsync();
-        //    menus = Traverse(menus, menus);
-        //    menus = menus.Where(w => w.Level == 1).OrderBy(o => o.FullSortNo).ToList();
+            var menusForDTO = mapper.Map<List<MenuForGetTreeSelectDTO>>(menus);
+            return menusForDTO;
+        }
 
-        //    var menusForDTO = mapper.Map<List<MenuForGetTreeDTO>>(menus);
+        private List<MenuForGetDTO> GetTree()
+        {
+            List<MenuForGetDTO> menus;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.PM_Menu";
+                menus = connection.Query<MenuForGetDTO>(query).ToList();
+                menus = Traverse(menus, menus);
+            }
 
-        //    return menusForDTO;
-        //}
+            return menus;
+        }
 
-        //public async Task<List<MenuForGetSelectDTO>> GetSelect()
-        //{
-        //    IList<MenuDTO> menus = await context.Menus.ToListAsync();
-        //    menus = Traverse(menus, menus);
-        //    menus = menus.Where(w => w.IsRootNode).OrderBy(o => o.FullSortNo).ToList();
-
-        //    var menusForDTO = mapper.Map<List<MenuForGetSelectDTO>>(menus);
-
-        //    return menusForDTO;
-        //}
-
-        //public async Task<MenuDTO> Get(Guid id)
-        //{
-        //    var menu = await context.Menus.FindAsync(id);
-        //    return menu;
-        //}
-
-        //private IList<MenuDTO> Traverse(IList<MenuDTO> allNodes, IList<MenuDTO> nodes)
-        //{
-        //    foreach (var node in nodes)
-        //    {
-        //        var childNodes = allNodes.Where(x => x.ParentNodeId == node.Id).ToList();
-        //        node.ChildNodes = childNodes;
-        //        node.ChildNodes = Traverse(allNodes, node.ChildNodes);
-        //    }
-        //    return nodes;
-        //}
+        private List<MenuForGetDTO> Traverse(List<MenuForGetDTO> allNodes, List<MenuForGetDTO> nodes)
+        {
+            foreach (var node in nodes)
+            {
+                var childNodes = allNodes.Where(x => x.ParentNodeId == node.Id).ToList();
+                node.ChildNodes = childNodes;
+                node.ChildNodes = Traverse(allNodes, node.ChildNodes);
+            }
+            return nodes;
+        }
     }
 }

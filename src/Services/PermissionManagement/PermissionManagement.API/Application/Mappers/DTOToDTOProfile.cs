@@ -15,8 +15,8 @@ namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Mappers
         /// </summary>
         public DTOToDTOProfile()
         {
-            CreateMap<MenuDTO, MenuForGetTreeDTO>();
-            CreateMap<MenuDTO, MenuForGetSelectDTO>();
+            CreateMap<MenuForGetDTO, MenuForGetTreeTableDTO>();
+            CreateMap<MenuForGetDTO, MenuForGetTreeSelectDTO>();
         }
     }
 }

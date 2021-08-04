@@ -12,7 +12,7 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class SetPermissionCommandHandler
-        : IRequestHandler<SetPermissionCommand, RoleDTO>
+        : IRequestHandler<SetPermissionCommand, RoleForGetDTO>
     {
         private readonly IRepository repository;
         private readonly IMapper mapper;
@@ -23,7 +23,7 @@
             this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<RoleDTO> Handle(SetPermissionCommand param, CancellationToken cancellationToken)
+        public async Task<RoleForGetDTO> Handle(SetPermissionCommand param, CancellationToken cancellationToken)
         {
             var menus = await repository.Query<Menu>(w => param.MenuIds.Contains(w.Id))
                 .ToListAsync();
@@ -38,7 +38,7 @@
             repository.Entry(role);
             await repository.SaveAsync();
 
-            var roleForDTO = mapper.Map<RoleDTO>(role);
+            var roleForDTO = mapper.Map<RoleForGetDTO>(role);
 
             return roleForDTO;
         }

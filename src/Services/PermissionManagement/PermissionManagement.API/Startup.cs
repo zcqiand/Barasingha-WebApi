@@ -65,7 +65,8 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers()
+                    .RequireAuthorization("ApiScope");
             });
         }
     }
@@ -113,24 +114,24 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
 
         public static IServiceCollection AddCustomAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
                 {
-                    ValidateIssuerSigningKey = true,//是否调用对签名securityToken的SecurityKey进行验证
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["TokenSecret"])),//签名秘钥
-                    ValidateIssuer = true,//是否验证颁发者
-                    ValidIssuer = configuration["TokenIssuer"], //颁发者
-                    ValidateAudience = true, //是否验证接收者
-                    ValidAudience = configuration["TokenAudience"],//接收者
-                    ValidateLifetime = true,//是否验证失效时间
-                };
+                    options.Authority = configuration["IdentityUrl"];
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+                    options.RequireHttpsMetadata = bool.Parse(configuration["RequireHttpsMetadata"] ?? "false");
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ApiScope", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("scope", "PermissionManagement.API");
+                });
             });
 
             return services;
@@ -147,7 +148,7 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
         {
             services.AddDbContext<PermissionManagementContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("PermissionContext"),
+                options.UseSqlServer(configuration.GetConnectionString("PermissionManagementContext"),
                            sqlServerOptionsAction: sqlOptions =>
                            {
                                sqlOptions.MigrationsAssembly("UltraNuke.Barasingha.PermissionManagement.API");
@@ -160,7 +161,6 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
         public static IServiceCollection AddCustomAutoMapper(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddAutoMapper(typeof(DTOToDTOProfile));
-            services.AddAutoMapper(typeof(DomainToDTOProfile));
 
             return services;
         }
@@ -174,14 +174,25 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
 
         public static IServiceCollection AddCustomIntegrations(this IServiceCollection services, IConfiguration configuration)
         {
+            var constr = configuration.GetConnectionString("PermissionManagementContext");
+
             services.AddTransient<IRepository>(provider =>
             {
                 return new Repository(provider.GetService<PermissionManagementContext>(), provider.GetService<IMediator>());
             });
 
-            services.AddTransient<MenuQueries>();
-            services.AddTransient<RoleQueries>();
-            services.AddTransient<UserQueries>();
+            services.AddTransient<MenuQueries>(provider =>
+            {
+                return new MenuQueries(constr, provider.GetService<IMapper>());
+            });
+            services.AddTransient<RoleQueries>(provider =>
+            {
+                return new RoleQueries(constr);
+            });
+            services.AddTransient<UserQueries>(provider =>
+            {
+                return new UserQueries(constr);
+            });
 
             return services;
         }
@@ -194,7 +205,7 @@ namespace UltraNuke.Barasingha.PermissionManagement.API
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Permission.API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "PermissionManagement.API V1");
             });
             return app;
         }

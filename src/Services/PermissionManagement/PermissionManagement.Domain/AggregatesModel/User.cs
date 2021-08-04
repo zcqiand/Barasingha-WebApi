@@ -25,6 +25,10 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// </summary>
         public int No { get; protected set; }
         /// <summary>
+        /// 昵称
+        /// </summary>
+        public string NickName { get; protected set; }
+        /// <summary>
         /// 用户名称
         /// </summary>
         public string UserName { get; protected set; }
@@ -32,10 +36,6 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// 用户密码
         /// </summary>
         public string Password { get; protected set; }
-        /// <summary>
-        /// 昵称
-        /// </summary>
-        public string NickName { get; protected set; }
         /// <summary>
         /// 性别
         /// </summary>
@@ -53,10 +53,6 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// </summary>
         public DateTime CreateTime { get; protected set; }
         /// <summary>
-        /// 创建用户
-        /// </summary>
-        public string CreateUser { get; protected set; }
-        /// <summary>
         /// 角色集合
         /// </summary>
         public IList<Role> Roles { get; protected set; } = new List<Role>();
@@ -66,32 +62,19 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// <summary>
         /// 新建用户
         /// </summary>
-        /// <param name="no">序号</param>
-        /// <param name="userName">用户名称</param>
-        /// <param name="password">用户密码</param>
-        /// <param name="nickName">昵称</param>
-        /// <param name="gender">性别</param>
-        /// <param name="avatarUrl">头像</param>
-        /// <returns>用户对象</returns>
         public static User Create(
-            int no,
-            string userName,
-            string password,
             string nickName,
-            Gender gender,
-            string avatarUrl,
-            IList<Role> roles)
+            string userName,
+            string password)
         {
             var o = new User();
 
             o.Id = SequentialGuid.NewId();
-            o.No = no;
+            o.NickName = nickName;
             o.UserName = userName;
             o.Password = password;
-            o.NickName = nickName;
-            o.Gender = gender;
-            o.AvatarUrl = avatarUrl;
-            o.Roles = roles;
+            o.Gender = Gender.未知;
+            o.CreateTime = DateTime.Now;
 
             o.AggregateState = AggregateState.Added;
             return o;
@@ -100,15 +83,8 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
         /// <summary>
         /// 更新用户信息
         /// </summary>
-        /// <param name="no">序号</param>
-        /// <param name="userName">用户名称</param>
-        /// <param name="nickName">昵称</param>
-        /// <param name="gender">性别</param>
-        /// <param name="avatarUrl">头像</param>
-        /// <param name="disabled">已停用</param>
         public void Update(
             int no,
-            string userName,
             string nickName,
             Gender gender,
             string avatarUrl,
@@ -116,30 +92,11 @@ namespace UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel
             IList<Role> roles)
         {
             No = no;
-            AvatarUrl = avatarUrl;
             NickName = nickName;
+            AvatarUrl = avatarUrl;
             Gender = gender;
-            UserName = userName;
             Disabled = disabled;
             Roles = roles;
-        }
-
-        /// <summary>
-        /// 添加角色
-        /// </summary>
-        /// <param name="role">角色</param>
-        public void AddRole(Role role)
-        {
-            Roles.Add(role);
-        }
-
-        /// <summary>
-        /// 移除角色
-        /// </summary>
-        /// <param name="role">角色</param>
-        public void RemoveRole(Role role)
-        {
-            Roles.Remove(role);
         }
 
         /// <summary>

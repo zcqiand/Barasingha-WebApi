@@ -1,4 +1,4 @@
-﻿--报警查询
+﻿--获取报警列表
 IF EXISTS (SELECT * FROM sysobjects WHERE name = 'Alarm_Query' AND schema_name(uid) = 'dbo')
 	DROP PROCEDURE dbo.Alarm_Query;
 GO

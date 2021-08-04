@@ -1,66 +1,53 @@
 ﻿namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
     using System;
     using System.Collections.Generic;
+    using System.Data;
     using System.Linq;
-    using System.Linq.Expressions;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
-    using UltraNuke.CommonMormon.Utils.Extensions;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class RoleQueries
+    public class RoleQueries : QueriesBase
     {
-        //private readonly PermissionQueriesContext context;
-        //public RoleQueries(PermissionQueriesContext context)
-        //{
-        //    this.context = context;
-        //}
+        public RoleQueries(string constr) : base(constr)
+        {
+        }
 
-        //public async Task<PaginatedItems<RoleDTO>> Query(string name, int pageIndex, int pageSize)
-        //{
-        //    Expression<Func<RoleDTO, bool>> filter = w => true;
-        //    if (!string.IsNullOrWhiteSpace(name))
-        //    {
-        //        filter = filter.And(w => w.Name.Contains(name));
-        //    }
+        public async Task<PaginatedItems<RoleForQueryDTO>> Query(string name, int pageIndex, int pageSize)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@Name", name);
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-        //    var total = await context.Roles
-        //        .AsNoTracking()
-        //        .Where(filter)
-        //        .CountAsync();
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("Role_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<RoleForQueryDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<RoleForQueryDTO>(total, list);
+            }
+        }
 
-        //    var roles = await context.Roles
-        //        .AsNoTracking()
-        //        .Where(filter)
-        //        .OrderBy(o => o.Id)
-        //        .Skip(pageSize * (pageIndex - 1))
-        //        .Take(pageSize)
-        //        .ToListAsync();
+        public async Task<List<RoleForQueryDTO>> QueryAll()
+        {
+            using (var connection = OpenConnection())
+            {
+                var list = connection.Query<RoleForQueryDTO>("Role_QueryAll", commandType: CommandType.StoredProcedure).ToList();
+                return list;
+            }
+        }
 
-        //    return new PaginatedItems<RoleDTO>(total, roles);
-        //}
-
-        //public async Task<List<RoleDTO>> QueryAll()
-        //{
-        //    var roles = await context.Roles
-        //        .AsNoTracking()
-        //        .OrderBy(o => o.No)
-        //        .ToListAsync();
-
-        //    return roles;
-        //}
-
-        //public async Task<RoleDTO> Get(Guid id)
-        //{
-        //    var role = await context.Roles
-        //        .AsNoTracking()
-        //        .Include(b => b.Menus)
-        //        .Where(w => w.Id == id)
-        //        .SingleOrDefaultAsync();
-
-        //    return role;
-        //}
+        public async Task<RoleForGetDTO> Get(Guid id)
+        {
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.PM_Role WHERE Id = @Id";
+                return connection.Query<RoleForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
+        }
     }
 }
