@@ -1,6 +1,5 @@
 using AutoMapper;
 using MediatR;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +10,6 @@ using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.IO;
-using System.Text;
 using UltraNuke.Barasingha.PermissionManagement.API.Application.Mappers;
 using UltraNuke.Barasingha.PermissionManagement.API.Application.Queries;
 using UltraNuke.Barasingha.PermissionManagement.Infrastructure;

@@ -1,13 +1,11 @@
 ﻿namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Commands
 {
-    using AutoMapper;
     using MediatR;
     using Microsoft.EntityFrameworkCore;
     using System;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
     using UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel;
     using UltraNuke.CommonMormon.DDD;
 

@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
-using System.Linq;
 using UltraNuke.Barasingha.PermissionManagement.API.Application.DTO;
-using UltraNuke.Barasingha.PermissionManagement.Domain.AggregatesModel;
 
 namespace UltraNuke.Barasingha.PermissionManagement.API.Application.Mappers
 {
