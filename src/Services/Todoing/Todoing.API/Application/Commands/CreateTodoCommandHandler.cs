@@ -10,25 +10,22 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class CreateTodoCommandHandler
-        : IRequestHandler<CreateTodoCommand, TodoDTO>
+        : IRequestHandler<CreateTodoCommand, Guid>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public CreateTodoCommandHandler(IRepository repository, IMapper mapper)
+        public CreateTodoCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<TodoDTO> Handle(CreateTodoCommand message, CancellationToken cancellationToken)
+        public async Task<Guid> Handle(CreateTodoCommand message, CancellationToken cancellationToken)
         {
             var todo = Todo.Create(message.Name);
             repository.Entry(todo);
             await repository.SaveAsync();
 
-            var todoForDTO = mapper.Map<TodoDTO>(todo);
-            return todoForDTO;
+            return todo.Id;
         }
     }
 }

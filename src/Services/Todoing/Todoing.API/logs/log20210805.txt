@@ -1,0 +1,736 @@
+2021-08-05 10:34:32.188 +08:00 [DBG] Hosting starting
+2021-08-05 10:34:32.463 +08:00 [DBG] Configured endpoint event-listener, Consumer: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler
+2021-08-05 10:34:32.707 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-05 10:34:32.718 +08:00 [DBG] Starting bus instances: IBus
+2021-08-05 10:34:32.724 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-05 10:34:32.780 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-05 10:34:32.828 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-05 10:34:32.847 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-05 10:34:32.857 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-05 10:34:32.867 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-05 10:34:32.883 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-05 10:34:32.890 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-05 10:34:32.892 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-05 10:34:32.894 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-05 10:34:32.902 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-05 10:34:32.912 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:34:32.921 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-05 10:34:32.924 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:34:32.928 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-05 10:34:32.932 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-05 10:34:32.936 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-05 10:34:32.939 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-05 10:34:33.221 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Todoing.API
+2021-08-05 10:34:33.223 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-05 10:34:33.226 +08:00 [INF] Hosting environment: Development
+2021-08-05 10:34:33.237 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Todoing\Todoing.API
+2021-08-05 10:34:33.239 +08:00 [DBG] Hosting started
+2021-08-05 10:34:33.272 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger - -
+2021-08-05 10:34:33.276 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 10:34:33.395 +08:00 [DBG] Connection ID "17293822592188154445" disconnecting.
+2021-08-05 10:34:33.397 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/index.html - -
+2021-08-05 10:34:33.413 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger - - - 301 - - 142.5986ms
+2021-08-05 10:34:33.498 +08:00 [DBG] Connection ID "18158513716348321793" disconnecting.
+2021-08-05 10:34:33.499 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/index.html - - - 200 - text/html;charset=utf-8 101.3053ms
+2021-08-05 10:34:33.537 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/swagger-ui.css - -
+2021-08-05 10:34:33.537 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/swagger-ui-bundle.js - -
+2021-08-05 10:34:33.538 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/swagger-ui-standalone-preset.js - -
+2021-08-05 10:34:33.646 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-08-05 10:34:33.646 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-08-05 10:34:33.650 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-08-05 10:34:33.653 +08:00 [DBG] Connection ID "17726168147825787045" disconnecting.
+2021-08-05 10:34:33.654 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/swagger-ui.css - - - 200 142933 text/css 116.1907ms
+2021-08-05 10:34:33.666 +08:00 [DBG] Connection ID "17654110553787858945" disconnecting.
+2021-08-05 10:34:33.667 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 129.8082ms
+2021-08-05 10:34:33.681 +08:00 [DBG] Connection ID "17798225741863715174" disconnecting.
+2021-08-05 10:34:33.683 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 145.3293ms
+2021-08-05 10:34:33.925 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/v1/swagger.json - -
+2021-08-05 10:34:33.955 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/favicon-32x32.png - -
+2021-08-05 10:34:33.958 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-08-05 10:34:33.962 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/favicon-32x32.png - - - 200 628 image/png 7.0884ms
+2021-08-05 10:34:33.964 +08:00 [DBG] Connection ID "17798225741863715176" disconnecting.
+2021-08-05 10:34:34.099 +08:00 [DBG] Connection ID "18086456105130524855" disconnecting.
+2021-08-05 10:34:34.099 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.7292ms
+2021-08-05 10:34:36.450 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 63087)
+2021-08-05 10:34:36.770 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-05 10:34:36.774 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcds1bdcixqcqfp?temporary=true"
+2021-08-05 10:34:37.022 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-08-05 10:34:37.035 +08:00 [DBG] Bind exchange: source: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, destination: event-listener
+2021-08-05 10:34:37.381 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-05 10:34:37.385 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-05 10:34:37.414 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-urzV2_QImeLiU1g0rIFmjA
+2021-08-05 10:34:37.417 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-05 10:34:56.995 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=10 - -
+2021-08-05 10:34:56.998 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:34:57.032 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:34:57.055 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:34:57.059 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:34:57.442 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-08-05 10:34:57.452 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:34:57.458 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-05 10:34:57.462 +08:00 [DBG] Connection ID "17942340925644603958" disconnecting.
+2021-08-05 10:34:57.462 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=10 - - - 401 - - 467.3346ms
+2021-08-05 10:46:10.544 +08:00 [DBG] Hosting starting
+2021-08-05 10:46:10.661 +08:00 [DBG] Configured endpoint event-listener, Consumer: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler
+2021-08-05 10:46:10.774 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-05 10:46:10.778 +08:00 [DBG] Starting bus instances: IBus
+2021-08-05 10:46:10.781 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-05 10:46:10.811 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-05 10:46:10.836 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-05 10:46:10.841 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-05 10:46:10.842 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-05 10:46:10.842 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-05 10:46:10.846 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-05 10:46:10.850 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-05 10:46:10.851 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-05 10:46:10.851 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-05 10:46:10.858 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-05 10:46:10.867 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:46:10.869 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-05 10:46:10.870 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:46:10.873 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-05 10:46:10.875 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-05 10:46:10.878 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-05 10:46:10.878 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-05 10:46:10.939 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Todoing.API
+2021-08-05 10:46:10.939 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-05 10:46:10.939 +08:00 [INF] Hosting environment: Development
+2021-08-05 10:46:10.939 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Todoing\Todoing.API
+2021-08-05 10:46:10.939 +08:00 [DBG] Hosting started
+2021-08-05 10:46:10.953 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/index.html - -
+2021-08-05 10:46:10.956 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 10:46:11.022 +08:00 [DBG] Connection ID "18374686511347007714" disconnecting.
+2021-08-05 10:46:11.023 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/index.html - - - 200 - text/html;charset=utf-8 72.1386ms
+2021-08-05 10:46:11.251 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44304/swagger/v1/swagger.json - -
+2021-08-05 10:46:11.375 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44304/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.8472ms
+2021-08-05 10:46:11.375 +08:00 [DBG] Connection ID "17942340925644603960" disconnecting.
+2021-08-05 10:46:12.902 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 61433)
+2021-08-05 10:46:12.925 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-05 10:46:12.926 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcmmcbdcixq3qg5?temporary=true"
+2021-08-05 10:46:12.928 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-08-05 10:46:12.929 +08:00 [DBG] Bind exchange: source: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, destination: event-listener
+2021-08-05 10:46:12.937 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-05 10:46:12.939 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-05 10:46:12.954 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-FyfB8rsfd-CZabKk6TCcPg
+2021-08-05 10:46:12.956 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-05 10:47:06.026 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 10:47:06.028 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:47:06.048 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:47:06.051 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:47:06.052 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:47:06.489 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-05 10:47:06.535 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-05 10:47:06.540 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:47:06.546 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-05 10:47:06.548 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 401 - - 521.3882ms
+2021-08-05 10:47:13.835 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 10:47:13.835 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:47:13.835 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:47:13.835 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:47:13.835 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:47:13.853 +08:00 [INF] Successfully validated the token.
+2021-08-05 10:47:13.853 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 10:47:13.854 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:47:13.856 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 10:47:13.857 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 21.9029ms
+2021-08-05 10:47:22.184 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 10:47:22.184 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:47:22.185 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:47:22.185 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:47:22.185 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:47:22.186 +08:00 [INF] Successfully validated the token.
+2021-08-05 10:47:22.186 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 10:47:22.187 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:47:22.187 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 10:47:22.188 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 3.4370ms
+2021-08-05 10:47:33.380 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 10:47:33.380 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:47:33.380 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:47:33.380 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:47:33.380 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:47:33.381 +08:00 [INF] Successfully validated the token.
+2021-08-05 10:47:33.381 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 10:47:33.381 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:47:33.381 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 10:47:33.381 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 1.3328ms
+2021-08-05 10:49:14.169 +08:00 [DBG] Hosting starting
+2021-08-05 10:49:14.303 +08:00 [DBG] Configured endpoint event-listener, Consumer: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler
+2021-08-05 10:49:14.419 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-05 10:49:14.423 +08:00 [DBG] Starting bus instances: IBus
+2021-08-05 10:49:14.425 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-05 10:49:14.451 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-05 10:49:14.483 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-05 10:49:14.487 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-05 10:49:14.488 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-05 10:49:14.488 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-05 10:49:14.492 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-05 10:49:14.496 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-05 10:49:14.497 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-05 10:49:14.497 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-05 10:49:14.506 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-05 10:49:14.514 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:49:14.517 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-05 10:49:14.518 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 10:49:14.522 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-05 10:49:14.525 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-05 10:49:14.527 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-05 10:49:14.528 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-05 10:49:14.694 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Todoing.API
+2021-08-05 10:49:14.694 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-05 10:49:14.694 +08:00 [INF] Hosting environment: Development
+2021-08-05 10:49:14.694 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Todoing\Todoing.API
+2021-08-05 10:49:14.694 +08:00 [DBG] Hosting started
+2021-08-05 10:49:14.711 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 10:49:14.713 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 10:49:14.732 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 10:49:14.752 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 10:49:14.754 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 10:49:14.755 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 10:49:15.347 +08:00 [INF] Successfully validated the token.
+2021-08-05 10:49:15.348 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 10:49:15.353 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 10:49:15.354 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 10:49:15.362 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 654.2540ms
+2021-08-05 10:49:15.363 +08:00 [DBG] Connection ID "18014398511092596970" disconnecting.
+2021-08-05 10:49:16.550 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55354)
+2021-08-05 10:49:16.591 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-05 10:49:16.600 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbptacbdcixqhhno?temporary=true"
+2021-08-05 10:49:16.613 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-08-05 10:49:16.617 +08:00 [DBG] Bind exchange: source: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, destination: event-listener
+2021-08-05 10:49:16.625 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-05 10:49:16.627 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-05 10:49:16.651 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-pdCfCH96mZumOqUGSdYgFw
+2021-08-05 10:49:16.652 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-05 11:01:45.366 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:01:45.367 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:01:45.367 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:01:45.367 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:01:45.367 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:01:45.369 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:01:45.369 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:01:45.370 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:01:45.370 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:01:45.371 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 4.2261ms
+2021-08-05 11:01:48.231 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:01:48.232 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:01:48.232 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:01:48.232 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:01:48.232 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:01:48.234 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:01:48.234 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:01:48.234 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:01:48.235 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:01:48.235 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 4.3578ms
+2021-08-05 11:01:50.654 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:01:50.654 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:01:50.654 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:01:50.654 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:01:50.655 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:01:50.655 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:01:50.655 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:01:50.655 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:01:50.655 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:01:50.656 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 1.8760ms
+2021-08-05 11:02:41.598 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:02:41.599 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:02:41.599 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:02:41.599 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:02:41.599 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:02:41.599 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:02:41.599 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:02:41.599 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:02:41.599 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:02:41.600 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 1.4327ms
+2021-08-05 11:02:43.696 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:02:43.696 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:02:43.696 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:02:43.696 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:02:43.696 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:02:43.697 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:02:43.697 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:02:43.697 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:02:43.697 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:02:43.698 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 1.7682ms
+2021-08-05 11:03:08.697 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:03:08.697 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:03:08.697 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:03:08.698 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:03:08.698 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:03:08.699 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:03:08.700 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:03:08.700 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:03:08.700 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:03:08.701 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 3.9553ms
+2021-08-05 11:03:10.499 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:03:10.499 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:03:10.500 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:03:10.500 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:03:10.500 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:03:10.500 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:03:10.500 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:03:10.500 +08:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:03:10.500 +08:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2021-08-05 11:03:10.501 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 403 - - 1.5066ms
+2021-08-05 11:03:28.542 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:03:28.542 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:03:28.542 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:03:28.542 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:03:28.542 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:03:28.543 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:03:28.543 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:03:28.543 +08:00 [INF] Authorization was successful.
+2021-08-05 11:03:28.545 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:03:28.551 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-05 11:03:28.571 +08:00 [INF] Route matched with {action = "Query", controller = "Todos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:03:28.571 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:03:28.571 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:03:28.572 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:03:28.572 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:03:28.572 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:03:28.573 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:03:28.573 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:03:28.578 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-05 11:03:28.580 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-05 11:03:28.580 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-05 11:03:28.580 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:03:28.580 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:03:28.580 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-05 11:03:28.581 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-05 11:03:28.583 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:03:28.583 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-05 11:03:28.584 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:03:28.584 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:03:28.584 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:03:28.585 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:03:28.585 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:03:28.585 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-05 11:03:28.585 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:03:28.586 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:03:28.586 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:03:28.586 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:03:29.115 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-05 11:03:29.118 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-05 11:03:29.118 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-05 11:03:29.118 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-05 11:03:29.119 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 11:03:29.119 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO, UltraNuke.Barasingha.Todoing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-05 11:03:29.191 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API) in 615.8134ms
+2021-08-05 11:03:29.191 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:03:29.197 +08:00 [INF]  "2021-08-05T11:03:29.1914267+08:00"GEThttpslocalhost:44304/api/Todos?pageIndex=1&pageSize=2{"Total":6,"Items":[{"Id":"d232ba20-0c9d-4308-b2ea-acbf00e15c26","Name":"11"},{"Id":"7dc882bb-af7c-4c42-9c64-acbf00b9d936","Name":"2222"}]}null::1646
+2021-08-05 11:03:29.201 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 200 139 application/json;+charset=utf-8 658.9014ms
+2021-08-05 11:04:21.045 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos/d232ba20-0c9d-4308-b2ea-acbf00e15c26 - -
+2021-08-05 11:04:21.045 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:04:21.045 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos/d232ba20-0c9d-4308-b2ea-acbf00e15c26'
+2021-08-05 11:04:21.045 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/Todos/d232ba20-0c9d-4308-b2ea-acbf00e15c26'
+2021-08-05 11:04:21.046 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:04:21.046 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:04:21.046 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:04:21.046 +08:00 [INF] Authorization was successful.
+2021-08-05 11:04:21.047 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:04:21.049 +08:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO] Get(System.Guid) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:04:21.049 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:04:21.049 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:04:21.049 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:04:21.049 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:04:21.049 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:04:21.049 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:04:21.050 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:04:21.050 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:04:21.051 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-05 11:04:21.051 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:04:21.051 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:04:21.051 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:04:21.051 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-05 11:04:21.369 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-05 11:04:21.370 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-05 11:04:21.370 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-05 11:04:21.370 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-05 11:04:21.370 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 11:04:21.370 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO'.
+2021-08-05 11:04:21.370 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API) in 321.0185ms
+2021-08-05 11:04:21.371 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Get (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:04:21.371 +08:00 [INF]  "2021-08-05T11:04:21.3710784+08:00"GEThttpslocalhost:44304/api/Todos/d232ba20-0c9d-4308-b2ea-acbf00e15c26{"Id":"d232ba20-0c9d-4308-b2ea-acbf00e15c26","Name":"11"}null::1324
+2021-08-05 11:04:21.371 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos/d232ba20-0c9d-4308-b2ea-acbf00e15c26 - - - 200 57 application/json;+charset=utf-8 326.5221ms
+2021-08-05 11:04:51.721 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44304/api/Roles application/json 24
+2021-08-05 11:04:51.721 +08:00 [DBG] POST requests are not supported
+2021-08-05 11:04:51.721 +08:00 [DBG] No candidates found for the request path '/api/Roles'
+2021-08-05 11:04:51.721 +08:00 [DBG] Request did not match any endpoints
+2021-08-05 11:04:51.722 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:04:51.722 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:04:51.722 +08:00 [INF]  "2021-08-05T11:04:51.7225594+08:00"POSThttpslocalhost:44304/api/Roles{  "Name": "小狗"}null::10
+2021-08-05 11:04:51.723 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44304/api/Roles application/json 24 - 404 - - 2.1063ms
+2021-08-05 11:05:07.167 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44304/api/Todos application/json 24
+2021-08-05 11:05:07.167 +08:00 [DBG] POST requests are not supported
+2021-08-05 11:05:07.167 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:05:07.167 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Create (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:05:07.167 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Create (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:07.168 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:05:07.168 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:05:07.168 +08:00 [INF] Authorization was successful.
+2021-08-05 11:05:07.168 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Create (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:07.176 +08:00 [INF] Route matched with {action = "Create", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:05:07.176 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:05:07.176 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:05:07.176 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:05:07.176 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:05:07.176 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:05:07.176 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:05:07.177 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:05:07.177 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand' ...
+2021-08-05 11:05:07.177 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand' using the name '' in request data ...
+2021-08-05 11:05:07.178 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-08-05 11:05:07.178 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-08-05 11:05:07.193 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand'.
+2021-08-05 11:05:07.193 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand'.
+2021-08-05 11:05:07.193 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand' ...
+2021-08-05 11:05:07.197 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.CreateTodoCommand'.
+2021-08-05 11:05:07.373 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-08-05 11:05:07.756 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'TodoingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Todoing.API 
+2021-08-05 11:05:07.806 +08:00 [DBG] Context 'TodoingContext' started tracking 'Todo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:05:07.810 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:05:07.817 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:05:07.819 +08:00 [DBG] SaveChanges starting for 'TodoingContext'.
+2021-08-05 11:05:07.821 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:05:07.821 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:05:07.838 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:07.840 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:07.841 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-05 11:05:07.847 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-05 11:05:07.883 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 11:05:07.888 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2021-08-05 11:05:07.895 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [T_Todo] ([Id], [Name])
+VALUES (@p0, @p1);
+2021-08-05 11:05:07.906 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [T_Todo] ([Id], [Name])
+VALUES (@p0, @p1);
+2021-08-05 11:05:07.913 +08:00 [DBG] A data reader was disposed.
+2021-08-05 11:05:07.916 +08:00 [DBG] Committing transaction.
+2021-08-05 11:05:07.919 +08:00 [DBG] Committed transaction.
+2021-08-05 11:05:07.921 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:07.922 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:07.923 +08:00 [DBG] Disposing transaction.
+2021-08-05 11:05:07.930 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:05:07.931 +08:00 [DBG] SaveChanges completed for 'TodoingContext' with 1 entities written to the database.
+2021-08-05 11:05:07.935 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-05 11:05:07.936 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-05 11:05:07.936 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-05 11:05:07.936 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-05 11:05:07.936 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 11:05:07.936 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2021-08-05 11:05:07.936 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Create (UltraNuke.Barasingha.Todoing.API) in 760.2029ms
+2021-08-05 11:05:07.937 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Create (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:07.937 +08:00 [INF]  "2021-08-05T11:05:07.9375215+08:00"POSThttpslocalhost:44304/api/Todos"55a33098-8dce-4dad-8307-ad7b00b6ae7b"null::1769
+2021-08-05 11:05:07.939 +08:00 [DBG] 'TodoingContext' disposed.
+2021-08-05 11:05:07.941 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44304/api/Todos application/json 24 - 200 38 application/json;+charset=utf-8 774.1011ms
+2021-08-05 11:05:39.966 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b application/json 25
+2021-08-05 11:05:39.966 +08:00 [DBG] PUT requests are not supported
+2021-08-05 11:05:39.966 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:05:39.966 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:05:39.966 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:39.966 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2021-08-05 11:05:39.967 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ClaimsAuthorizationRequirement:Claim.Type=scope and Claim.Value is one of the following values: (Todoing.API)
+2021-08-05 11:05:39.970 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-05 11:05:39.970 +08:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b application/json 25 - 401 - - 4.6250ms
+2021-08-05 11:05:47.057 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b application/json 25
+2021-08-05 11:05:47.057 +08:00 [DBG] PUT requests are not supported
+2021-08-05 11:05:47.057 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:05:47.057 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:05:47.058 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:47.058 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:05:47.058 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:05:47.059 +08:00 [INF] Authorization was successful.
+2021-08-05 11:05:47.059 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:47.061 +08:00 [INF] Route matched with {action = "Update", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(System.Guid, UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:05:47.062 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:05:47.062 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:05:47.062 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:05:47.062 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:05:47.062 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:05:47.063 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:05:47.063 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:05:47.063 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:05:47.063 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-05 11:05:47.063 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:05:47.064 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:05:47.064 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:05:47.064 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-05 11:05:47.064 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand' ...
+2021-08-05 11:05:47.066 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand' using the name '' in request data ...
+2021-08-05 11:05:47.066 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-08-05 11:05:47.066 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-08-05 11:05:47.068 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand'.
+2021-08-05 11:05:47.068 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand'.
+2021-08-05 11:05:47.068 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand' ...
+2021-08-05 11:05:47.070 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Todoing.API.Application.Commands.UpdateTodoCommand'.
+2021-08-05 11:05:47.105 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'TodoingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Todoing.API 
+2021-08-05 11:05:47.151 +08:00 [DBG] Compiling query expression: 
+'DbSet<Todo>()
+    .Where(w => w.Id.Equals(__id_0))
+    .SingleOrDefault()'
+2021-08-05 11:05:47.291 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Todo>(
+    asyncEnumerable: new SingleQueryingEnumerable<Todo>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Todo.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Todo.Name (string), 1], }
+            SELECT TOP(2) t.Id, t.Name
+            FROM T_Todo AS t
+            WHERE t.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Todo>, 
+        UltraNuke.Barasingha.Todoing.Infrastructure.TodoingContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-08-05 11:05:47.315 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 11:05:47.315 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-05 11:05:47.315 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.315 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.316 +08:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-08-05 11:05:47.318 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-08-05 11:05:47.327 +08:00 [DBG] Context 'TodoingContext' started tracking 'Todo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:05:47.329 +08:00 [DBG] A data reader was disposed.
+2021-08-05 11:05:47.329 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.329 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.330 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:05:47.330 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:05:47.330 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:05:47.334 +08:00 [DBG] Todo with Id: "55a33098-8dce-4dad-8307-ad7b00b6ae7b" has been successfully updated
+2021-08-05 11:05:47.334 +08:00 [DBG] SaveChanges starting for 'TodoingContext'.
+2021-08-05 11:05:47.334 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:05:47.334 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:05:47.335 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.335 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.335 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-05 11:05:47.335 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-05 11:05:47.338 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 11:05:47.338 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-05 11:05:47.338 +08:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2021-08-05 11:05:47.340 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [T_Todo] SET [Name] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2021-08-05 11:05:47.342 +08:00 [DBG] A data reader was disposed.
+2021-08-05 11:05:47.342 +08:00 [DBG] Committing transaction.
+2021-08-05 11:05:47.343 +08:00 [DBG] Committed transaction.
+2021-08-05 11:05:47.343 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.343 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:05:47.343 +08:00 [DBG] Disposing transaction.
+2021-08-05 11:05:47.344 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:05:47.344 +08:00 [DBG] SaveChanges completed for 'TodoingContext' with 1 entities written to the database.
+2021-08-05 11:05:47.369 +08:00 [DBG] Declare exchange: name: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent, type: fanout, durable
+2021-08-05 11:05:47.500 +08:00 [DBG] SEND "rabbitmq://localhost/UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent" "dac00000-455f-8c16-5788-08d957bdec40" UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events.TodoUpdatedIntegrationEvent
+2021-08-05 11:05:47.508 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-08-05 11:05:47.508 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API) in 445.4296ms
+2021-08-05 11:05:47.508 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Update (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:05:47.508 +08:00 [INF]  "2021-08-05T11:05:47.5088158+08:00"PUThttpslocalhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7bnull::1449
+2021-08-05 11:05:47.509 +08:00 [DBG] 'TodoingContext' disposed.
+2021-08-05 11:05:47.509 +08:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b application/json 25 - 200 - - 452.3526ms
+2021-08-05 11:05:47.536 +08:00 [INF] ----- Handling integration event: "55a33098-8dce-4dad-8307-ad7b00b6ae7b" at Todoing.API - ({"TodoId":"55a33098-8dce-4dad-8307-ad7b00b6ae7b","Name":"小狗2","$type":"TodoUpdatedIntegrationEvent"})
+2021-08-05 11:05:47.544 +08:00 [DBG] RECEIVE "rabbitmq://localhost/event-listener" "dac00000-455f-8c16-5788-08d957bdec40" UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events.TodoUpdatedIntegrationEvent UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling.TodoUpdatedIntegrationEventHandler("00:00:00.0100333")
+2021-08-05 11:06:18.458 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:06:18.458 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:06:18.458 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:06:18.458 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:06:18.459 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:18.459 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:06:18.459 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:06:18.459 +08:00 [INF] Authorization was successful.
+2021-08-05 11:06:18.459 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:18.460 +08:00 [INF] Route matched with {action = "Query", controller = "Todos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:06:18.460 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:06:18.460 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:06:18.460 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:06:18.460 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:06:18.460 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:06:18.460 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:18.460 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:18.460 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-05 11:06:18.461 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-05 11:06:18.461 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-05 11:06:18.461 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:06:18.461 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-05 11:06:18.461 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:18.461 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:06:18.462 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:18.462 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:06:18.462 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-05 11:06:18.462 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:18.462 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:18.462 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:06:18.462 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:18.465 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-05 11:06:18.465 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-05 11:06:18.465 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-05 11:06:18.465 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-05 11:06:18.465 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 11:06:18.465 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO, UltraNuke.Barasingha.Todoing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-05 11:06:18.466 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API) in 5.4652ms
+2021-08-05 11:06:18.466 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:18.466 +08:00 [INF]  "2021-08-05T11:06:18.4662168+08:00"GEThttpslocalhost:44304/api/Todos?pageIndex=1&pageSize=2{"Total":7,"Items":[{"Id":"55a33098-8dce-4dad-8307-ad7b00b6ae7b","Name":"小狗2"},{"Id":"d232ba20-0c9d-4308-b2ea-acbf00e15c26","Name":"11"}]}null::16
+2021-08-05 11:06:18.466 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 200 142 application/json;+charset=utf-8 8.2252ms
+2021-08-05 11:06:22.097 +08:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b - -
+2021-08-05 11:06:22.098 +08:00 [DBG] DELETE requests are not supported
+2021-08-05 11:06:22.098 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:06:22.098 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Delete (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos/{id}' is valid for the request path '/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b'
+2021-08-05 11:06:22.098 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Delete (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:22.098 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:06:22.098 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:06:22.099 +08:00 [INF] Authorization was successful.
+2021-08-05 11:06:22.099 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Delete (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:22.101 +08:00 [INF] Route matched with {action = "Delete", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(System.Guid) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:06:22.101 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:06:22.101 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:06:22.101 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:06:22.101 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:06:22.101 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:06:22.101 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:22.102 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:22.102 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:06:22.102 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-05 11:06:22.102 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:06:22.102 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-05 11:06:22.102 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-05 11:06:22.102 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-05 11:06:22.140 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'TodoingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Todoing.API 
+2021-08-05 11:06:22.143 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 11:06:22.143 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-05 11:06:22.143 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.143 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.144 +08:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-08-05 11:06:22.145 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[Name]
+FROM [T_Todo] AS [t]
+WHERE [t].[Id] = @__id_0
+2021-08-05 11:06:22.146 +08:00 [DBG] Context 'TodoingContext' started tracking 'Todo' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:06:22.146 +08:00 [DBG] A data reader was disposed.
+2021-08-05 11:06:22.146 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.146 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.147 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:06:22.149 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:06:22.149 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:06:22.149 +08:00 [DBG] SaveChanges starting for 'TodoingContext'.
+2021-08-05 11:06:22.149 +08:00 [DBG] DetectChanges starting for 'TodoingContext'.
+2021-08-05 11:06:22.150 +08:00 [DBG] DetectChanges completed for 'TodoingContext'.
+2021-08-05 11:06:22.150 +08:00 [DBG] Opening connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.150 +08:00 [DBG] Opened connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.150 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-05 11:06:22.150 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-05 11:06:22.151 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 11:06:22.152 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-05 11:06:22.152 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [T_Todo]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-08-05 11:06:22.154 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [T_Todo]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-08-05 11:06:22.154 +08:00 [DBG] A data reader was disposed.
+2021-08-05 11:06:22.154 +08:00 [DBG] Committing transaction.
+2021-08-05 11:06:22.155 +08:00 [DBG] Committed transaction.
+2021-08-05 11:06:22.155 +08:00 [DBG] Closing connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.155 +08:00 [DBG] Closed connection to database 'Barasingha.Todoing' on server '.\SQLEXPRESS'.
+2021-08-05 11:06:22.155 +08:00 [DBG] Disposing transaction.
+2021-08-05 11:06:22.160 +08:00 [DBG] An entity of type 'Todo' tracked by 'TodoingContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-05 11:06:22.160 +08:00 [DBG] SaveChanges completed for 'TodoingContext' with 1 entities written to the database.
+2021-08-05 11:06:22.161 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-08-05 11:06:22.161 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Delete (UltraNuke.Barasingha.Todoing.API) in 59.7364ms
+2021-08-05 11:06:22.161 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Delete (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:22.162 +08:00 [INF]  "2021-08-05T11:06:22.1618691+08:00"DELETEhttpslocalhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7bnull::162
+2021-08-05 11:06:22.162 +08:00 [DBG] 'TodoingContext' disposed.
+2021-08-05 11:06:22.162 +08:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:44304/api/Todos/55a33098-8dce-4dad-8307-ad7b00b6ae7b - - - 200 - - 64.5883ms
+2021-08-05 11:06:32.794 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-05 11:06:32.796 +08:00 [DBG] The request path  does not match the path filter
+2021-08-05 11:06:32.796 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Todos'
+2021-08-05 11:06:32.796 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)' with route pattern 'api/Todos' is valid for the request path '/api/Todos'
+2021-08-05 11:06:32.796 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:32.797 +08:00 [INF] Successfully validated the token.
+2021-08-05 11:06:32.799 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-05 11:06:32.799 +08:00 [INF] Authorization was successful.
+2021-08-05 11:06:32.799 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:32.799 +08:00 [INF] Route matched with {action = "Query", controller = "Todos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API).
+2021-08-05 11:06:32.800 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 11:06:32.800 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-05 11:06:32.801 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-05 11:06:32.801 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 11:06:32.801 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-05 11:06:32.801 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:32.801 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Todoing.API.Controllers.TodosController (UltraNuke.Barasingha.Todoing.API)
+2021-08-05 11:06:32.801 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-05 11:06:32.802 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-05 11:06:32.802 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-05 11:06:32.802 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:06:32.802 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-05 11:06:32.802 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:32.802 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-05 11:06:32.803 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-05 11:06:32.803 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:06:32.803 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-05 11:06:32.803 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:32.803 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:32.804 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-05 11:06:32.805 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-05 11:06:32.809 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-05 11:06:32.809 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-05 11:06:32.809 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-05 11:06:32.809 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-05 11:06:32.809 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 11:06:32.809 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Todoing.API.Application.DTO.TodoDTO, UltraNuke.Barasingha.Todoing.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-05 11:06:32.810 +08:00 [INF] Executed action UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API) in 8.477ms
+2021-08-05 11:06:32.810 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Todoing.API.Controllers.TodosController.Query (UltraNuke.Barasingha.Todoing.API)'
+2021-08-05 11:06:32.810 +08:00 [INF]  "2021-08-05T11:06:32.8102506+08:00"GEThttpslocalhost:44304/api/Todos?pageIndex=1&pageSize=2{"Total":6,"Items":[{"Id":"d232ba20-0c9d-4308-b2ea-acbf00e15c26","Name":"11"},{"Id":"7dc882bb-af7c-4c42-9c64-acbf00b9d936","Name":"2222"}]}null::110
+2021-08-05 11:06:32.810 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44304/api/Todos?pageIndex=1&pageSize=2 - - - 200 139 application/json;+charset=utf-8 15.7897ms

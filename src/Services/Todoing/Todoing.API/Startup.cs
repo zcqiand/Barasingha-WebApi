@@ -1,7 +1,6 @@
 using AutoMapper;
 using MassTransit;
 using MediatR;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -12,12 +11,10 @@ using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.IO;
-using System.Text;
 using UltraNuke.Barasingha.Todoing.API.Application.DomainEventHandlers;
 using UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.EventHandling;
 using UltraNuke.Barasingha.Todoing.API.Application.Mappers;
 using UltraNuke.Barasingha.Todoing.API.Application.Queries;
-using UltraNuke.Barasingha.Todoing.API.Infrastructure;
 using UltraNuke.Barasingha.Todoing.Infrastructure;
 using UltraNuke.CommonMormon.DDD;
 using UltraNuke.CommonMormon.Utils.Middlewares;
@@ -71,7 +68,8 @@ namespace UltraNuke.Barasingha.Todoing.API
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllers()
+                    .RequireAuthorization("ApiScope");
             });
         }
     }
@@ -137,24 +135,24 @@ namespace UltraNuke.Barasingha.Todoing.API
 
         public static IServiceCollection AddCustomAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
                 {
-                    ValidateIssuerSigningKey = true,//是否调用对签名securityToken的SecurityKey进行验证
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["TokenSecret"])),//签名秘钥
-                    ValidateIssuer = true,//是否验证颁发者
-                    ValidIssuer = configuration["TokenIssuer"], //颁发者
-                    ValidateAudience = true, //是否验证接收者
-                    ValidAudience = configuration["TokenAudience"],//接收者
-                    ValidateLifetime = true,//是否验证失效时间
-                };
+                    options.Authority = configuration["IdentityUrl"];
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+                    options.RequireHttpsMetadata = bool.Parse(configuration["RequireHttpsMetadata"] ?? "false");
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ApiScope", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("scope", "Todoing.API");
+                });
             });
 
             return services;
@@ -162,7 +160,7 @@ namespace UltraNuke.Barasingha.Todoing.API
 
         public static IServiceCollection AddCustomConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<TodoSettings>(configuration);
+            services.Configure<AppSettings>(configuration);
 
             return services;
         }
@@ -176,10 +174,6 @@ namespace UltraNuke.Barasingha.Todoing.API
                            {
                                sqlOptions.MigrationsAssembly("UltraNuke.Barasingha.Todoing.API");
                            });
-            });
-            services.AddDbContext<TodoingQueriesContext>(options =>
-            {
-                options.UseSqlServer(configuration.GetConnectionString("TodoingContext"));
             });
 
             return services;

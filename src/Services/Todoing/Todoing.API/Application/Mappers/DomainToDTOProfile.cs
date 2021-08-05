@@ -1,6 +1,4 @@
 ﻿using AutoMapper;
-using UltraNuke.Barasingha.Todoing.Domain.AggregatesModel;
-using UltraNuke.Barasingha.Todoing.API.Application.DTO;
 
 namespace UltraNuke.Barasingha.Todoing.API.Application.Mappers
 {
@@ -14,7 +12,6 @@ namespace UltraNuke.Barasingha.Todoing.API.Application.Mappers
         /// </summary>
         public DomainToDTOProfile()
         {
-            CreateMap<Todo, TodoDTO>();
         }
     }
 }

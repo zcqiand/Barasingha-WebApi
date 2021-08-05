@@ -35,9 +35,9 @@ namespace UltraNuke.Barasingha.Todoing.API.Controllers
         /// </summary>
         /// <returns>待办事项集合</returns>
         [HttpGet]
-        public ActionResult<PaginatedItems<TodoDTO>> Query(int pageIndex, int pageSize)
+        public ActionResult<PaginatedItems<TodoDTO>> Query(string name, int pageIndex, int pageSize)
         {
-            return todoQueries.Query(pageIndex, pageSize).Result;
+            return todoQueries.Query(name, pageIndex, pageSize).Result;
         }
 
         /// <summary>
@@ -62,10 +62,10 @@ namespace UltraNuke.Barasingha.Todoing.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>待办事项对象</returns>
         [HttpPost]
-        public async Task<ActionResult<TodoDTO>> Create(CreateTodoCommand param)
+        public async Task<ActionResult<Guid>> Create(CreateTodoCommand param)
         {
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            return ret;
         }
 
         /// <summary>
@@ -75,11 +75,15 @@ namespace UltraNuke.Barasingha.Todoing.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>待办事项对象</returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<TodoDTO>> Update(Guid id, UpdateTodoCommand param)
+        public async Task<ActionResult> Update(Guid id, UpdateTodoCommand param)
         {
             param.Id = id;
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            if (!ret)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         /// <summary>
@@ -96,7 +100,7 @@ namespace UltraNuke.Barasingha.Todoing.API.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return Ok();
         }
     }
 }

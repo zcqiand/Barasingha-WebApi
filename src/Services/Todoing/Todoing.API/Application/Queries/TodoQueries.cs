@@ -1,41 +1,45 @@
 ﻿namespace UltraNuke.Barasingha.Todoing.API.Application.Queries
 {
+    using Dapper;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
     using System;
+    using System.Data;
     using System.Linq;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Todoing.API.Application.DTO;
-    using UltraNuke.Barasingha.Todoing.API.Infrastructure;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class TodoQueries
+    public class TodoQueries : QueriesBase
     {
-        private readonly TodoingQueriesContext context;
-        public TodoQueries(TodoingQueriesContext context)
+        public TodoQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context;
         }
 
-        public async Task<PaginatedItems<TodoDTO>> Query(int pageIndex, int pageSize)
+        public async Task<PaginatedItems<TodoDTO>> Query(string name, int pageIndex, int pageSize)
         {
-            var total = await context.Todos
-                .AsNoTracking()
-                .CountAsync();
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@Name", name);
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-            var todos = await context.Todos
-                .AsNoTracking()
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<TodoDTO>(total, todos);
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("Todo_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<TodoDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<TodoDTO>(total, list);
+            }
         }
 
         public async Task<TodoDTO> Get(Guid id)
         {
-            var todo = await context.Todos.FindAsync(id);
-            return todo;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.T_Todo WHERE Id = @Id";
+                return connection.Query<TodoDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }
