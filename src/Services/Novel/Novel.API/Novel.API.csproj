@@ -54,4 +54,10 @@
 		<Folder Include="Application\IntegrationEvents\Events\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Novel.Domain.Common\Novel.Domain.Common.csproj" />
+	  <ProjectReference Include="..\Novel.Domain\Novel.Domain.csproj" />
+	  <ProjectReference Include="..\Novel.Infrastructure\Novel.Infrastructure.csproj" />
+	</ItemGroup>
+
 </Project>

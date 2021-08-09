@@ -1,10 +1,14 @@
 ﻿using MediatR;
-using UltraNuke.Barasingha.Novel.API.Application.Commands;
+using System;
 
 namespace UltraNuke.Barasingha.Novel.API.Application.Commands
 {
-    public class DeleteSegmentCommand : SegmentCommandBase, IRequest<bool>
+    public class DeleteSegmentCommand : IRequest<bool>
     {
+        /// <summary>
+        /// 主键
+        /// </summary>
+        public Guid Id { get; set; }
     }
 
 }

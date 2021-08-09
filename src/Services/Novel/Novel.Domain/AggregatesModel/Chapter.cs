@@ -35,6 +35,10 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
         /// </summary>
         public string Content { get; protected set; }
         /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
+        /// <summary>
         /// 更新时间
         /// </summary>
         public DateTime UpdateTime { get; protected set; }
@@ -64,6 +68,7 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
             o.No = no;
             o.Name = name;
             o.Content = content;
+            o.CreateTime = DateTime.Now;
             o.UpdateTime = DateTime.Now;
 
             o.AggregateState = AggregateState.Added;

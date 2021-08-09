@@ -35,7 +35,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// </summary>
         /// <returns>作品集合</returns>
         [HttpGet]
-        public ActionResult<PaginatedItems<BookDTO>> Query(int pageIndex, int pageSize)
+        public ActionResult<PaginatedItems<BookForQueryDTO>> Query(int pageIndex, int pageSize)
         {
             return bookQueries.Query(pageIndex, pageSize).Result;
         }
@@ -46,7 +46,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="id">作品ID</param>
         /// <returns>作品</returns>
         [HttpGet("{id}")]
-        public ActionResult<BookDTO> Get(Guid id)
+        public ActionResult<BookForGetDTO> Get(Guid id)
         {
             var book = bookQueries.Get(id).Result;
             if (book == null)
@@ -62,10 +62,10 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品对象</returns>
         [HttpPost]
-        public async Task<ActionResult<BookDTO>> Create(CreateBookCommand param)
+        public async Task<ActionResult<Guid>> Create(CreateBookCommand param)
         {
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            return ret;
         }
 
         /// <summary>
@@ -75,11 +75,15 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品对象</returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<BookDTO>> Update(Guid id, UpdateBookCommand param)
+        public async Task<ActionResult> Update(Guid id, UpdateBookCommand param)
         {
             param.Id = id;
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            if (!ret)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         /// <summary>
@@ -96,7 +100,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return Ok();
         }
     }
 }

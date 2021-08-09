@@ -1,77 +1,65 @@
 ﻿namespace UltraNuke.Barasingha.Novel.API.Application.Queries
 {
-    using AutoMapper;
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
+    using Microsoft.Extensions.Configuration;
     using System;
     using System.Collections.Generic;
+    using System.Data;
     using System.Linq;
-    using System.Linq.Expressions;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Novel.API.Application.DTO;
-    using UltraNuke.Barasingha.Novel.API.Infrastructure;
-    using UltraNuke.CommonMormon.Utils.Extensions;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class MainCategoryQueries
+    public class MainCategoryQueries : QueriesBase
     {
-        private readonly NovelQueriesContext context;
-        private readonly IMapper mapper;
-        public MainCategoryQueries(NovelQueriesContext context, IMapper mapper)
+        public MainCategoryQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context ?? throw new ArgumentNullException(nameof(context));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         public async Task<PaginatedItems<MainCategoryDTO>> Query(string name, int pageIndex, int pageSize)
         {
-            Expression<Func<MainCategoryDTO, bool>> filter = w => true;
-            if (!string.IsNullOrWhiteSpace(name))
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@Name", name);
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
+
+            using (var connection = OpenConnection())
             {
-                filter = filter.And(w => w.Name.Contains(name));
+                var result = connection.QueryMultiple("MainCategory_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<MainCategoryDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<MainCategoryDTO>(total, list);
             }
-
-            var total = await context.MainCategories
-                .AsNoTracking()
-                .Where(filter)
-                .CountAsync();
-
-            var mainCategorys = await context.MainCategories
-                .AsNoTracking()
-                .Where(filter)
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<MainCategoryDTO>(total, mainCategorys);
         }
 
         public async Task<List<MainCategoryForGetSelectDTO>> QuerySelect()
         {
-            var mainCategories = await context.MainCategories
-                .AsNoTracking()
-                .Include(b => b.SubCategories)
-                .OrderBy(o => o.No)
-                .ToListAsync();
-
-            var mainCategoriesForDTO = mapper.Map<List<MainCategoryForGetSelectDTO>>(mainCategories);
-            return mainCategoriesForDTO;
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("MainCategory_QuerySelect", null, commandType: CommandType.StoredProcedure);
+                var list = result.Read<MainCategoryForGetSelectDTO>().ToList();
+                return list;
+            }
         }
 
         public async Task<List<MainCategoryDTO>> QueryAll()
         {
-            var mainCategories = await context.MainCategories
-                .AsNoTracking()
-                .OrderBy(o => o.No)
-                .ToListAsync();
-
-            return mainCategories;
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("MainCategory_QueryAll", null, commandType: CommandType.StoredProcedure);
+                var list = result.Read<MainCategoryDTO>().ToList();
+                return list;
+            }
         }
 
         public async Task<MainCategoryDTO> Get(Guid id)
         {
-            var mainCategory = await context.MainCategories.FindAsync(id);
-            return mainCategory;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.N_MainCategory WHERE Id = @Id";
+                return connection.Query<MainCategoryDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }

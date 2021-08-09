@@ -7,7 +7,6 @@ namespace UltraNuke.Barasingha.Novel.API.Application.DTO
     /// <summary>
     /// 作品大类
     /// </summary>
-    [Table("N_MainCategory")]
     public class MainCategoryDTO
     {
         #region Public Properties
@@ -26,7 +25,7 @@ namespace UltraNuke.Barasingha.Novel.API.Application.DTO
         /// <summary>
         /// 作品小类集合
         /// </summary>
-        public IList<SubCategoryDTO> SubCategories { get; set; }
+        public IList<SubCategoryForGetDTO> SubCategories { get; set; }
         #endregion                
     }
 }

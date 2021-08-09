@@ -11,7 +11,7 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateChapterCommandHandler
-        : IRequestHandler<UpdateChapterCommand, ChapterDTO>
+        : IRequestHandler<UpdateChapterCommand, bool>
     {
         private readonly IRepository repository;
         private readonly IMapper mapper;
@@ -22,16 +22,14 @@
             this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<ChapterDTO> Handle(UpdateChapterCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateChapterCommand param, CancellationToken cancellationToken)
         {
             var chapter = await repository.GetAsync<Chapter>(param.Id);
             chapter.Update(param.No, param.Name, param.Content);
             repository.Entry(chapter);
             await repository.SaveAsync();
 
-            var chapterForDTO = mapper.Map<ChapterDTO>(chapter);
-
-            return chapterForDTO;
+            return true;
         }
     }
 }

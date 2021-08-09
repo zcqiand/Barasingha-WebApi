@@ -28,6 +28,10 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
         /// </summary>
         public string Name { get; protected set; }
         /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
+        /// <summary>
         /// 作品小类集合
         /// </summary>
         public IList<SubCategory> SubCategories { get; protected set; }
@@ -49,6 +53,7 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
             o.Id = SequentialGuid.NewId();
             o.No = no;
             o.Name = name;
+            o.CreateTime = DateTime.Now;
 
             o.AggregateState = AggregateState.Added;
             return o;

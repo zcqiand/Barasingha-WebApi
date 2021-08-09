@@ -1,53 +1,48 @@
 ﻿namespace UltraNuke.Barasingha.Novel.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
+    using Microsoft.Extensions.Configuration;
     using System;
+    using System.Data;
     using System.Linq;
-    using System.Linq.Expressions;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Novel.API.Application.DTO;
-    using UltraNuke.Barasingha.Novel.API.Infrastructure;
-    using UltraNuke.CommonMormon.Utils.Extensions;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class ChapterQueries
+    public class ChapterQueries : QueriesBase
     {
-        private readonly NovelQueriesContext context;
-        public ChapterQueries(NovelQueriesContext context)
+        public ChapterQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<PaginatedItems<ChapterDTO>> Query(DateTime startUpdateTime, DateTime endUpdateTime, string name, int pageIndex, int pageSize)
+        public async Task<PaginatedItems<ChapterForGetDTO>> Query(DateTime startUpdateTime, DateTime endUpdateTime, string name, int pageIndex, int pageSize)
         {
             endUpdateTime = endUpdateTime.AddDays(1);
-            Expression<Func<ChapterDTO, bool>> filter = w => w.UpdateTime >= startUpdateTime && w.UpdateTime < endUpdateTime;
-            if (!string.IsNullOrWhiteSpace(name))
+
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@StartUpdateTime", startUpdateTime);
+            param.Add("@EndUpdateTime", endUpdateTime);
+            param.Add("@Name", name);
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
+
+            using (var connection = OpenConnection())
             {
-                filter = filter.And(w => w.Name.Contains(name));
+                var result = connection.QueryMultiple("Chapter_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<ChapterForGetDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<ChapterForGetDTO>(total, list);
             }
-
-            var total = await context.Chapters
-                .AsNoTracking()
-                .Where(filter)
-                .CountAsync();
-
-            var chapters = await context.Chapters
-                .AsNoTracking()
-                .Include(b => b.Segment)
-                .Where(filter)
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<ChapterDTO>(total, chapters);
         }
 
-        public async Task<ChapterDTO> Get(Guid id)
+        public async Task<ChapterForGetDTO> Get(Guid id)
         {
-            var chapter = await context.Chapters.FindAsync(id);
-            return chapter;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.N_Chapter WHERE Id = @Id";
+                return connection.Query<ChapterForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }

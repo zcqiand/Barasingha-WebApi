@@ -7,8 +7,7 @@ namespace UltraNuke.Barasingha.Novel.API.Application.DTO
     /// <summary>
     /// 作品
     /// </summary>
-    [Table("N_Book")]
-    public class BookDTO
+    public class BookForGetDTO
     {
         #region Public Properties
         /// <summary>

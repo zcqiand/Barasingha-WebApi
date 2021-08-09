@@ -7,8 +7,7 @@ namespace UltraNuke.Barasingha.Novel.API.Application.DTO
     /// <summary>
     /// 作品小类
     /// </summary>
-    [Table("N_SubCategory")]
-    public class SubCategoryDTO
+    public class SubCategoryForGetDTO
     {
         #region Public Properties
         /// <summary>

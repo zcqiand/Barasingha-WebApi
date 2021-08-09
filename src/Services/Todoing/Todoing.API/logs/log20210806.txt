@@ -1,0 +1,16 @@
+2021-08-06 09:51:48.834 +08:00 [DBG] Hosting stopping
+2021-08-06 09:51:48.776 +08:00 [INF] Application is shutting down...
+2021-08-06 09:51:51.808 +08:00 [DBG] Stopping bus instances: IBus
+2021-08-06 09:51:52.356 +08:00 [DBG] Stopping host: "rabbitmq://localhost/"
+2021-08-06 09:51:53.406 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/event-listener"
+2021-08-06 09:51:53.542 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/event-listener"
+2021-08-06 09:51:53.689 +08:00 [DBG] Stopping Consumer: "rabbitmq://localhost/event-listener" - amq.ctag-pdCfCH96mZumOqUGSdYgFw
+2021-08-06 09:51:54.428 +08:00 [DBG] Endpoint Stopping: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbptacbdcixqhhno?temporary=true"
+2021-08-06 09:51:54.438 +08:00 [DBG] Consumer Cancel Ok: "rabbitmq://localhost/event-listener" - amq.ctag-pdCfCH96mZumOqUGSdYgFw
+2021-08-06 09:51:54.453 +08:00 [DBG] Stopping receive transport: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbptacbdcixqhhno?temporary=true"
+2021-08-06 09:51:54.491 +08:00 [DBG] Endpoint Completed: "rabbitmq://localhost/event-listener"
+2021-08-06 09:51:54.579 +08:00 [DBG] Consumer completed amq.ctag-pdCfCH96mZumOqUGSdYgFw: 1 received, 1 concurrent
+2021-08-06 09:51:55.190 +08:00 [DBG] Stopping send transport: UltraNuke.Barasingha.Todoing.API.Application.IntegrationEvents.Events:TodoUpdatedIntegrationEvent
+2021-08-06 09:51:55.192 +08:00 [INF] Disconnect: guest@localhost:5672/
+2021-08-06 09:51:55.226 +08:00 [INF] Disconnected: guest@localhost:5672/
+2021-08-06 09:51:55.331 +08:00 [DBG] Hosting stopped

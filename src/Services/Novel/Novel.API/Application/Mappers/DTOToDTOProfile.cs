@@ -15,7 +15,7 @@ namespace UltraNuke.Barasingha.Novel.API.Application.Mappers
         public DTOToDTOProfile()
         {
             CreateMap<MainCategoryDTO, MainCategoryForGetSelectDTO>();
-            CreateMap<SubCategoryDTO, SubCategoryForGetSelectDTO>();
+            CreateMap<SubCategoryForGetDTO, SubCategoryForGetSelectDTO>();
         }
     }
 }

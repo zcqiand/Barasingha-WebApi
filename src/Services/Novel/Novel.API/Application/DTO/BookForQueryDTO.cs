@@ -1,12 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using UltraNuke.Barasingha.Novel.Domain.Common;
 
-namespace UltraNuke.Barasingha.Novel.API.Application.Commands
+namespace UltraNuke.Barasingha.Novel.API.Application.DTO
 {
     /// <summary>
-    /// BookCommand基类
+    /// 作品
     /// </summary>
-    public class BookCommandBase
+    public class BookForQueryDTO
     {
         #region Public Properties
         /// <summary>
@@ -14,13 +15,9 @@ namespace UltraNuke.Barasingha.Novel.API.Application.Commands
         /// </summary>
         public Guid Id { get; set; }
         /// <summary>
-        /// 作品小类ID
+        /// 作品小类
         /// </summary>
-        public Guid SubCategoryId { get; set; }
-        /// <summary>
-        /// 序号
-        /// </summary>
-        public int No { get; set; }
+        public string SubCategoryName { get; set; }
         /// <summary>
         /// 作品封面
         /// </summary>
@@ -30,17 +27,14 @@ namespace UltraNuke.Barasingha.Novel.API.Application.Commands
         /// </summary>
         public string Name { get; set; }
         /// <summary>
-        /// 作品作者ID
+        /// 作品作者
         /// </summary>
         public Guid AuthorId { get; set; }
+        public string AuthorName { get; set; }
         /// <summary>
         /// 作品介绍
         /// </summary>
         public string Introduction { get; set; }
-        /// <summary>
-        /// 给读者的话
-        /// </summary>
-        public string MessageToReader { get; set; }
         /// <summary>
         /// 作品字数
         /// </summary>
@@ -53,11 +47,24 @@ namespace UltraNuke.Barasingha.Novel.API.Application.Commands
         /// 作品状态
         /// </summary>
         public BookStatus BookStatus { get; set; }
+        public string BookStatusName
+        {
+            get
+            {
+                return BookStatus.ToString();
+            }
+        }
         /// <summary>
         /// 连载状态
         /// </summary>
         public SerialStatus SerialStatus { get; set; }
-        #endregion        
+        public string SerialStatusName
+        {
+            get
+            {
+                return SerialStatus.ToString();
+            }
+        }
+        #endregion                
     }
-
 }

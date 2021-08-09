@@ -10,7 +10,7 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateBookCommandHandler
-        : IRequestHandler<UpdateBookCommand, BookDTO>
+        : IRequestHandler<UpdateBookCommand, bool>
     {
         private readonly IRepository repository;
         private readonly IMapper mapper;
@@ -21,7 +21,7 @@
             this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<BookDTO> Handle(UpdateBookCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateBookCommand param, CancellationToken cancellationToken)
         {
             var subCategory = await repository.GetAsync<SubCategory>(param.SubCategoryId);
             var book = await repository.GetAsync<Book>(param.Id);
@@ -30,8 +30,7 @@
             repository.Entry(book);
             await repository.SaveAsync();
 
-            var bookForDTO = mapper.Map<BookDTO>(book);
-            return bookForDTO;
+            return true;
         }
     }
 }

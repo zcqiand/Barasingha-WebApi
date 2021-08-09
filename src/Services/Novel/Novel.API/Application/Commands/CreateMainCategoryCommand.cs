@@ -1,11 +1,20 @@
 ﻿using MediatR;
-using UltraNuke.Barasingha.Novel.API.Application.Commands;
-using UltraNuke.Barasingha.Novel.API.Application.DTO;
+using System;
 
 namespace UltraNuke.Barasingha.Novel.API.Application.Commands
 {
-    public class CreateMainCategoryCommand : MainCategoryCommandBase, IRequest<MainCategoryDTO>
+    public class CreateMainCategoryCommand : IRequest<Guid>
     {
+        #region Public Properties
+        /// <summary>
+        /// 序号
+        /// </summary>
+        public int No { get; set; }
+        /// <summary>
+        /// 类别名称
+        /// </summary>
+        public string Name { get; set; }
+        #endregion        
     }
 
 }

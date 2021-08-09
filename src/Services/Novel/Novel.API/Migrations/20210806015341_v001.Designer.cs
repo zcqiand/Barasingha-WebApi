@@ -10,8 +10,8 @@ using UltraNuke.Barasingha.Novel.Infrastructure;
 namespace UltraNuke.Barasingha.Novel.API.Migrations
 {
     [DbContext(typeof(NovelContext))]
-    [Migration("20210113004629_init")]
-    partial class init
+    [Migration("20210806015341_v001")]
+    partial class v001
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,6 +32,9 @@ namespace UltraNuke.Barasingha.Novel.API.Migrations
 
                     b.Property<int>("BookStatus")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("Favorites")
                         .HasColumnType("int");
@@ -76,6 +79,9 @@ namespace UltraNuke.Barasingha.Novel.API.Migrations
                     b.Property<string>("Content")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -104,6 +110,9 @@ namespace UltraNuke.Barasingha.Novel.API.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -124,6 +133,9 @@ namespace UltraNuke.Barasingha.Novel.API.Migrations
                     b.Property<Guid?>("BookId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -142,6 +154,9 @@ namespace UltraNuke.Barasingha.Novel.API.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid?>("MainCategoryId")
                         .HasColumnType("uniqueidentifier");

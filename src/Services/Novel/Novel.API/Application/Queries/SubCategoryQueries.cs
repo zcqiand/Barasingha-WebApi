@@ -1,53 +1,54 @@
 ﻿namespace UltraNuke.Barasingha.Novel.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
+    using Microsoft.Extensions.Configuration;
     using System;
     using System.Collections.Generic;
+    using System.Data;
     using System.Linq;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Novel.API.Application.DTO;
-    using UltraNuke.Barasingha.Novel.API.Infrastructure;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class SubCategoryQueries
+    public class SubCategoryQueries : QueriesBase
     {
-        private readonly NovelQueriesContext context;
-        public SubCategoryQueries(NovelQueriesContext context)
+        public SubCategoryQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<PaginatedItems<SubCategoryDTO>> Query(int pageIndex, int pageSize)
+        public async Task<PaginatedItems<SubCategoryForGetDTO>> Query(int pageIndex, int pageSize)
         {
-            var total = await context.SubCategories
-                .AsNoTracking()
-                .CountAsync();
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-            var subCategorys = await context.SubCategories
-                .AsNoTracking()
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<SubCategoryDTO>(total, subCategorys);
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("SubCategory_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<SubCategoryForGetDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<SubCategoryForGetDTO>(total, list);
+            }
         }
 
-        public async Task<List<SubCategoryDTO>> QueryAll()
+        public async Task<List<SubCategoryForGetDTO>> QueryAll()
         {
-            var subCategorys = await context.SubCategories
-                .AsNoTracking()
-                .Include(b => b.MainCategory)
-                .OrderBy(o => o.Id)
-                .ToListAsync();
-
-            return subCategorys;
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("SubCategory_QueryAll", null, commandType: CommandType.StoredProcedure);
+                var list = result.Read<SubCategoryForGetDTO>().ToList();
+                return list;
+            }
         }
 
-        public async Task<SubCategoryDTO> Get(Guid id)
+        public async Task<SubCategoryForGetDTO> Get(Guid id)
         {
-            var subCategory = await context.SubCategories.FindAsync(id);
-            return subCategory;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.N_SubCategory WHERE Id = @Id";
+                return connection.Query<SubCategoryForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }

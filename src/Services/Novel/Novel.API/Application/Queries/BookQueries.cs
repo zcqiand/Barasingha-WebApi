@@ -1,41 +1,43 @@
 ﻿namespace UltraNuke.Barasingha.Novel.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
+    using Microsoft.Extensions.Configuration;
     using System;
+    using System.Data;
     using System.Linq;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Novel.API.Application.DTO;
-    using UltraNuke.Barasingha.Novel.API.Infrastructure;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class BookQueries
+    public class BookQueries : QueriesBase
     {
-        private readonly NovelQueriesContext context;
-        public BookQueries(NovelQueriesContext context)
+        public BookQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<PaginatedItems<BookDTO>> Query(int pageIndex, int pageSize)
+        public async Task<PaginatedItems<BookForQueryDTO>> Query(int pageIndex, int pageSize)
         {
-            var total = await context.Books
-                .AsNoTracking()
-                .CountAsync();
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-            var books = await context.Books
-                .AsNoTracking()
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<BookDTO>(total, books);
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("Book_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<BookForQueryDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<BookForQueryDTO>(total, list);
+            }
         }
 
-        public async Task<BookDTO> Get(Guid id)
+        public async Task<BookForGetDTO> Get(Guid id)
         {
-            var book = await context.Books.FindAsync(id);
-            return book;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.N_Book WHERE Id = @Id";
+                return connection.Query<BookForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }

@@ -74,10 +74,10 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品大类对象</returns>
         [HttpPost]
-        public async Task<ActionResult<MainCategoryDTO>> Create(CreateMainCategoryCommand param)
+        public async Task<ActionResult<Guid>> Create(CreateMainCategoryCommand param)
         {
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            return ret;
         }
 
         /// <summary>
@@ -87,11 +87,15 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品大类对象</returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<MainCategoryDTO>> Update(Guid id, UpdateMainCategoryCommand param)
+        public async Task<ActionResult> Update(Guid id, UpdateMainCategoryCommand param)
         {
             param.Id = id;
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            if (!ret)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         /// <summary>
@@ -108,7 +112,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return Ok();
         }
     }
 }

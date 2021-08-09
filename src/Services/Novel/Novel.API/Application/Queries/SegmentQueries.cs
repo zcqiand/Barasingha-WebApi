@@ -1,41 +1,43 @@
 ﻿namespace UltraNuke.Barasingha.Novel.API.Application.Queries
 {
-    using Microsoft.EntityFrameworkCore;
+    using Dapper;
+    using Microsoft.Extensions.Configuration;
     using System;
+    using System.Data;
     using System.Linq;
     using System.Threading.Tasks;
     using UltraNuke.Barasingha.Novel.API.Application.DTO;
-    using UltraNuke.Barasingha.Novel.API.Infrastructure;
     using UltraNuke.CommonMormon.Utils.WebApi;
 
-    public class SegmentQueries
+    public class SegmentQueries : QueriesBase
     {
-        private readonly NovelQueriesContext context;
-        public SegmentQueries(NovelQueriesContext context)
+        public SegmentQueries(IConfiguration configuration) : base(configuration)
         {
-            this.context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public async Task<PaginatedItems<SegmentDTO>> Query(int pageIndex, int pageSize)
+        public async Task<PaginatedItems<SegmentForGetDTO>> Query(int pageIndex, int pageSize)
         {
-            var total = await context.Segments
-                .AsNoTracking()
-                .CountAsync();
+            DynamicParameters param = new DynamicParameters();
+            param.Add("@PageIndex", pageIndex);
+            param.Add("@PageSize", pageSize);
+            param.Add("@Total", 0, DbType.Int32, ParameterDirection.Output);
 
-            var segments = await context.Segments
-                .AsNoTracking()
-                .OrderBy(o => o.Id)
-                .Skip(pageSize * (pageIndex - 1))
-                .Take(pageSize)
-                .ToListAsync();
-
-            return new PaginatedItems<SegmentDTO>(total, segments);
+            using (var connection = OpenConnection())
+            {
+                var result = connection.QueryMultiple("Segment_Query", param, commandType: CommandType.StoredProcedure);
+                var list = result.Read<SegmentForGetDTO>().ToList();
+                var total = param.Get<int>("@Total");
+                return new PaginatedItems<SegmentForGetDTO>(total, list);
+            }
         }
 
-        public async Task<SegmentDTO> Get(Guid id)
+        public async Task<SegmentForGetDTO> Get(Guid id)
         {
-            var segment = await context.Segments.FindAsync(id);
-            return segment;
+            using (var connection = OpenConnection())
+            {
+                const string query = "SELECT * FROM dbo.N_Segment WHERE Id = @Id";
+                return connection.Query<SegmentForGetDTO>(query, new { Id = id }).SingleOrDefault();
+            }
         }
     }
 }

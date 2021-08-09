@@ -35,7 +35,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// </summary>
         /// <returns>作品分卷集合</returns>
         [HttpGet]
-        public ActionResult<PaginatedItems<SegmentDTO>> Query(int pageIndex, int pageSize)
+        public ActionResult<PaginatedItems<SegmentForGetDTO>> Query(int pageIndex, int pageSize)
         {
             return segmentQueries.Query(pageIndex, pageSize).Result;
         }
@@ -46,7 +46,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="id">作品分卷ID</param>
         /// <returns>作品分卷</returns>
         [HttpGet("{id}")]
-        public ActionResult<SegmentDTO> Get(Guid id)
+        public ActionResult<SegmentForGetDTO> Get(Guid id)
         {
             var segment = segmentQueries.Get(id).Result;
             if (segment == null)
@@ -62,10 +62,10 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品分卷对象</returns>
         [HttpPost]
-        public async Task<ActionResult<SegmentDTO>> Create(CreateSegmentCommand param)
+        public async Task<ActionResult<Guid>> Create(CreateSegmentCommand param)
         {
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            return ret;
         }
 
         /// <summary>
@@ -75,11 +75,15 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品分卷对象</returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<SegmentDTO>> Update(Guid id, UpdateSegmentCommand param)
+        public async Task<ActionResult> Update(Guid id, UpdateSegmentCommand param)
         {
             param.Id = id;
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            if (!ret)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         /// <summary>
@@ -96,7 +100,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return Ok();
         }
     }
 }

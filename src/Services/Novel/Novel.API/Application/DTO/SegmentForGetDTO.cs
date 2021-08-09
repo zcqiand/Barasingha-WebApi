@@ -1,8 +1,12 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace UltraNuke.Barasingha.Novel.API.Application.Commands
+namespace UltraNuke.Barasingha.Novel.API.Application.DTO
 {
-    public class SubCategoryCommandBase
+    /// <summary>
+    /// 作品分卷
+    /// </summary>
+    public class SegmentForGetDTO
     {
         #region Public Properties
         /// <summary>
@@ -10,18 +14,17 @@ namespace UltraNuke.Barasingha.Novel.API.Application.Commands
         /// </summary>
         public Guid Id { get; set; }
         /// <summary>
-        /// 作品大类ID
+        /// 作品ID
         /// </summary>
-        public Guid MainCategoryId { get; set; }
+        public Guid BookId { get; set; }
         /// <summary>
         /// 序号
         /// </summary>
         public int No { get; set; }
         /// <summary>
-        /// 类别名称
+        /// 分卷名称
         /// </summary>
         public string Name { get; set; }
-        #endregion        
+        #endregion                
     }
-
 }

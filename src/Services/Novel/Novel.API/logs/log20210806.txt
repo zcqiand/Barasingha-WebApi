@@ -1,0 +1,1280 @@
+2021-08-06 09:52:13.150 +08:00 [DBG] Hosting starting
+2021-08-06 09:52:13.433 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 09:52:13.439 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 09:52:13.442 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 09:52:13.472 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 09:52:13.499 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 09:52:13.528 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 09:52:13.537 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 09:52:13.547 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 09:52:13.562 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 09:52:13.569 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 09:52:13.570 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 09:52:13.570 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 09:52:13.577 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 09:52:13.586 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 09:52:13.588 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 09:52:13.589 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 09:52:13.592 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 09:52:13.594 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 09:52:13.596 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 09:52:13.597 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 09:52:13.863 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 09:52:13.863 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 09:52:13.863 +08:00 [INF] Hosting environment: Development
+2021-08-06 09:52:13.863 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 09:52:13.864 +08:00 [DBG] Hosting started
+2021-08-06 09:52:13.896 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger - -
+2021-08-06 09:52:13.898 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 09:52:13.975 +08:00 [DBG] Connection ID "17798225737568747756" disconnecting.
+2021-08-06 09:52:13.977 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger - - - 301 - - 83.1982ms
+2021-08-06 09:52:13.982 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 09:52:14.031 +08:00 [DBG] Connection ID "17798225741863715342" disconnecting.
+2021-08-06 09:52:14.032 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 49.0998ms
+2021-08-06 09:52:14.075 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - -
+2021-08-06 09:52:14.076 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - -
+2021-08-06 09:52:14.076 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - -
+2021-08-06 09:52:14.093 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-08-06 09:52:14.093 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-08-06 09:52:14.095 +08:00 [DBG] Connection ID "17293822592188154615" disconnecting.
+2021-08-06 09:52:14.095 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui.css - - - 200 142933 text/css 20.9341ms
+2021-08-06 09:52:14.099 +08:00 [DBG] Connection ID "18302628913014112629" disconnecting.
+2021-08-06 09:52:14.100 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 23.7342ms
+2021-08-06 09:52:14.158 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-08-06 09:52:14.172 +08:00 [DBG] Connection ID "18086456130900328450" disconnecting.
+2021-08-06 09:52:14.172 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 96.3205ms
+2021-08-06 09:52:14.412 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-08-06 09:52:14.435 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - -
+2021-08-06 09:52:14.436 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-08-06 09:52:14.436 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/favicon-32x32.png - - - 200 628 image/png 0.9797ms
+2021-08-06 09:52:14.437 +08:00 [DBG] Connection ID "18374686498462106308" disconnecting.
+2021-08-06 09:52:14.635 +08:00 [DBG] Connection ID "18302628904424177887" disconnecting.
+2021-08-06 09:52:14.635 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.5767ms
+2021-08-06 09:52:15.713 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 54474)
+2021-08-06 09:52:15.754 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 09:52:15.755 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbchj7bdcio9gxf8?temporary=true"
+2021-08-06 09:52:15.764 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 09:52:15.765 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 09:52:15.858 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-A7UukOReWGRxqa_BFf2Scw
+2021-08-06 09:52:15.859 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 14:57:45.185 +08:00 [DBG] Hosting starting
+2021-08-06 14:57:45.488 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 14:57:45.498 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 14:57:45.501 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 14:57:45.535 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 14:57:45.560 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 14:57:45.583 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 14:57:45.584 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 14:57:45.585 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 14:57:45.591 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 14:57:45.598 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 14:57:45.599 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 14:57:45.599 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 14:57:45.607 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 14:57:45.615 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 14:57:45.617 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 14:57:45.619 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 14:57:45.621 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 14:57:45.623 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 14:57:45.625 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 14:57:45.626 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 14:57:45.872 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 14:57:45.872 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 14:57:45.872 +08:00 [INF] Hosting environment: Development
+2021-08-06 14:57:45.873 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 14:57:45.873 +08:00 [DBG] Hosting started
+2021-08-06 14:57:45.886 +08:00 [DBG] Connection ID "17654110553787858948" disconnecting.
+2021-08-06 14:57:45.892 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 14:57:45.895 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 14:57:46.038 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 147.7452ms
+2021-08-06 14:57:47.838 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 59158)
+2021-08-06 14:57:47.876 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 14:57:47.877 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbp3ribdcitj56dm?temporary=true"
+2021-08-06 14:57:47.887 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 14:57:47.888 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 14:57:47.933 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-uy5KcInlLhNdDuE8_3qXgA
+2021-08-06 14:57:47.934 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 14:57:53.413 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-06 14:57:53.414 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 14:57:53.440 +08:00 [DBG] No candidates found for the request path '/api/Todos'
+2021-08-06 14:57:53.441 +08:00 [DBG] Request did not match any endpoints
+2021-08-06 14:57:57.956 +08:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 14:57:58.030 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'System.String'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'System.String'. HttpResponseMessage: 'System.Net.Http.HttpResponseMessage', HttpResponseMessage.Content: 'System.String'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 14:57:58.070 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Todos?pageIndex=1&pageSize=2 - - - 500 - text/plain 4657.2763ms
+2021-08-06 15:23:06.689 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Todos?pageIndex=1&pageSize=2 - -
+2021-08-06 15:23:06.690 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:23:06.692 +08:00 [DBG] No candidates found for the request path '/api/Todos'
+2021-08-06 15:23:06.692 +08:00 [DBG] Request did not match any endpoints
+2021-08-06 15:23:07.257 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:23:07.257 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:23:07.271 +08:00 [INF]  "2021-08-06T15:23:07.2704033+08:00"GEThttpslocalhost:44302/api/Todos?pageIndex=1&pageSize=2null::10
+2021-08-06 15:23:07.272 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Todos?pageIndex=1&pageSize=2 - - - 404 - - 583.3666ms
+2021-08-06 15:23:28.318 +08:00 [DBG] Hosting starting
+2021-08-06 15:23:28.507 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 15:23:28.512 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 15:23:28.516 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 15:23:28.543 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 15:23:28.572 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 15:23:28.578 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 15:23:28.578 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 15:23:28.579 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 15:23:28.584 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 15:23:28.590 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 15:23:28.590 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 15:23:28.590 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 15:23:28.599 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 15:23:28.606 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:23:28.609 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 15:23:28.610 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:23:28.614 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 15:23:28.616 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 15:23:28.618 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 15:23:28.619 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 15:23:28.691 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 15:23:28.691 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 15:23:28.692 +08:00 [INF] Hosting environment: Development
+2021-08-06 15:23:28.692 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 15:23:28.692 +08:00 [DBG] Hosting started
+2021-08-06 15:23:28.713 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 15:23:28.716 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:23:28.805 +08:00 [DBG] Connection ID "18230571297501348115" disconnecting.
+2021-08-06 15:23:28.807 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 95.7462ms
+2021-08-06 15:23:29.121 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-08-06 15:23:29.447 +08:00 [DBG] Connection ID "18230571297501348117" disconnecting.
+2021-08-06 15:23:29.447 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 326.7426ms
+2021-08-06 15:23:30.637 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 59258)
+2021-08-06 15:23:30.660 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 15:23:30.662 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbp38dbdcitkasb8?temporary=true"
+2021-08-06 15:23:30.669 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 15:23:30.670 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 15:23:30.710 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-FJ5EU8GQDcWjoEnHNy11Dw
+2021-08-06 15:23:30.711 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 15:23:56.699 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:23:56.701 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:23:56.726 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:23:56.729 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:23:56.730 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:23:57.015 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:23:57.016 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:23:57.024 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:23:57.031 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-06 15:23:57.057 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:23:57.058 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:23:57.058 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:23:57.059 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:23:57.059 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:23:57.059 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:23:57.060 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:23:57.066 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 4.1755ms
+2021-08-06 15:23:57.067 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:23:57.069 +08:00 [ERR]  "2021-08-06T15:23:57.0201802+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.null::10
+System.InvalidOperationException: Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method124(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:23:57.182 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:23:57.209 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:23:57.210 +08:00 [ERR] Connection ID "18230571297501348119", Request ID "80000118-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:23:57.215 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 500 - - 515.7049ms
+2021-08-06 15:24:10.022 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:24:10.023 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:24:10.024 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:24:10.024 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:24:10.024 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:10.025 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:24:10.025 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:24:10.026 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:10.027 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:24:10.027 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:24:10.027 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:24:10.027 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:24:10.027 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:24:10.027 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:24:10.027 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:24:10.028 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 0.3837ms
+2021-08-06 15:24:10.028 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:10.028 +08:00 [ERR]  "2021-08-06T15:24:10.0261336+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.null::10
+System.InvalidOperationException: Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method124(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:24:10.030 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:10.033 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:10.033 +08:00 [ERR] Connection ID "17942340925644604015", Request ID "80000270-0002-f900-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:24:10.037 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 500 - - 14.3634ms
+2021-08-06 15:24:34.821 +08:00 [DBG] Hosting starting
+2021-08-06 15:24:35.195 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 15:24:35.206 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 15:24:35.211 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 15:24:35.262 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 15:24:35.308 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 15:24:35.317 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 15:24:35.319 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 15:24:35.321 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 15:24:35.329 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 15:24:35.337 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 15:24:35.339 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 15:24:35.341 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 15:24:35.349 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 15:24:35.360 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:24:35.364 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 15:24:35.367 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:24:35.374 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 15:24:35.377 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 15:24:35.381 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 15:24:35.384 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 15:24:35.562 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 15:24:35.564 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 15:24:35.565 +08:00 [INF] Hosting environment: Development
+2021-08-06 15:24:35.572 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 15:24:35.574 +08:00 [DBG] Hosting started
+2021-08-06 15:24:35.613 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 15:24:35.613 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:24:35.619 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:24:35.620 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:24:35.663 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:24:35.696 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:24:35.700 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:24:35.704 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:35.880 +08:00 [DBG] Connection ID "18374686511347007966" disconnecting.
+2021-08-06 15:24:35.894 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 281.8013ms
+2021-08-06 15:24:36.242 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-08-06 15:24:36.745 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:24:36.749 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:24:36.769 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:36.783 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-06 15:24:36.812 +08:00 [DBG] Connection ID "18302628904424177962" disconnecting.
+2021-08-06 15:24:36.819 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 576.9953ms
+2021-08-06 15:24:36.845 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:24:36.857 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:24:36.862 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:24:36.865 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:24:36.867 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:24:36.870 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:24:36.876 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:24:36.886 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 5.4819ms
+2021-08-06 15:24:36.891 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:37.267 +08:00 [ERR]  "2021-08-06T15:24:36.7583039+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.null::10
+System.InvalidOperationException: Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method124(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:24:37.660 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:37.697 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:37.701 +08:00 [ERR] Connection ID "17293822592188154670", Request ID "8000032f-0005-f000-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:24:37.715 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 500 - - 2104.5371ms
+2021-08-06 15:24:37.729 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55995)
+2021-08-06 15:24:37.779 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 15:24:37.783 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbcitzbdcitk37gw?temporary=true"
+2021-08-06 15:24:37.798 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 15:24:37.803 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 15:24:37.874 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-dsz5ndKg9Mz0ueRIa8V-yw
+2021-08-06 15:24:37.879 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 15:24:47.011 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:24:47.014 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:24:47.019 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:24:47.022 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:24:47.024 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:47.027 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:24:47.030 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:24:47.033 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:47.036 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:24:47.038 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:24:47.041 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:24:47.044 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:24:47.046 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:24:47.048 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:24:47.051 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:24:47.053 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 2.9811ms
+2021-08-06 15:24:47.056 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:24:47.120 +08:00 [ERR]  "2021-08-06T15:24:47.0332194+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.null::10
+System.InvalidOperationException: Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method124(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:24:47.219 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:47.224 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:24:47.227 +08:00 [ERR] Connection ID "18302628904424177964", Request ID "8000012d-0004-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:24:47.234 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 500 - - 223.6285ms
+2021-08-06 15:25:57.594 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:25:57.597 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:25:57.599 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:25:57.600 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:25:57.601 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:25:57.606 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:25:57.607 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:25:57.609 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:25:57.610 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:25:57.612 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:25:57.614 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:25:57.616 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:25:57.618 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:25:57.619 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:25:57.622 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:25:57.625 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 3.0173ms
+2021-08-06 15:25:57.627 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:25:57.695 +08:00 [ERR]  "2021-08-06T15:25:57.6090786+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.null::10
+System.InvalidOperationException: Unable to resolve service for type 'UltraNuke.Barasingha.Novel.API.Application.Queries.BookQueries' while attempting to activate 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method124(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:25:57.797 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:25:57.828 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:25:57.831 +08:00 [ERR] Connection ID "18158513703463419918", Request ID "8000000f-0001-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:25:57.837 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 500 - - 242.6706ms
+2021-08-06 15:28:55.624 +08:00 [DBG] Hosting starting
+2021-08-06 15:28:55.973 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 15:28:55.982 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 15:28:55.988 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 15:28:56.029 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 15:28:56.104 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 15:28:56.112 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 15:28:56.114 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 15:28:56.116 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 15:28:56.121 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 15:28:56.129 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 15:28:56.131 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 15:28:56.133 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 15:28:56.143 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 15:28:56.154 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:28:56.158 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 15:28:56.161 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:28:56.167 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 15:28:56.172 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 15:28:56.177 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 15:28:56.180 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 15:28:56.431 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 15:28:56.433 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 15:28:56.434 +08:00 [INF] Hosting environment: Development
+2021-08-06 15:28:56.436 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 15:28:56.444 +08:00 [DBG] Hosting started
+2021-08-06 15:28:56.474 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:28:56.474 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 15:28:56.480 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:28:56.480 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:28:56.527 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:28:56.556 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:28:56.561 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:28:56.564 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:28:56.811 +08:00 [DBG] Connection ID "17293822592188154674" disconnecting.
+2021-08-06 15:28:56.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 344.6318ms
+2021-08-06 15:28:57.042 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-08-06 15:28:57.470 +08:00 [DBG] Connection ID "17870283323016740887" disconnecting.
+2021-08-06 15:28:57.473 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 428.4400ms
+2021-08-06 15:28:57.506 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:28:57.510 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:28:57.522 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:28:57.536 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-06 15:28:57.565 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:28:57.568 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:28:57.570 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:28:57.573 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:28:57.575 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:28:57.577 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:28:57.580 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:29:38.705 +08:00 [DBG] Hosting starting
+2021-08-06 15:29:39.051 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 15:29:39.058 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 15:29:39.063 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 15:29:39.110 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 15:29:39.152 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 15:29:39.163 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 15:29:39.165 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 15:29:39.167 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 15:29:39.173 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 15:29:39.180 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 15:29:39.182 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 15:29:39.184 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 15:29:39.193 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 15:29:39.203 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:29:39.208 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 15:29:39.211 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:29:39.215 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 15:29:39.219 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 15:29:39.224 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 15:29:39.227 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 15:29:39.366 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 15:29:39.368 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 15:29:39.370 +08:00 [INF] Hosting environment: Development
+2021-08-06 15:29:39.372 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 15:29:39.379 +08:00 [DBG] Hosting started
+2021-08-06 15:29:39.406 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 15:29:39.409 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:29:39.537 +08:00 [DBG] Connection ID "18302628904424177968" disconnecting.
+2021-08-06 15:29:39.541 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 137.2663ms
+2021-08-06 15:29:39.733 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - -
+2021-08-06 15:29:39.962 +08:00 [DBG] Connection ID "17293822592188154676" disconnecting.
+2021-08-06 15:29:39.965 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 229.1457ms
+2021-08-06 15:29:41.242 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 62827)
+2021-08-06 15:29:41.319 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpn46bdcitk918t?temporary=true"
+2021-08-06 15:29:41.329 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 15:29:41.345 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 15:29:41.349 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 15:29:41.415 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-0861bZF0SL2AIiXSvLaU8g
+2021-08-06 15:29:41.418 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 15:29:41.715 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - -
+2021-08-06 15:29:41.718 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:29:41.751 +08:00 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2021-08-06 15:29:41.757 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2021-08-06 15:29:41.764 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:29:42.251 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:29:42.254 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:29:42.265 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:29:42.273 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-06 15:29:42.298 +08:00 [INF] Route matched with {action = "Query", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO]] Query(Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:29:42.301 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:29:42.302 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:29:42.304 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:29:42.306 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:29:42.309 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:29:42.313 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:29:42.316 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.BooksController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:29:42.325 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 15:29:42.331 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-06 15:29:42.334 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:29:42.336 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:29:42.338 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 15:29:42.343 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:29:42.346 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 15:29:42.348 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-06 15:29:42.350 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:29:42.352 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:29:42.354 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 15:29:42.357 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:29:42.455 +08:00 [INF] Executing action method UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) - Validation state: "Valid"
+2021-08-06 15:29:45.732 +08:00 [INF] Executed action method UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3271.6851ms.
+2021-08-06 15:29:45.736 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 15:29:45.740 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 15:29:45.742 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 15:29:45.744 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 15:29:45.747 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 15:29:45.749 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.BookForGetDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-06 15:29:45.796 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API) in 3480.5301ms
+2021-08-06 15:29:45.798 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.BooksController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:29:45.800 +08:00 [INF]  "2021-08-06T15:29:42.2649894+08:00"GEThttpslocalhost:44302/api/Books?pageIndex=1&pageSize=2{"Total":0,"Items":[]}null::13535
+2021-08-06 15:29:45.807 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/Books?pageIndex=1&pageSize=2 - - - 200 22 application/json;+charset=utf-8 4092.4926ms
+2021-08-06 15:48:17.335 +08:00 [DBG] Hosting starting
+2021-08-06 15:48:17.545 +08:00 [INF] User profile is available. Using 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-06 15:48:17.549 +08:00 [DBG] Starting bus instances: IBus
+2021-08-06 15:48:17.553 +08:00 [DBG] Starting host: "rabbitmq://localhost/"
+2021-08-06 15:48:17.580 +08:00 [INF] Connect: guest@localhost:5672/
+2021-08-06 15:48:17.605 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-1741ec7b-b159-4899-b3f7-f23eec311594.xml'.
+2021-08-06 15:48:17.610 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-a84a35c2-4303-4247-bb3a-791cc2be753a.xml'.
+2021-08-06 15:48:17.611 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2.xml'.
+2021-08-06 15:48:17.611 +08:00 [DBG] Reading data from file 'C:\Users\zcqd\AppData\Local\ASP.NET\DataProtection-Keys\key-cf64b2f0-6292-468d-9955-47e48803ec1a.xml'.
+2021-08-06 15:48:17.615 +08:00 [DBG] Found key {1741ec7b-b159-4899-b3f7-f23eec311594}.
+2021-08-06 15:48:17.619 +08:00 [DBG] Found key {a84a35c2-4303-4247-bb3a-791cc2be753a}.
+2021-08-06 15:48:17.619 +08:00 [DBG] Found key {b6fa6a98-50e6-46ae-8784-e7ab0f07b4f2}.
+2021-08-06 15:48:17.619 +08:00 [DBG] Found key {cf64b2f0-6292-468d-9955-47e48803ec1a}.
+2021-08-06 15:48:17.626 +08:00 [DBG] Considering key {1741ec7b-b159-4899-b3f7-f23eec311594} with expiration date 2021-09-02 01:33:13Z as default key.
+2021-08-06 15:48:17.634 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:48:17.636 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-06 15:48:17.637 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-06 15:48:17.641 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-06 15:48:17.643 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-06 15:48:17.645 +08:00 [DBG] Using key {1741ec7b-b159-4899-b3f7-f23eec311594} as the default key.
+2021-08-06 15:48:17.646 +08:00 [DBG] Key ring with default key {1741ec7b-b159-4899-b3f7-f23eec311594} was loaded during application startup.
+2021-08-06 15:48:17.835 +08:00 [DBG] Loaded hosting startup assembly UltraNuke.Barasingha.Novel.API
+2021-08-06 15:48:17.836 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-06 15:48:17.836 +08:00 [INF] Hosting environment: Development
+2021-08-06 15:48:17.836 +08:00 [INF] Content root path: F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API
+2021-08-06 15:48:17.836 +08:00 [DBG] Hosting started
+2021-08-06 15:48:17.849 +08:00 [DBG] Connection ID "18302628917309079806" disconnecting.
+2021-08-06 15:48:17.857 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44302/swagger/index.html - -
+2021-08-06 15:48:17.857 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44302/api/MainCategories application/json 38
+2021-08-06 15:48:17.859 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:48:17.859 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-06 15:48:17.886 +08:00 [DBG] POST requests are not supported
+2021-08-06 15:48:17.921 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories'
+2021-08-06 15:48:17.924 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories' is valid for the request path '/api/MainCategories'
+2021-08-06 15:48:17.925 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:18.069 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44302/swagger/index.html - - - 200 - text/html;charset=utf-8 213.9054ms
+2021-08-06 15:48:18.514 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 15:48:18.526 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 15:48:18.534 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:18.541 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-06 15:48:18.563 +08:00 [INF] Route matched with {action = "Create", controller = "MainCategories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:48:18.564 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:48:18.564 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:48:18.564 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:48:18.565 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:48:18.565 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:48:18.566 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:18.567 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:18.571 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' ...
+2021-08-06 15:48:18.572 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' using the name '' in request data ...
+2021-08-06 15:48:18.573 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-08-06 15:48:18.573 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-08-06 15:48:18.621 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:18.621 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:18.621 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' ...
+2021-08-06 15:48:18.623 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:18.775 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-08-06 15:48:19.155 +08:00 [DBG] The property 'SubCategoryId.Book' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-08-06 15:48:19.156 +08:00 [DBG] The property 'SegmentId.Chapter' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-08-06 15:48:19.156 +08:00 [DBG] The property 'BookId.Segment' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-08-06 15:48:19.156 +08:00 [DBG] The property 'MainCategoryId.SubCategory' was created in shadow state because there are no eligible CLR members with a matching name.
+2021-08-06 15:48:19.267 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-08-06 15:48:19.335 +08:00 [DBG] Context 'NovelContext' started tracking 'MainCategory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 15:48:19.341 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 15:48:19.351 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 15:48:19.356 +08:00 [DBG] SaveChanges starting for 'NovelContext'.
+2021-08-06 15:48:19.358 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 15:48:19.359 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 15:48:19.483 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:19.654 +08:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 53308)
+2021-08-06 15:48:19.678 +08:00 [DBG] Declare exchange: name: event-listener, type: fanout, durable
+2021-08-06 15:48:19.679 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/DESKTOPNACFM6M_iisexpress_bus_5myyyynfm6gbpdx8bdcitmwpft?temporary=true"
+2021-08-06 15:48:19.687 +08:00 [DBG] Declare queue: name: event-listener, durable, consumer-count: 0 message-count: 0
+2021-08-06 15:48:19.689 +08:00 [DBG] Bind queue: source: event-listener, destination: event-listener
+2021-08-06 15:48:19.708 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:19.710 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-06 15:48:19.719 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-06 15:48:19.733 +08:00 [DBG] Consumer Ok: "rabbitmq://localhost/event-listener" - amq.ctag-4gpa_PxxoAtG5Ni9HO5wvg
+2021-08-06 15:48:19.734 +08:00 [DBG] Endpoint Ready: "rabbitmq://localhost/event-listener"
+2021-08-06 15:48:19.758 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-06 15:48:19.762 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2021-08-06 15:48:19.776 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [N_MainCategory] ([Id], [CreateTime], [Name], [No])
+VALUES (@p0, @p1, @p2, @p3);
+2021-08-06 15:48:19.822 +08:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [N_MainCategory] ([Id], [CreateTime], [Name], [No])
+VALUES (@p0, @p1, @p2, @p3);
+2021-08-06 15:48:19.828 +08:00 [DBG] A data reader was disposed.
+2021-08-06 15:48:19.832 +08:00 [DBG] Committing transaction.
+2021-08-06 15:48:19.835 +08:00 [DBG] Committed transaction.
+2021-08-06 15:48:19.837 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:19.841 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:19.842 +08:00 [DBG] Disposing transaction.
+2021-08-06 15:48:19.849 +08:00 [DBG] An entity of type 'MainCategory' tracked by 'NovelContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 15:48:19.850 +08:00 [DBG] SaveChanges completed for 'NovelContext' with 1 entities written to the database.
+2021-08-06 15:48:19.857 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 15:48:19.858 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 15:48:19.858 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 15:48:19.858 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 15:48:19.858 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 15:48:19.859 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2021-08-06 15:48:19.877 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API) in 1308.3876ms
+2021-08-06 15:48:19.877 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:19.878 +08:00 [INF]  "2021-08-06T15:48:18.5341884+08:00"POSThttpslocalhost:44302/api/MainCategories{  "No": 100,  "Name": "玄幻"}"d283b407-bb83-4280-a3fa-ad7c01047648"null::11344
+2021-08-06 15:48:19.882 +08:00 [DBG] 'NovelContext' disposed.
+2021-08-06 15:48:19.883 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44302/api/MainCategories application/json 38 - 200 38 application/json;+charset=utf-8 2028.7996ms
+2021-08-06 15:48:41.543 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44302/api/MainCategories application/json 38
+2021-08-06 15:48:41.543 +08:00 [DBG] POST requests are not supported
+2021-08-06 15:48:41.545 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories'
+2021-08-06 15:48:41.545 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories' is valid for the request path '/api/MainCategories'
+2021-08-06 15:48:41.545 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:41.546 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 15:48:41.547 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 15:48:41.547 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:41.548 +08:00 [INF] Route matched with {action = "Create", controller = "MainCategories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Create(UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:48:41.548 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:48:41.548 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:48:41.548 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:48:41.548 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:48:41.548 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:48:41.548 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:41.549 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:41.549 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' ...
+2021-08-06 15:48:41.549 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' using the name '' in request data ...
+2021-08-06 15:48:41.549 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-08-06 15:48:41.550 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-08-06 15:48:41.550 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:41.550 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:41.550 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand' ...
+2021-08-06 15:48:41.550 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.CreateMainCategoryCommand'.
+2021-08-06 15:48:41.574 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-08-06 15:48:41.574 +08:00 [DBG] Context 'NovelContext' started tracking 'MainCategory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 15:48:41.575 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 15:48:41.575 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 15:48:41.575 +08:00 [DBG] SaveChanges starting for 'NovelContext'.
+2021-08-06 15:48:41.575 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 15:48:41.576 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 15:48:41.576 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:41.576 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:41.577 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-06 15:48:41.577 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-06 15:48:41.578 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-06 15:48:41.578 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-06 15:48:41.578 +08:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [N_MainCategory] ([Id], [CreateTime], [Name], [No])
+VALUES (@p0, @p1, @p2, @p3);
+2021-08-06 15:48:41.581 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [N_MainCategory] ([Id], [CreateTime], [Name], [No])
+VALUES (@p0, @p1, @p2, @p3);
+2021-08-06 15:48:41.581 +08:00 [DBG] A data reader was disposed.
+2021-08-06 15:48:41.581 +08:00 [DBG] Committing transaction.
+2021-08-06 15:48:41.582 +08:00 [DBG] Committed transaction.
+2021-08-06 15:48:41.582 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:41.582 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 15:48:41.583 +08:00 [DBG] Disposing transaction.
+2021-08-06 15:48:41.583 +08:00 [DBG] An entity of type 'MainCategory' tracked by 'NovelContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 15:48:41.583 +08:00 [DBG] SaveChanges completed for 'NovelContext' with 1 entities written to the database.
+2021-08-06 15:48:41.583 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 15:48:41.583 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 15:48:41.584 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 15:48:41.584 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 15:48:41.584 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 15:48:41.584 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2021-08-06 15:48:41.584 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API) in 36.0527ms
+2021-08-06 15:48:41.584 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Create (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:41.585 +08:00 [INF]  "2021-08-06T15:48:41.5475704+08:00"POSThttpslocalhost:44302/api/MainCategories{  "No": 100,  "Name": "都市"}"74e155e9-3e19-4d97-a4d2-ad7c010490f3"null::137
+2021-08-06 15:48:41.585 +08:00 [DBG] 'NovelContext' disposed.
+2021-08-06 15:48:41.585 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44302/api/MainCategories application/json 38 - 200 38 application/json;+charset=utf-8 42.7036ms
+2021-08-06 15:48:59.245 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3 - -
+2021-08-06 15:48:59.245 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:48:59.245 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3'
+2021-08-06 15:48:59.245 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories/{id}' is valid for the request path '/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3'
+2021-08-06 15:48:59.245 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:59.248 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 15:48:59.249 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 15:48:59.249 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:59.251 +08:00 [INF] Route matched with {action = "Get", controller = "MainCategories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO] Get(System.Guid) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:48:59.252 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:48:59.252 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:48:59.252 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:48:59.252 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:48:59.252 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:48:59.252 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:59.253 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:48:59.253 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-06 15:48:59.253 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-06 15:48:59.254 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 15:48:59.254 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 15:48:59.254 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-06 15:48:59.254 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-06 15:48:59.361 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 15:48:59.361 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 15:48:59.361 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 15:48:59.361 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 15:48:59.361 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 15:48:59.362 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO'.
+2021-08-06 15:48:59.374 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API) in 122.1438ms
+2021-08-06 15:48:59.375 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:48:59.375 +08:00 [INF]  "2021-08-06T15:48:59.2496622+08:00"GEThttpslocalhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3{"Id":"74e155e9-3e19-4d97-a4d2-ad7c010490f3","No":100,"Name":"都市","SubCategories":null}null::1125
+2021-08-06 15:48:59.375 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3 - - - 200 91 application/json;+charset=utf-8 130.4460ms
+2021-08-06 15:49:18.163 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - -
+2021-08-06 15:49:18.163 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 15:49:18.163 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories'
+2021-08-06 15:49:18.163 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories' is valid for the request path '/api/MainCategories'
+2021-08-06 15:49:18.163 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:49:18.182 +08:00 [INF] Successfully validated the token.
+2021-08-06 15:49:18.182 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2021-08-06 15:49:18.183 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:49:18.184 +08:00 [INF] Route matched with {action = "Query", controller = "MainCategories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 15:49:18.184 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 15:49:18.184 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 15:49:18.184 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 15:49:18.184 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 15:49:18.184 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 15:49:18.184 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:49:18.185 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 15:49:18.185 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-06 15:49:18.187 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-06 15:49:18.187 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-06 15:49:18.187 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 15:49:18.187 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 15:49:18.188 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-06 15:49:18.188 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-06 15:49:18.188 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 15:49:18.188 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-06 15:49:18.189 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:49:18.189 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:49:18.189 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 15:49:18.189 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 15:49:18.189 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 15:49:18.189 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-06 15:49:18.189 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:49:18.189 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:49:18.190 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 15:49:18.190 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 15:49:18.204 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API) in 19.4927ms
+2021-08-06 15:49:18.204 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 15:49:18.206 +08:00 [ERR]  "2021-08-06T15:49:18.1830249+08:00"GEThttpslocalhost:44302/api/MainCategories?pageIndex=1&pageSize=2One or more errors occurred. (找不到存储过程 'MainCategory_Query'。)null::10
+System.AggregateException: One or more errors occurred. (找不到存储过程 'MainCategory_Query'。)
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'MainCategory_Query'。
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1055
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 1024
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 1000
+   at UltraNuke.Barasingha.Novel.API.Application.Queries.MainCategoryQueries.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API\Application\Queries\MainCategoryQueries.cs:line 29
+ClientConnectionId:3b44d0d7-6a94-4351-8344-6846f53d2040
+Error Number:2812,State:62,Class:16
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query(String name, Int32 pageIndex, Int32 pageSize) in F:\self-management\career\product\Barasingha-WebApi\src\Services\Novel\Novel.API\Controllers\MainCategoriesController.cs:line 41
+   at lambda_method152(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiLogMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiLogMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 44
+2021-08-06 15:49:18.243 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:49:18.253 +08:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-06 15:49:18.254 +08:00 [ERR] Connection ID "18374686511347007970", Request ID "800001e3-0007-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, CancellationToken cancellationToken)
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 94
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 48
+   at UltraNuke.CommonMormon.Utils.Middlewares.ApiExceptionMiddleware.Invoke(HttpContext context) in F:\self-management\career\product\CommonMormon\src\Utils\Middlewares\ApiExceptionMiddleware.cs:line 53
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-08-06 15:49:18.258 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - - - 500 - - 95.5391ms
+2021-08-06 17:31:12.393 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - -
+2021-08-06 17:31:12.394 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 17:31:12.395 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories'
+2021-08-06 17:31:12.395 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories' is valid for the request path '/api/MainCategories'
+2021-08-06 17:31:12.395 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:12.396 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 17:31:12.398 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 17:31:12.398 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:12.399 +08:00 [INF] Route matched with {action = "Query", controller = "MainCategories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 17:31:12.399 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 17:31:12.400 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 17:31:12.400 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 17:31:12.400 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 17:31:12.400 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 17:31:12.400 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:31:12.400 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:31:12.401 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-06 17:31:12.401 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-06 17:31:12.401 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-06 17:31:12.402 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 17:31:12.402 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 17:31:12.402 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-06 17:31:12.402 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-06 17:31:12.402 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 17:31:12.402 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-06 17:31:12.402 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:31:12.402 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:31:12.403 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 17:31:12.403 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:31:12.403 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 17:31:12.403 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-06 17:31:12.403 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:31:12.403 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:31:12.403 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 17:31:12.403 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:31:12.422 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 17:31:12.423 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 17:31:12.423 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 17:31:12.423 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 17:31:12.423 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 17:31:12.423 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-06 17:31:12.429 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API) in 29.2231ms
+2021-08-06 17:31:12.430 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:12.430 +08:00 [INF]  "2021-08-06T17:31:12.3984966+08:00"GEThttpslocalhost:44302/api/MainCategories?pageIndex=1&pageSize=2{"Total":2,"Items":[{"Id":"74e155e9-3e19-4d97-a4d2-ad7c010490f3","No":100,"Name":"都市","SubCategories":null},{"Id":"d283b407-bb83-4280-a3fa-ad7c01047648","No":100,"Name":"玄幻","SubCategories":null}]}null::131
+2021-08-06 17:31:12.430 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - - - 200 205 application/json;+charset=utf-8 37.0748ms
+2021-08-06 17:31:52.683 +08:00 [INF] Request starting HTTP/1.1 PUT https://localhost:44302/api/MainCategories/d283b407-bb83-4280-a3fa-ad7c01047648 application/json 37
+2021-08-06 17:31:52.683 +08:00 [DBG] PUT requests are not supported
+2021-08-06 17:31:52.684 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories/d283b407-bb83-4280-a3fa-ad7c01047648'
+2021-08-06 17:31:52.684 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Update (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories/{id}' is valid for the request path '/api/MainCategories/d283b407-bb83-4280-a3fa-ad7c01047648'
+2021-08-06 17:31:52.684 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Update (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:52.685 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 17:31:52.685 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 17:31:52.686 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Update (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:52.690 +08:00 [INF] Route matched with {action = "Update", controller = "MainCategories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(System.Guid, UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 17:31:52.690 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 17:31:52.690 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 17:31:52.690 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 17:31:52.690 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 17:31:52.691 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 17:31:52.691 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:31:52.691 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:31:52.691 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-06 17:31:52.691 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-06 17:31:52.691 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 17:31:52.691 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 17:31:52.691 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-06 17:31:52.692 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-06 17:31:52.692 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand' ...
+2021-08-06 17:31:52.692 +08:00 [DBG] Attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand' using the name '' in request data ...
+2021-08-06 17:31:52.692 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2021-08-06 17:31:52.692 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2021-08-06 17:31:52.694 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand'.
+2021-08-06 17:31:52.694 +08:00 [DBG] Done attempting to bind parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand'.
+2021-08-06 17:31:52.694 +08:00 [DBG] Attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand' ...
+2021-08-06 17:31:52.695 +08:00 [DBG] Done attempting to validate the bound parameter 'param' of type 'UltraNuke.Barasingha.Novel.API.Application.Commands.UpdateMainCategoryCommand'.
+2021-08-06 17:31:52.723 +08:00 [INF] Entity Framework Core 5.0.1 initialized 'NovelContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=UltraNuke.Barasingha.Novel.API 
+2021-08-06 17:31:52.785 +08:00 [DBG] Compiling query expression: 
+'DbSet<MainCategory>()
+    .Where(w => w.Id.Equals(__id_0))
+    .SingleOrDefault()'
+2021-08-06 17:31:52.941 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<MainCategory>(
+    asyncEnumerable: new SingleQueryingEnumerable<MainCategory>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MainCategory.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MainCategory.CreateTime (DateTime) Required, 1], [Property: MainCategory.Name (string), 2], [Property: MainCategory.No (int) Required, 3], }
+            SELECT TOP(2) n.Id, n.CreateTime, n.Name, n.No
+            FROM N_MainCategory AS n
+            WHERE n.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MainCategory>, 
+        UltraNuke.Barasingha.Novel.Infrastructure.NovelContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2021-08-06 17:31:52.975 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-06 17:31:52.975 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-06 17:31:52.976 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.976 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.977 +08:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [n].[Id], [n].[CreateTime], [n].[Name], [n].[No]
+FROM [N_MainCategory] AS [n]
+WHERE [n].[Id] = @__id_0
+2021-08-06 17:31:52.979 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [n].[Id], [n].[CreateTime], [n].[Name], [n].[No]
+FROM [N_MainCategory] AS [n]
+WHERE [n].[Id] = @__id_0
+2021-08-06 17:31:52.991 +08:00 [DBG] Context 'NovelContext' started tracking 'MainCategory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 17:31:52.993 +08:00 [DBG] A data reader was disposed.
+2021-08-06 17:31:52.993 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.993 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.995 +08:00 [DBG] An entity of type 'MainCategory' tracked by 'NovelContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 17:31:52.995 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 17:31:52.995 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 17:31:52.995 +08:00 [DBG] SaveChanges starting for 'NovelContext'.
+2021-08-06 17:31:52.995 +08:00 [DBG] DetectChanges starting for 'NovelContext'.
+2021-08-06 17:31:52.996 +08:00 [DBG] DetectChanges completed for 'NovelContext'.
+2021-08-06 17:31:52.996 +08:00 [DBG] Opening connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.996 +08:00 [DBG] Opened connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:52.996 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2021-08-06 17:31:52.996 +08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2021-08-06 17:31:53.000 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-06 17:31:53.000 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-06 17:31:53.000 +08:00 [DBG] Executing DbCommand [Parameters=[@p3='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [N_MainCategory] SET [CreateTime] = @p0, [Name] = @p1, [No] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+2021-08-06 17:31:53.004 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [N_MainCategory] SET [CreateTime] = @p0, [Name] = @p1, [No] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+2021-08-06 17:31:53.006 +08:00 [DBG] A data reader was disposed.
+2021-08-06 17:31:53.007 +08:00 [DBG] Committing transaction.
+2021-08-06 17:31:53.007 +08:00 [DBG] Committed transaction.
+2021-08-06 17:31:53.007 +08:00 [DBG] Closing connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:53.007 +08:00 [DBG] Closed connection to database 'Barasingha.Novel' on server '.\SQLEXPRESS'.
+2021-08-06 17:31:53.008 +08:00 [DBG] Disposing transaction.
+2021-08-06 17:31:53.008 +08:00 [DBG] An entity of type 'MainCategory' tracked by 'NovelContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-08-06 17:31:53.008 +08:00 [DBG] SaveChanges completed for 'NovelContext' with 1 entities written to the database.
+2021-08-06 17:31:53.016 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-08-06 17:31:53.016 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Update (UltraNuke.Barasingha.Novel.API) in 325.5566ms
+2021-08-06 17:31:53.016 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Update (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:31:53.016 +08:00 [INF]  "2021-08-06T17:31:52.6860158+08:00"PUThttpslocalhost:44302/api/MainCategories/d283b407-bb83-4280-a3fa-ad7c01047648{  "No": 1,  "Name": "小狗2"}null::1330
+2021-08-06 17:31:53.017 +08:00 [DBG] 'NovelContext' disposed.
+2021-08-06 17:31:53.017 +08:00 [INF] Request finished HTTP/1.1 PUT https://localhost:44302/api/MainCategories/d283b407-bb83-4280-a3fa-ad7c01047648 application/json 37 - 200 - - 334.3885ms
+2021-08-06 17:32:03.832 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3 - -
+2021-08-06 17:32:03.832 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 17:32:03.832 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3'
+2021-08-06 17:32:03.832 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories/{id}' is valid for the request path '/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3'
+2021-08-06 17:32:03.833 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:03.833 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 17:32:03.834 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 17:32:03.834 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:03.834 +08:00 [INF] Route matched with {action = "Get", controller = "MainCategories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO] Get(System.Guid) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 17:32:03.834 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 17:32:03.834 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 17:32:03.834 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 17:32:03.835 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 17:32:03.835 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 17:32:03.835 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:32:03.835 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:32:03.835 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-08-06 17:32:03.835 +08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-08-06 17:32:03.835 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 17:32:03.835 +08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-08-06 17:32:03.835 +08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-08-06 17:32:03.835 +08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-08-06 17:32:03.837 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 17:32:03.837 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 17:32:03.837 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 17:32:03.838 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 17:32:03.838 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 17:32:03.838 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO'.
+2021-08-06 17:32:03.838 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API) in 3.2623ms
+2021-08-06 17:32:03.838 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Get (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:03.838 +08:00 [INF]  "2021-08-06T17:32:03.8344048+08:00"GEThttpslocalhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3{"Id":"74e155e9-3e19-4d97-a4d2-ad7c010490f3","No":100,"Name":"都市","SubCategories":null}null::14
+2021-08-06 17:32:03.839 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/MainCategories/74e155e9-3e19-4d97-a4d2-ad7c010490f3 - - - 200 91 application/json;+charset=utf-8 6.5579ms
+2021-08-06 17:32:08.314 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - -
+2021-08-06 17:32:08.314 +08:00 [DBG] The request path  does not match the path filter
+2021-08-06 17:32:08.314 +08:00 [DBG] 1 candidate(s) found for the request path '/api/MainCategories'
+2021-08-06 17:32:08.315 +08:00 [DBG] Endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)' with route pattern 'api/MainCategories' is valid for the request path '/api/MainCategories'
+2021-08-06 17:32:08.315 +08:00 [DBG] Request matched endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:08.315 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-06 17:32:08.316 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2021-08-06 17:32:08.316 +08:00 [INF] Executing endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:08.316 +08:00 [INF] Route matched with {action = "Query", controller = "MainCategories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO]] Query(System.String, Int32, Int32) on controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API).
+2021-08-06 17:32:08.316 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-06 17:32:08.316 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-06 17:32:08.316 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-06 17:32:08.316 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-06 17:32:08.316 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-06 17:32:08.316 +08:00 [DBG] Executing controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:32:08.317 +08:00 [DBG] Executed controller factory for controller UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController (UltraNuke.Barasingha.Novel.API)
+2021-08-06 17:32:08.317 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2021-08-06 17:32:08.317 +08:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2021-08-06 17:32:08.317 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2021-08-06 17:32:08.317 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 17:32:08.317 +08:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2021-08-06 17:32:08.317 +08:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2021-08-06 17:32:08.317 +08:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2021-08-06 17:32:08.317 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 17:32:08.317 +08:00 [DBG] Attempting to bind parameter 'pageIndex' of type 'System.Int32' using the name 'pageIndex' in request data ...
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to bind parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:32:08.318 +08:00 [DBG] Attempting to validate the bound parameter 'pageIndex' of type 'System.Int32' ...
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to validate the bound parameter 'pageIndex' of type 'System.Int32'.
+2021-08-06 17:32:08.318 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 17:32:08.318 +08:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:32:08.318 +08:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2021-08-06 17:32:08.318 +08:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2021-08-06 17:32:08.322 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2021-08-06 17:32:08.322 +08:00 [DBG] No information found on request to perform content negotiation.
+2021-08-06 17:32:08.322 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-06 17:32:08.323 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-06 17:32:08.323 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-06 17:32:08.323 +08:00 [INF] Executing ObjectResult, writing value of type 'UltraNuke.CommonMormon.Utils.WebApi.PaginatedItems`1[[UltraNuke.Barasingha.Novel.API.Application.DTO.MainCategoryDTO, UltraNuke.Barasingha.Novel.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-06 17:32:08.323 +08:00 [INF] Executed action UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API) in 6.4838ms
+2021-08-06 17:32:08.323 +08:00 [INF] Executed endpoint 'UltraNuke.Barasingha.Novel.API.Controllers.MainCategoriesController.Query (UltraNuke.Barasingha.Novel.API)'
+2021-08-06 17:32:08.323 +08:00 [INF]  "2021-08-06T17:32:08.3162427+08:00"GEThttpslocalhost:44302/api/MainCategories?pageIndex=1&pageSize=2{"Total":2,"Items":[{"Id":"74e155e9-3e19-4d97-a4d2-ad7c010490f3","No":100,"Name":"都市","SubCategories":null},{"Id":"d283b407-bb83-4280-a3fa-ad7c01047648","No":1,"Name":"小狗2","SubCategories":null}]}null::17
+2021-08-06 17:32:08.324 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44302/api/MainCategories?pageIndex=1&pageSize=2 - - - 200 204 application/json;+charset=utf-8 9.4829ms

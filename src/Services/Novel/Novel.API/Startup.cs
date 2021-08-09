@@ -1,7 +1,6 @@
 using AutoMapper;
 using MassTransit;
 using MediatR;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -12,9 +11,8 @@ using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.IO;
-using System.Text;
 using UltraNuke.Barasingha.Novel.API.Application.Mappers;
-using UltraNuke.Barasingha.Novel.API.Infrastructure;
+using UltraNuke.Barasingha.Novel.API.Application.Queries;
 using UltraNuke.Barasingha.Novel.Infrastructure;
 using UltraNuke.CommonMormon.DDD;
 using UltraNuke.CommonMormon.Utils.Middlewares;
@@ -63,6 +61,8 @@ namespace UltraNuke.Barasingha.Novel.API
             app.UseAuthentication();
 
             app.UseAuthorization();
+
+            app.UseCustomApiException();
 
             app.UseCustomApiLog();
 
@@ -131,24 +131,24 @@ namespace UltraNuke.Barasingha.Novel.API
 
         public static IServiceCollection AddCustomAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
                 {
-                    ValidateIssuerSigningKey = true,//是否调用对签名securityToken的SecurityKey进行验证
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(configuration["TokenSecret"])),//签名秘钥
-                    ValidateIssuer = true,//是否验证颁发者
-                    ValidIssuer = configuration["TokenIssuer"], //颁发者
-                    ValidateAudience = true, //是否验证接收者
-                    ValidAudience = configuration["TokenAudience"],//接收者
-                    ValidateLifetime = true,//是否验证失效时间
-                };
+                    options.Authority = configuration["IdentityUrl"];
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = false
+                    };
+                    options.RequireHttpsMetadata = bool.Parse(configuration["RequireHttpsMetadata"] ?? "false");
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("ApiScope", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireClaim("scope", "Novel.API");
+                });
             });
 
             return services;
@@ -156,7 +156,7 @@ namespace UltraNuke.Barasingha.Novel.API
 
         public static IServiceCollection AddCustomConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<NovelSettings>(configuration);
+            services.Configure<AppSettings>(configuration);
 
             return services;
         }
@@ -196,6 +196,13 @@ namespace UltraNuke.Barasingha.Novel.API
                 return new Repository(provider.GetService<NovelContext>(), provider.GetService<IMediator>());
             });
 
+
+            services.AddTransient<BookQueries>();
+            services.AddTransient<ChapterQueries>();
+            services.AddTransient<SegmentQueries>();
+            services.AddTransient<MainCategoryQueries>();
+            services.AddTransient<SubCategoryQueries>();
+
             return services;
         }
     }
@@ -209,12 +216,6 @@ namespace UltraNuke.Barasingha.Novel.API
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Novel.API V1");
             });
-            return app;
-        }
-
-        public static IApplicationBuilder UseCustomApiLog(this IApplicationBuilder app)
-        {
-            app.UseMiddleware<ApiLogMiddleware>();
             return app;
         }
     }

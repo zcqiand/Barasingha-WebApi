@@ -10,27 +10,23 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateSegmentCommandHandler
-        : IRequestHandler<UpdateSegmentCommand, SegmentDTO>
+        : IRequestHandler<UpdateSegmentCommand, bool>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public UpdateSegmentCommandHandler(IRepository repository, IMapper mapper)
+        public UpdateSegmentCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<SegmentDTO> Handle(UpdateSegmentCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateSegmentCommand param, CancellationToken cancellationToken)
         {
             var segment = await repository.GetAsync<Segment>(param.Id);
             segment.Update(param.No, param.Name);
             repository.Entry(segment);
             await repository.SaveAsync();
 
-            var segmentForDTO = mapper.Map<SegmentDTO>(segment);
-
-            return segmentForDTO;
+            return true;
         }
     }
 }

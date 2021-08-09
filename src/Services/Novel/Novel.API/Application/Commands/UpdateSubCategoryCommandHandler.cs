@@ -10,28 +10,23 @@
     using UltraNuke.CommonMormon.DDD;
 
     public class UpdateSubCategoryCommandHandler
-        : IRequestHandler<UpdateSubCategoryCommand, SubCategoryDTO>
+        : IRequestHandler<UpdateSubCategoryCommand, bool>
     {
         private readonly IRepository repository;
-        private readonly IMapper mapper;
 
-        public UpdateSubCategoryCommandHandler(IRepository repository, IMapper mapper)
+        public UpdateSubCategoryCommandHandler(IRepository repository)
         {
             this.repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task<SubCategoryDTO> Handle(UpdateSubCategoryCommand param, CancellationToken cancellationToken)
+        public async Task<bool> Handle(UpdateSubCategoryCommand param, CancellationToken cancellationToken)
         {
             var subCategory = await repository.GetAsync<SubCategory>(param.Id);
             var mainCategory = await repository.GetAsync<MainCategory>(param.MainCategoryId);
             subCategory.Update(param.No, param.Name, mainCategory);
             repository.Entry(subCategory);
             await repository.SaveAsync();
-
-            var subCategoryForDTO = mapper.Map<SubCategoryDTO>(subCategory);
-
-            return subCategoryForDTO;
+            return true;
         }
     }
 }

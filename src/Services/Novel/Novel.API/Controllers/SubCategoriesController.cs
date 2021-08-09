@@ -36,7 +36,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// </summary>
         /// <returns>作品小类集合</returns>
         [HttpGet]
-        public ActionResult<PaginatedItems<SubCategoryDTO>> Query(int pageIndex, int pageSize)
+        public ActionResult<PaginatedItems<SubCategoryForGetDTO>> Query(int pageIndex, int pageSize)
         {
             return subCategoryQueries.Query(pageIndex, pageSize).Result;
         }
@@ -47,7 +47,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <returns>作品小类集合</returns>
         [Route("all")]
         [HttpGet]
-        public ActionResult<List<SubCategoryDTO>> QueryAll()
+        public ActionResult<List<SubCategoryForGetDTO>> QueryAll()
         {
             return subCategoryQueries.QueryAll().Result;
         }
@@ -58,7 +58,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="id">作品小类ID</param>
         /// <returns>作品小类</returns>
         [HttpGet("{id}")]
-        public ActionResult<SubCategoryDTO> Get(Guid id)
+        public ActionResult<SubCategoryForGetDTO> Get(Guid id)
         {
             var subCategory = subCategoryQueries.Get(id).Result;
             if (subCategory == null)
@@ -74,10 +74,10 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品小类对象</returns>
         [HttpPost]
-        public async Task<ActionResult<SubCategoryDTO>> Create(CreateSubCategoryCommand param)
+        public async Task<ActionResult<Guid>> Create(CreateSubCategoryCommand param)
         {
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            return ret;
         }
 
         /// <summary>
@@ -87,11 +87,15 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
         /// <param name="param">参数</param>
         /// <returns>作品小类对象</returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<SubCategoryDTO>> Update(Guid id, UpdateSubCategoryCommand param)
+        public async Task<ActionResult> Update(Guid id, UpdateSubCategoryCommand param)
         {
             param.Id = id;
             var ret = await mediator.Send(param);
-            return CreatedAtAction(nameof(Get), new { id = ret.Id }, ret);
+            if (!ret)
+            {
+                return BadRequest();
+            }
+            return Ok();
         }
 
         /// <summary>
@@ -108,7 +112,7 @@ namespace UltraNuke.Barasingha.Novel.API.Controllers
             {
                 return NotFound();
             }
-            return NoContent();
+            return Ok();
         }
     }
 }

@@ -30,6 +30,10 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
         /// 分卷名称
         /// </summary>
         public string Name { get; protected set; }
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
         #endregion        
 
         #region Public Methods
@@ -50,6 +54,7 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
             o.Book = book;
             o.No = no;
             o.Name = name;
+            o.CreateTime = DateTime.Now;
 
             o.AggregateState = AggregateState.Added;
             return o;

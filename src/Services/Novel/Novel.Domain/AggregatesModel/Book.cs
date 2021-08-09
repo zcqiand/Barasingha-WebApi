@@ -63,6 +63,10 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
         /// 连载状态
         /// </summary>
         public SerialStatus SerialStatus { get; protected set; }
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreateTime { get; protected set; }
         #endregion        
 
         #region Public Methods
@@ -100,6 +104,7 @@ namespace UltraNuke.Barasingha.Novel.Domain.AggregatesModel
             o.Favorites = 0;
             o.BookStatus = BookStatus.审核未通过;
             o.SerialStatus = SerialStatus.连载;
+            o.CreateTime = DateTime.Now;
 
             o.AggregateState = AggregateState.Added;
             return o;
